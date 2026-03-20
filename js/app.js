@@ -11,7 +11,6 @@ import { renderHome } from './views/home.js';
 import { renderRosters } from './views/rosters.js';
 import { renderPlayers } from './views/players.js';
 import { renderStandings } from './views/standings.js';
-import { renderDraft } from './views/draft.js';
 import { renderMap } from './views/map.js';
 
 /**
@@ -28,7 +27,6 @@ async function initApp() {
     router.register('rosters', renderRosters);
     router.register('players', renderPlayers);
     router.register('standings', renderStandings);
-    router.register('draft', renderDraft);
     router.register('map', renderMap);
 
     // Initialize router

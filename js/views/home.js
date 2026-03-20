@@ -60,7 +60,6 @@ export async function renderHome() {
                     <div class="flex flex-col gap-sm">
                         <a href="#/rosters" class="btn btn-primary">View Team Rosters</a>
                         <a href="#/players" class="btn btn-secondary">Search Players</a>
-                        <a href="#/draft" class="btn btn-secondary">Draft Tools</a>
                     </div>
                 </div>
             </div>
