@@ -190,7 +190,7 @@ export async function renderMap(params = {}) {
             for (const player of playersWithInfo) {
                 const info = infoMap[player.mlbId];
                 const location = `${info.birthCity}, ${info.birthStateProvince || ''} ${info.birthCountry || ''}`.trim();
-                const coords = await geocodeLocation(location, info);
+                const coords = geocodeLocation(location, info);
 
                 // Abort if user switched teams during geocoding
                 if (myUpdateId !== currentUpdateId) return;
@@ -288,26 +288,15 @@ export async function renderMap(params = {}) {
             map.setView([center.lat, center.lng], 6);
         }
 
-        // Update center info (reverse geocode asynchronously)
+        // Update center info
         centerInfoEl.innerHTML = `
             <div class="center-coords">
-                <strong>Loading location...</strong>
+                <strong>Geographic Center</strong>
             </div>
             <div class="center-details text-sm text-muted">
                 Lat: ${center.lat.toFixed(4)}, Lng: ${center.lng.toFixed(4)}
             </div>
         `;
-
-        reverseGeocode(center.lat, center.lng).then(locationName => {
-            centerInfoEl.innerHTML = `
-                <div class="center-coords">
-                    <strong>${locationName || 'Unknown Location'}</strong>
-                </div>
-                <div class="center-details text-sm text-muted">
-                    Lat: ${center.lat.toFixed(4)}, Lng: ${center.lng.toFixed(4)}
-                </div>
-            `;
-        });
 
         // Update country breakdown
         const sortedCountries = Object.entries(countryCount)
@@ -362,59 +351,132 @@ async function loadLeaflet() {
 }
 
 /**
- * Geocode a location string to lat/lng coordinates
+ * Geocode a location to lat/lng using static lookups (no external API)
  */
-async function geocodeLocation(locationString, playerInfo) {
-    // Check memory cache first
+function geocodeLocation(locationString, playerInfo) {
     const cacheKey = `geo_${locationString}`;
     if (geocodeCache[cacheKey]) {
         return geocodeCache[cacheKey];
     }
 
-    // Check session cache
-    const cached = sessionCache.get(cacheKey);
-    if (cached) {
-        geocodeCache[cacheKey] = cached;
-        return cached;
-    }
-
-    // Use known coordinates for common baseball locations
+    // Try known city coordinates first
     const knownLocation = getKnownLocation(playerInfo);
     if (knownLocation) {
         geocodeCache[cacheKey] = knownLocation;
-        sessionCache.set(cacheKey, knownLocation, 24 * 60 * 60 * 1000);
         return knownLocation;
     }
 
-    // Try Nominatim API (OpenStreetMap) with rate limiting
-    try {
-        // Add small delay to avoid rate limiting
-        await new Promise(resolve => setTimeout(resolve, 100));
-
-        const query = encodeURIComponent(locationString);
-        const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1`, {
-            headers: {
-                'User-Agent': 'NPL-League-Site/1.0'
-            }
-        });
-
-        if (response.ok) {
-            const data = await response.json();
-            if (data && data.length > 0) {
-                const coords = {
-                    lat: parseFloat(data[0].lat),
-                    lng: parseFloat(data[0].lon)
-                };
-                geocodeCache[cacheKey] = coords;
-                sessionCache.set(cacheKey, coords, 24 * 60 * 60 * 1000);
-                return coords;
-            }
-        }
-    } catch (error) {
-        console.error('Geocoding error:', error);
+    // Fall back to US state center or country center
+    const fallback = getStateFallback(playerInfo) || getCountryFallback(playerInfo);
+    if (fallback) {
+        geocodeCache[cacheKey] = fallback;
+        return fallback;
     }
 
     return null;
+}
+
+/**
+ * US state center coordinates (fallback when city isn't in known list)
+ */
+const US_STATES = {
+    'al': { lat: 32.806671, lng: -86.791130 }, 'ak': { lat: 61.370716, lng: -152.404419 },
+    'az': { lat: 33.729759, lng: -111.431221 }, 'ar': { lat: 34.969704, lng: -92.373123 },
+    'ca': { lat: 36.116203, lng: -119.681564 }, 'co': { lat: 39.059811, lng: -105.311104 },
+    'ct': { lat: 41.597782, lng: -72.755371 }, 'de': { lat: 39.318523, lng: -75.507141 },
+    'fl': { lat: 27.766279, lng: -81.686783 }, 'ga': { lat: 33.040619, lng: -83.643074 },
+    'hi': { lat: 21.094318, lng: -157.498337 }, 'id': { lat: 44.240459, lng: -114.478828 },
+    'il': { lat: 40.349457, lng: -88.986137 }, 'in': { lat: 39.849426, lng: -86.258278 },
+    'ia': { lat: 42.011539, lng: -93.210526 }, 'ks': { lat: 38.526600, lng: -96.726486 },
+    'ky': { lat: 37.668140, lng: -84.670067 }, 'la': { lat: 31.169546, lng: -91.867805 },
+    'me': { lat: 44.693947, lng: -69.381927 }, 'md': { lat: 39.063946, lng: -76.802101 },
+    'ma': { lat: 42.230171, lng: -71.530106 }, 'mi': { lat: 43.326618, lng: -84.536095 },
+    'mn': { lat: 45.694454, lng: -93.900192 }, 'ms': { lat: 32.741646, lng: -89.678696 },
+    'mo': { lat: 38.456085, lng: -92.288368 }, 'mt': { lat: 46.921925, lng: -110.454353 },
+    'ne': { lat: 41.125370, lng: -98.268082 }, 'nv': { lat: 38.313515, lng: -117.055374 },
+    'nh': { lat: 43.452492, lng: -71.563896 }, 'nj': { lat: 40.298904, lng: -74.521011 },
+    'nm': { lat: 34.840515, lng: -106.248482 }, 'ny': { lat: 42.165726, lng: -74.948051 },
+    'nc': { lat: 35.630066, lng: -79.806419 }, 'nd': { lat: 47.528912, lng: -99.784012 },
+    'oh': { lat: 40.388783, lng: -82.764915 }, 'ok': { lat: 35.565342, lng: -96.928917 },
+    'or': { lat: 44.572021, lng: -122.070938 }, 'pa': { lat: 40.590752, lng: -77.209755 },
+    'ri': { lat: 41.680893, lng: -71.511780 }, 'sc': { lat: 33.856892, lng: -80.945007 },
+    'sd': { lat: 44.299782, lng: -99.438828 }, 'tn': { lat: 35.747845, lng: -86.692345 },
+    'tx': { lat: 31.054487, lng: -97.563461 }, 'ut': { lat: 40.150032, lng: -111.862434 },
+    'vt': { lat: 44.045876, lng: -72.710686 }, 'va': { lat: 37.769337, lng: -78.169968 },
+    'wa': { lat: 47.400902, lng: -121.490494 }, 'wv': { lat: 38.491226, lng: -80.954456 },
+    'wi': { lat: 44.268543, lng: -89.616508 }, 'wy': { lat: 42.755966, lng: -107.302490 },
+    'dc': { lat: 38.9072, lng: -77.0369 },
+    // Common full-name lookups
+    'alabama': { lat: 32.806671, lng: -86.791130 }, 'alaska': { lat: 61.370716, lng: -152.404419 },
+    'arizona': { lat: 33.729759, lng: -111.431221 }, 'arkansas': { lat: 34.969704, lng: -92.373123 },
+    'california': { lat: 36.116203, lng: -119.681564 }, 'colorado': { lat: 39.059811, lng: -105.311104 },
+    'connecticut': { lat: 41.597782, lng: -72.755371 }, 'delaware': { lat: 39.318523, lng: -75.507141 },
+    'florida': { lat: 27.766279, lng: -81.686783 }, 'georgia': { lat: 33.040619, lng: -83.643074 },
+    'hawaii': { lat: 21.094318, lng: -157.498337 }, 'idaho': { lat: 44.240459, lng: -114.478828 },
+    'illinois': { lat: 40.349457, lng: -88.986137 }, 'indiana': { lat: 39.849426, lng: -86.258278 },
+    'iowa': { lat: 42.011539, lng: -93.210526 }, 'kansas': { lat: 38.526600, lng: -96.726486 },
+    'kentucky': { lat: 37.668140, lng: -84.670067 }, 'louisiana': { lat: 31.169546, lng: -91.867805 },
+    'maine': { lat: 44.693947, lng: -69.381927 }, 'maryland': { lat: 39.063946, lng: -76.802101 },
+    'massachusetts': { lat: 42.230171, lng: -71.530106 }, 'michigan': { lat: 43.326618, lng: -84.536095 },
+    'minnesota': { lat: 45.694454, lng: -93.900192 }, 'mississippi': { lat: 32.741646, lng: -89.678696 },
+    'missouri': { lat: 38.456085, lng: -92.288368 }, 'montana': { lat: 46.921925, lng: -110.454353 },
+    'nebraska': { lat: 41.125370, lng: -98.268082 }, 'nevada': { lat: 38.313515, lng: -117.055374 },
+    'new hampshire': { lat: 43.452492, lng: -71.563896 }, 'new jersey': { lat: 40.298904, lng: -74.521011 },
+    'new mexico': { lat: 34.840515, lng: -106.248482 }, 'new york': { lat: 42.165726, lng: -74.948051 },
+    'north carolina': { lat: 35.630066, lng: -79.806419 }, 'north dakota': { lat: 47.528912, lng: -99.784012 },
+    'ohio': { lat: 40.388783, lng: -82.764915 }, 'oklahoma': { lat: 35.565342, lng: -96.928917 },
+    'oregon': { lat: 44.572021, lng: -122.070938 }, 'pennsylvania': { lat: 40.590752, lng: -77.209755 },
+    'rhode island': { lat: 41.680893, lng: -71.511780 }, 'south carolina': { lat: 33.856892, lng: -80.945007 },
+    'south dakota': { lat: 44.299782, lng: -99.438828 }, 'tennessee': { lat: 35.747845, lng: -86.692345 },
+    'texas': { lat: 31.054487, lng: -97.563461 }, 'utah': { lat: 40.150032, lng: -111.862434 },
+    'vermont': { lat: 44.045876, lng: -72.710686 }, 'virginia': { lat: 37.769337, lng: -78.169968 },
+    'washington': { lat: 47.400902, lng: -121.490494 }, 'west virginia': { lat: 38.491226, lng: -80.954456 },
+    'wisconsin': { lat: 44.268543, lng: -89.616508 }, 'wyoming': { lat: 42.755966, lng: -107.302490 },
+    'puerto rico': { lat: 18.2208, lng: -66.5901 },
+};
+
+/**
+ * Country center coordinates
+ */
+const COUNTRY_COORDS = {
+    'usa': { lat: 39.8283, lng: -98.5795 },
+    'united states': { lat: 39.8283, lng: -98.5795 },
+    'dominican republic': { lat: 18.7357, lng: -70.1627 },
+    'venezuela': { lat: 8.0, lng: -66.0 },
+    'cuba': { lat: 21.5218, lng: -77.7812 },
+    'mexico': { lat: 23.6345, lng: -102.5528 },
+    'méxico': { lat: 23.6345, lng: -102.5528 },
+    'puerto rico': { lat: 18.2208, lng: -66.5901 },
+    'canada': { lat: 56.1304, lng: -106.3468 },
+    'japan': { lat: 36.2048, lng: 138.2529 },
+    'south korea': { lat: 35.9078, lng: 127.7669 },
+    'korea': { lat: 35.9078, lng: 127.7669 },
+    'taiwan': { lat: 23.6978, lng: 120.9605 },
+    'australia': { lat: -25.2744, lng: 133.7751 },
+    'colombia': { lat: 4.5709, lng: -74.2973 },
+    'panama': { lat: 8.5380, lng: -80.7821 },
+    'panamá': { lat: 8.5380, lng: -80.7821 },
+    'nicaragua': { lat: 12.8654, lng: -85.2072 },
+    'curacao': { lat: 12.1696, lng: -68.9900 },
+    'curaçao': { lat: 12.1696, lng: -68.9900 },
+    'aruba': { lat: 12.5211, lng: -69.9683 },
+    'brazil': { lat: -14.2350, lng: -51.9253 },
+    'germany': { lat: 51.1657, lng: 10.4515 },
+    'netherlands': { lat: 52.1326, lng: 5.2913 },
+    'bahamas': { lat: 25.0343, lng: -77.3963 },
+    'honduras': { lat: 15.2, lng: -86.2419 },
+};
+
+function getStateFallback(info) {
+    if (!info) return null;
+    const state = (info.birthStateProvince || '').toLowerCase().trim();
+    return US_STATES[state] || null;
+}
+
+function getCountryFallback(info) {
+    if (!info) return null;
+    const country = (info.birthCountry || '').toLowerCase().trim();
+    return COUNTRY_COORDS[country] || null;
 }
 
 /**
@@ -700,47 +762,6 @@ function getKnownLocation(info) {
         }
     }
 
-    return null;
-}
-
-/**
- * Reverse geocode coordinates to location name
- */
-async function reverseGeocode(lat, lng) {
-    const cacheKey = `reverse_${lat.toFixed(2)}_${lng.toFixed(2)}`;
-
-    // Check cache
-    const cached = sessionCache.get(cacheKey);
-    if (cached) return cached;
-
-    try {
-        const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&zoom=10`, {
-            headers: {
-                'User-Agent': 'NPL-League-Site/1.0'
-            }
-        });
-
-        if (response.ok) {
-            const data = await response.json();
-            if (data && data.address) {
-                const parts = [];
-                if (data.address.city || data.address.town || data.address.village || data.address.county) {
-                    parts.push(data.address.city || data.address.town || data.address.village || data.address.county);
-                }
-                if (data.address.state) {
-                    parts.push(data.address.state);
-                }
-                if (data.address.country && data.address.country !== 'United States') {
-                    parts.push(data.address.country);
-                }
-                const result = parts.join(', ') || null;
-                sessionCache.set(cacheKey, result, 24 * 60 * 60 * 1000);
-                return result;
-            }
-        }
-    } catch (error) {
-        console.error('Reverse geocoding error:', error);
-    }
     return null;
 }
 
