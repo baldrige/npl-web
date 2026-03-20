@@ -181,22 +181,17 @@ export async function renderMap(params = {}) {
             // Abort if user switched teams during fetch
             if (myUpdateId !== currentUpdateId) return;
 
-            // Geocode all birthplaces
+            // Geocode all birthplaces (synchronous — no external API)
             const birthplaces = [];
             const countryCount = {};
-            let geocoded = 0;
-            const playersWithInfo = roster.filter(p => p.mlbId && infoMap[p.mlbId]?.birthCity);
 
-            for (const player of playersWithInfo) {
+            for (const player of roster) {
+                if (!player.mlbId) continue;
                 const info = infoMap[player.mlbId];
+                if (!info || !info.birthCity) continue;
+
                 const location = `${info.birthCity}, ${info.birthStateProvince || ''} ${info.birthCountry || ''}`.trim();
                 const coords = geocodeLocation(location, info);
-
-                // Abort if user switched teams during geocoding
-                if (myUpdateId !== currentUpdateId) return;
-
-                geocoded++;
-                statusEl.textContent = `Geocoding birthplaces... ${geocoded}/${playersWithInfo.length}`;
 
                 if (coords) {
                     birthplaces.push({
