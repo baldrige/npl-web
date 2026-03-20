@@ -3,14 +3,52 @@
  */
 
 import { dataStore, NPL_TEAMS } from '../api/sheets.js';
-import { fetchPlayerInfo } from '../api/mlbStats.js';
 import { sessionCache } from '../api/cache.js';
+
+const MLB_STATS_API = 'https://statsapi.mlb.com/api/v1';
 
 // Cache for team birthplace data (persists across team switches)
 const teamBirthplaceCache = {};
 
 // Geocoding cache
 const geocodeCache = {};
+
+// Counter to detect stale updates when user switches teams mid-load
+let currentUpdateId = 0;
+
+/**
+ * Batch-fetch player info for multiple MLB IDs in a single API call
+ * @param {string[]} mlbIds - Array of MLB player IDs
+ * @returns {Promise<Object>} Map of mlbId -> player info
+ */
+async function fetchBatchPlayerInfo(mlbIds) {
+    if (mlbIds.length === 0) return {};
+
+    const results = {};
+    // MLB API supports up to ~150 IDs per request
+    const batchSize = 100;
+
+    for (let i = 0; i < mlbIds.length; i += batchSize) {
+        const batch = mlbIds.slice(i, i + batchSize);
+        const ids = batch.join(',');
+        try {
+            const resp = await fetch(`${MLB_STATS_API}/people?personIds=${ids}`);
+            if (!resp.ok) continue;
+            const data = await resp.json();
+            for (const person of (data.people || [])) {
+                results[String(person.id)] = {
+                    birthCity: person.birthCity,
+                    birthStateProvince: person.birthStateProvince,
+                    birthCountry: person.birthCountry,
+                };
+            }
+        } catch (e) {
+            console.error('Batch player info fetch error:', e);
+        }
+    }
+
+    return results;
+}
 
 /**
  * Render the map view
@@ -91,6 +129,7 @@ export async function renderMap(params = {}) {
      * Update the map with team birthplaces
      */
     async function updateMap() {
+        const myUpdateId = ++currentUpdateId;
         const statusEl = container.querySelector('#map-status');
         const centerInfoEl = container.querySelector('#center-info');
         const countryBreakdownEl = container.querySelector('#country-breakdown');
@@ -107,9 +146,7 @@ export async function renderMap(params = {}) {
 
         // Check if we have cached data for this team
         if (teamBirthplaceCache[currentTeamId]) {
-            statusEl.textContent = 'Loading from cache...';
-            const cached = teamBirthplaceCache[currentTeamId];
-            displayBirthplaces(cached.birthplaces, cached.countryCount, team);
+            displayBirthplaces(teamBirthplaceCache[currentTeamId].birthplaces, teamBirthplaceCache[currentTeamId].countryCount, team);
             return;
         }
 
@@ -117,7 +154,6 @@ export async function renderMap(params = {}) {
         const sessionCached = sessionCache.get(cacheKey);
         if (sessionCached) {
             teamBirthplaceCache[currentTeamId] = sessionCached;
-            statusEl.textContent = 'Loading from cache...';
             displayBirthplaces(sessionCached.birthplaces, sessionCached.countryCount, team);
             return;
         }
@@ -136,54 +172,50 @@ export async function renderMap(params = {}) {
             return;
         }
 
-        // Fetch birthplace data for all players
+        // Batch-fetch all player info in one API call
+        const mlbIds = roster.map(p => p.mlbId).filter(Boolean);
+        const infoMap = await fetchBatchPlayerInfo(mlbIds);
+
+        // Abort if user switched teams during fetch
+        if (myUpdateId !== currentUpdateId) return;
+
+        // Geocode all birthplaces
         const birthplaces = [];
         const countryCount = {};
-        let processed = 0;
 
         for (const player of roster) {
-            if (!player.mlbId) {
-                processed++;
-                continue;
+            if (!player.mlbId) continue;
+
+            const info = infoMap[player.mlbId];
+            if (!info || !info.birthCity) continue;
+
+            const location = `${info.birthCity}, ${info.birthStateProvince || ''} ${info.birthCountry || ''}`.trim();
+            const coords = await geocodeLocation(location, info);
+
+            // Abort if user switched teams during geocoding
+            if (myUpdateId !== currentUpdateId) return;
+
+            if (coords) {
+                birthplaces.push({
+                    player: player.name,
+                    mlbId: player.mlbId,
+                    location: location,
+                    city: info.birthCity,
+                    state: info.birthStateProvince,
+                    country: info.birthCountry || 'USA',
+                    lat: coords.lat,
+                    lng: coords.lng
+                });
+
+                const country = info.birthCountry || 'USA';
+                countryCount[country] = (countryCount[country] || 0) + 1;
             }
-
-            try {
-                const info = await fetchPlayerInfo(player.mlbId);
-                if (info && info.birthCity) {
-                    const location = `${info.birthCity}, ${info.birthStateProvince || ''} ${info.birthCountry || ''}`.trim();
-
-                    // Get coordinates
-                    const coords = await geocodeLocation(location, info);
-
-                    if (coords) {
-                        birthplaces.push({
-                            player: player.name,
-                            mlbId: player.mlbId,
-                            location: location,
-                            city: info.birthCity,
-                            state: info.birthStateProvince,
-                            country: info.birthCountry || 'USA',
-                            lat: coords.lat,
-                            lng: coords.lng
-                        });
-
-                        // Count countries
-                        const country = info.birthCountry || 'USA';
-                        countryCount[country] = (countryCount[country] || 0) + 1;
-                    }
-                }
-            } catch (error) {
-                console.error(`Error fetching birthplace for ${player.name}:`, error);
-            }
-
-            processed++;
-            statusEl.textContent = `Loading birthplaces... ${processed}/${roster.length}`;
         }
 
         // Cache the results
         const cacheData = { birthplaces, countryCount };
         teamBirthplaceCache[currentTeamId] = cacheData;
-        sessionCache.set(cacheKey, cacheData, 60 * 60 * 1000); // Cache for 1 hour
+        sessionCache.set(cacheKey, cacheData, 60 * 60 * 1000);
 
         // Display the results
         displayBirthplaces(birthplaces, countryCount, team);
