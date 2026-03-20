@@ -7,6 +7,7 @@ import { sessionCache } from './cache.js';
 
 const MLB_STATS_API = 'https://statsapi.mlb.com/api/v1';
 const STATS_CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+const SPRING_STATS_CACHE_TTL = 10 * 60 * 1000; // 10 minutes (more frequent during ST)
 const CACHE_VERSION = 'v2'; // bump to invalidate stale entries
 
 // Minor league sport IDs to fetch
@@ -104,6 +105,65 @@ export async function fetchPlayerInfo(mlbId) {
         return info;
     } catch (error) {
         console.error(`Error fetching info for ${mlbId}:`, error);
+        return null;
+    }
+}
+
+/**
+ * Check if we're currently in spring training period
+ * Roughly mid-February through the end of March
+ */
+export function isSpringTraining() {
+    const now = new Date();
+    const month = now.getMonth(); // 0-indexed
+    const day = now.getDate();
+    // Feb 15 through Mar 31
+    return (month === 1 && day >= 15) || month === 2;
+}
+
+/**
+ * Fetch spring training stats for a player (current year)
+ * @param {string} mlbId - MLB player ID
+ * @param {string} statGroup - 'hitting', 'pitching', or 'hitting,pitching'
+ * @returns {Promise<Object|null>} Spring training stats
+ */
+export async function fetchSpringTrainingStats(mlbId, statGroup = 'hitting,pitching') {
+    const year = new Date().getFullYear();
+    const cacheKey = `spring_${CACHE_VERSION}_${mlbId}_${year}`;
+
+    const cached = sessionCache.get(cacheKey);
+    if (cached) return cached;
+
+    try {
+        const url = `${MLB_STATS_API}/people/${mlbId}/stats?stats=season&season=${year}&gameType=S&group=${statGroup}`;
+        const response = await fetch(url);
+        if (!response.ok) return null;
+
+        const data = await response.json();
+        const result = { hitting: null, pitching: null };
+
+        if (data.stats) {
+            for (const sg of data.stats) {
+                const group = sg.group?.displayName?.toLowerCase();
+                const split = sg.splits?.[0];
+                if (split && split.stat) {
+                    result[group] = {
+                        ...split.stat,
+                        team: split.team?.abbreviation || '',
+                        gamesPlayed: split.stat.gamesPlayed || 0,
+                    };
+                }
+            }
+        }
+
+        // Only cache if there's actual data
+        if (result.hitting || result.pitching) {
+            sessionCache.set(cacheKey, result, SPRING_STATS_CACHE_TTL);
+            return result;
+        }
+        return null;
+    } catch (error) {
+        console.error(`Error fetching spring training stats for ${mlbId}:`, error);
         return null;
     }
 }
@@ -593,6 +653,11 @@ export function formatStatsHTML(stats, position) {
 
     let html = '';
 
+    // Spring training stats (shown first when available)
+    if (stats.springTraining) {
+        html += formatSpringTrainingHTML(stats.springTraining, isPitcher);
+    }
+
     // MLB stats
     if (isPitcher && stats.pitching.length > 0) {
         html += formatPitchingStats(stats);
@@ -626,6 +691,104 @@ export function formatStatsHTML(stats, position) {
     }
 
     return html || '<p class="text-muted">No stats available</p>';
+}
+
+/**
+ * Format spring training stats section
+ */
+function formatSpringTrainingHTML(st, isPitcher) {
+    const year = new Date().getFullYear();
+    let html = '';
+
+    if (isPitcher && st.pitching) {
+        const s = st.pitching;
+        html += `
+            <div class="stats-section spring-training-stats">
+                <h4>Spring Training ${year}</h4>
+                <div class="data-table-container">
+                    <table class="data-table stats-table">
+                        <thead>
+                            <tr>
+                                <th>Team</th>
+                                <th class="text-right">W</th>
+                                <th class="text-right">L</th>
+                                <th class="text-right">ERA</th>
+                                <th class="text-right">G</th>
+                                <th class="text-right">GS</th>
+                                <th class="text-right">IP</th>
+                                <th class="text-right">K</th>
+                                <th class="text-right">BB</th>
+                                <th class="text-right">WHIP</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>${s.team}</td>
+                                <td class="text-right">${s.wins || 0}</td>
+                                <td class="text-right">${s.losses || 0}</td>
+                                <td class="text-right">${s.era || '0.00'}</td>
+                                <td class="text-right">${s.gamesPlayed || 0}</td>
+                                <td class="text-right">${s.gamesStarted || 0}</td>
+                                <td class="text-right">${s.inningsPitched || '0.0'}</td>
+                                <td class="text-right">${s.strikeOuts || 0}</td>
+                                <td class="text-right">${s.baseOnBalls || 0}</td>
+                                <td class="text-right">${s.whip || '0.00'}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        `;
+    } else if (st.hitting) {
+        const s = st.hitting;
+        html += `
+            <div class="stats-section spring-training-stats">
+                <h4>Spring Training ${year}</h4>
+                <div class="data-table-container">
+                    <table class="data-table stats-table">
+                        <thead>
+                            <tr>
+                                <th>Team</th>
+                                <th class="text-right">G</th>
+                                <th class="text-right">AB</th>
+                                <th class="text-right">H</th>
+                                <th class="text-right">HR</th>
+                                <th class="text-right">RBI</th>
+                                <th class="text-right">SB</th>
+                                <th class="text-right">AVG</th>
+                                <th class="text-right">OBP</th>
+                                <th class="text-right">OPS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>${s.team}</td>
+                                <td class="text-right">${s.gamesPlayed || 0}</td>
+                                <td class="text-right">${s.atBats || 0}</td>
+                                <td class="text-right">${s.hits || 0}</td>
+                                <td class="text-right">${s.homeRuns || 0}</td>
+                                <td class="text-right">${s.rbi || 0}</td>
+                                <td class="text-right">${s.stolenBases || 0}</td>
+                                <td class="text-right">${s.avg || '.000'}</td>
+                                <td class="text-right">${s.obp || '.000'}</td>
+                                <td class="text-right">${s.ops || '.000'}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        `;
+    }
+
+    // Show both sides if available
+    if (isPitcher && st.hitting && st.hitting.atBats > 0) {
+        html += formatSpringTrainingHTML({ hitting: st.hitting, pitching: null }, false);
+    }
+    if (!isPitcher && st.pitching) {
+        html += formatSpringTrainingHTML({ hitting: null, pitching: st.pitching }, true);
+    }
+
+    return html;
 }
 
 /**

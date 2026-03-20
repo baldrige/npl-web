@@ -8,7 +8,7 @@ import { createDataTable, column } from '../components/dataTable.js';
 import { createPositionFilter } from '../components/searchBox.js';
 import { filterByPosition, calculateRosterStats, sortBy } from '../utils/dataTransform.js';
 import { downloadCSV } from '../utils/csvParser.js';
-import { fetchPlayerStats, fetchPlayerInfo, formatStatsHTML, fetchMultiplePlayerInfo } from '../api/mlbStats.js';
+import { fetchPlayerStats, fetchPlayerInfo, fetchSpringTrainingStats, isSpringTraining, formatStatsHTML, fetchMultiplePlayerInfo } from '../api/mlbStats.js';
 import { fetchAllProjections, formatProjectionHTML } from '../api/fangraphs.js';
 
 // Cache for player info by team
@@ -406,10 +406,20 @@ async function showPlayerModal(player) {
     // Fetch stats in background
     if (player.mlbId) {
         try {
-            const [stats, info] = await Promise.all([
+            const fetches = [
                 fetchPlayerStats(player.mlbId),
                 fetchPlayerInfo(player.mlbId),
-            ]);
+            ];
+            const inSpringTraining = isSpringTraining();
+            if (inSpringTraining) {
+                fetches.push(fetchSpringTrainingStats(player.mlbId));
+            }
+
+            const [stats, info, springStats] = await Promise.all(fetches);
+
+            if (stats && springStats) {
+                stats.springTraining = springStats;
+            }
 
             const statsContainer = document.getElementById('player-stats-container');
             if (statsContainer) {

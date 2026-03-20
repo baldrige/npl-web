@@ -651,6 +651,18 @@
 }
 
 /* MLB Stats Tables */
+.spring-training-stats {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.spring-training-stats h4 {
+    color: #15803d;
+}
+
 .stats-section {
     margin-top: var(--spacing-lg);
 }
