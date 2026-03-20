@@ -650,6 +650,38 @@
     text-align: center;
 }
 
+/* Toggle Button Groups */
+.toggle-group {
+    display: inline-flex;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.toggle-btn {
+    padding: 6px 16px;
+    border: none;
+    background: white;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    transition: all 0.15s ease;
+}
+
+.toggle-btn:not(:last-child) {
+    border-right: 1px solid var(--border-color);
+}
+
+.toggle-btn:hover {
+    background: var(--bg-secondary);
+}
+
+.toggle-btn.active {
+    background: var(--primary-color);
+    color: white;
+}
+
 /* MLB Stats Tables */
 .spring-training-stats {
     background: #f0fdf4;

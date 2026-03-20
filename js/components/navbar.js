@@ -39,6 +39,9 @@ export function renderNavbar() {
             <a href="#/map" class="nav-link" data-route="map">
                 <span>Map</span>
             </a>
+            <a href="#/stats" class="nav-link" data-route="stats">
+                <span>Stats</span>
+            </a>
         </nav>
 
         <div class="navbar-actions">

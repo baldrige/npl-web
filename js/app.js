@@ -12,6 +12,7 @@ import { renderRosters } from './views/rosters.js';
 import { renderPlayers } from './views/players.js';
 import { renderStandings } from './views/standings.js';
 import { renderMap } from './views/map.js';
+import { renderStats } from './views/stats.js';
 
 /**
  * Initialize the application
@@ -28,6 +29,7 @@ async function initApp() {
     router.register('players', renderPlayers);
     router.register('standings', renderStandings);
     router.register('map', renderMap);
+    router.register('stats', renderStats);
 
     // Initialize router
     router.init('view-container');
