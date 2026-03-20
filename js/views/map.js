@@ -26,8 +26,9 @@ export async function renderMap(params = {}) {
     const container = document.createElement('div');
     container.className = 'map-view';
 
-    // Get initial team from params or default to first team
-    const initialTeamId = params.team || NPL_TEAMS[0].id;
+    // Get initial team from params or default to Bulldog
+    const bulldogTeam = NPL_TEAMS.find(t => t.name === 'Bulldog');
+    const initialTeamId = params.team || (bulldogTeam ? bulldogTeam.id : NPL_TEAMS[0].id);
 
     container.innerHTML = `
         <div class="view-header">
