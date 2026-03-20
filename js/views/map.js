@@ -162,63 +162,70 @@ export async function renderMap(params = {}) {
         centerInfoEl.textContent = 'Calculating...';
         countryBreakdownEl.innerHTML = '<span class="text-muted">Loading...</span>';
 
-        // Get team roster
-        const roster = dataStore.getTeamRoster(currentTeamId);
+        try {
+            // Get team roster
+            const roster = dataStore.getTeamRoster(currentTeamId);
 
-        if (roster.length === 0) {
-            statusEl.textContent = 'No players on roster';
-            centerInfoEl.textContent = 'No data';
-            countryBreakdownEl.innerHTML = '<span class="text-muted">No players</span>';
-            return;
-        }
+            if (roster.length === 0) {
+                statusEl.textContent = 'No players on roster';
+                centerInfoEl.textContent = 'No data';
+                countryBreakdownEl.innerHTML = '<span class="text-muted">No players</span>';
+                return;
+            }
 
-        // Batch-fetch all player info in one API call
-        const mlbIds = roster.map(p => p.mlbId).filter(Boolean);
-        const infoMap = await fetchBatchPlayerInfo(mlbIds);
+            // Batch-fetch all player info in one API call
+            const mlbIds = roster.map(p => p.mlbId).filter(Boolean);
+            statusEl.textContent = `Fetching info for ${mlbIds.length} players...`;
+            const infoMap = await fetchBatchPlayerInfo(mlbIds);
 
-        // Abort if user switched teams during fetch
-        if (myUpdateId !== currentUpdateId) return;
-
-        // Geocode all birthplaces
-        const birthplaces = [];
-        const countryCount = {};
-
-        for (const player of roster) {
-            if (!player.mlbId) continue;
-
-            const info = infoMap[player.mlbId];
-            if (!info || !info.birthCity) continue;
-
-            const location = `${info.birthCity}, ${info.birthStateProvince || ''} ${info.birthCountry || ''}`.trim();
-            const coords = await geocodeLocation(location, info);
-
-            // Abort if user switched teams during geocoding
+            // Abort if user switched teams during fetch
             if (myUpdateId !== currentUpdateId) return;
 
-            if (coords) {
-                birthplaces.push({
-                    player: player.name,
-                    mlbId: player.mlbId,
-                    location: location,
-                    city: info.birthCity,
-                    state: info.birthStateProvince,
-                    country: info.birthCountry || 'USA',
-                    lat: coords.lat,
-                    lng: coords.lng
-                });
+            // Geocode all birthplaces
+            const birthplaces = [];
+            const countryCount = {};
+            let geocoded = 0;
+            const playersWithInfo = roster.filter(p => p.mlbId && infoMap[p.mlbId]?.birthCity);
 
-                const country = info.birthCountry || 'USA';
-                countryCount[country] = (countryCount[country] || 0) + 1;
+            for (const player of playersWithInfo) {
+                const info = infoMap[player.mlbId];
+                const location = `${info.birthCity}, ${info.birthStateProvince || ''} ${info.birthCountry || ''}`.trim();
+                const coords = await geocodeLocation(location, info);
+
+                // Abort if user switched teams during geocoding
+                if (myUpdateId !== currentUpdateId) return;
+
+                geocoded++;
+                statusEl.textContent = `Geocoding birthplaces... ${geocoded}/${playersWithInfo.length}`;
+
+                if (coords) {
+                    birthplaces.push({
+                        player: player.name,
+                        mlbId: player.mlbId,
+                        location: location,
+                        city: info.birthCity,
+                        state: info.birthStateProvince,
+                        country: info.birthCountry || 'USA',
+                        lat: coords.lat,
+                        lng: coords.lng
+                    });
+
+                    const country = info.birthCountry || 'USA';
+                    countryCount[country] = (countryCount[country] || 0) + 1;
+                }
             }
+
+            // Cache the results
+            const cacheData = { birthplaces, countryCount };
+            teamBirthplaceCache[currentTeamId] = cacheData;
+            sessionCache.set(cacheKey, cacheData, 60 * 60 * 1000);
+
+            // Display the results
+            displayBirthplaces(birthplaces, countryCount, team);
+        } catch (error) {
+            console.error('Error updating map:', error);
+            statusEl.textContent = 'Error loading birthplaces';
         }
-
-        // Cache the results
-        const cacheData = { birthplaces, countryCount };
-        teamBirthplaceCache[currentTeamId] = cacheData;
-        sessionCache.set(cacheKey, cacheData, 60 * 60 * 1000);
-
-        // Display the results
-        displayBirthplaces(birthplaces, countryCount, team);
     }
 
     /**
