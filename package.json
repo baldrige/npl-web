@@ -1,0 +1,7 @@
+{
+  "name": "npl-web",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  }
+}

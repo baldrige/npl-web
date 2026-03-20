@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Fangraphs Projections</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #1a365d; margin-bottom: 10px; }
+        p { color: #666; margin-bottom: 20px; }
+        button {
+            background: #1a365d;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        button:hover { background: #2d4a7c; }
+        button:disabled { background: #ccc; cursor: not-allowed; }
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 6px;
+            display: none;
+        }
+        .status.info { background: #e3f2fd; color: #1565c0; display: block; }
+        .status.success { background: #e8f5e9; color: #2e7d32; display: block; }
+        .status.error { background: #ffebee; color: #c62828; display: block; }
+        pre {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 6px;
+            overflow: auto;
+            max-height: 300px;
+            font-size: 12px;
+        }
+        .instructions {
+            background: #fff3e0;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+        .instructions h3 { margin-top: 0; color: #e65100; }
+        .instructions ol { margin: 0; padding-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Fangraphs Projections Fetcher</h1>
+        <p>This tool fetches 2026 projections from Fangraphs and saves them for the NPL site.</p>
+
+        <div class="instructions">
+            <h3>Instructions</h3>
+            <ol>
+                <li>Click "Fetch Projections" below</li>
+                <li>Wait for both batting and pitching data to load</li>
+                <li>Click "Download JSON" to save the file</li>
+                <li>Move the downloaded file to: <code>npl-web/data/projections.json</code></li>
+            </ol>
+        </div>
+
+        <button id="fetchBtn" onclick="fetchProjections()">Fetch Projections</button>
+        <button id="downloadBtn" onclick="downloadJSON()" disabled>Download JSON</button>
+
+        <div id="status" class="status"></div>
+
+        <div id="preview" style="display:none; margin-top: 20px;">
+            <h3>Preview (first 5 players):</h3>
+            <pre id="previewData"></pre>
+        </div>
+    </div>
+
+    <script>
+        let projectionsData = null;
+
+        async function fetchProjections() {
+            const status = document.getElementById('status');
+            const fetchBtn = document.getElementById('fetchBtn');
+            const downloadBtn = document.getElementById('downloadBtn');
+
+            fetchBtn.disabled = true;
+            status.className = 'status info';
+            status.textContent = 'Fetching batting projections...';
+
+            try {
+                // Fetch batting projections
+                const batResponse = await fetch('https://www.fangraphs.com/api/projections?type=fangraphsdc&stats=bat&pos=all&team=0&players=0&lg=all');
+                if (!batResponse.ok) throw new Error('Failed to fetch batting data');
+                const batData = await batResponse.json();
+
+                status.textContent = `Loaded ${batData.length} batters. Fetching pitching projections...`;
+
+                // Fetch pitching projections
+                const pitResponse = await fetch('https://www.fangraphs.com/api/projections?type=fangraphsdc&stats=pit&pos=all&team=0&players=0&lg=all');
+                if (!pitResponse.ok) throw new Error('Failed to fetch pitching data');
+                const pitData = await pitResponse.json();
+
+                status.textContent = `Loaded ${pitData.length} pitchers. Processing...`;
+
+                // Process and combine data
+                projectionsData = {
+                    fetchedAt: new Date().toISOString(),
+                    source: 'Fangraphs Depth Charts',
+                    batters: batData.map(p => ({
+                        mlbId: String(p.xMLBAMID || p.mlbamid || ''),
+                        fgId: p.playerid,
+                        name: p.PlayerName,
+                        team: p.Team,
+                        pa: p.PA,
+                        ab: p.AB,
+                        h: p.H,
+                        hr: p.HR,
+                        rbi: p.RBI,
+                        r: p.R,
+                        sb: p.SB,
+                        bb: p.BB,
+                        so: p.SO,
+                        avg: p.AVG,
+                        obp: p.OBP,
+                        slg: p.SLG,
+                        ops: p.OPS,
+                        wOBA: p.wOBA,
+                        wRCPlus: p['wRC+'],
+                        war: p.WAR,
+                        isPitcher: false
+                    })),
+                    pitchers: pitData.map(p => ({
+                        mlbId: String(p.xMLBAMID || p.mlbamid || ''),
+                        fgId: p.playerid,
+                        name: p.PlayerName,
+                        team: p.Team,
+                        g: p.G,
+                        gs: p.GS,
+                        ip: p.IP,
+                        w: p.W,
+                        l: p.L,
+                        sv: p.SV,
+                        h: p.H,
+                        er: p.ER,
+                        hr: p.HR,
+                        bb: p.BB,
+                        so: p.SO,
+                        era: p.ERA,
+                        whip: p.WHIP,
+                        fip: p.FIP,
+                        war: p.WAR,
+                        isPitcher: true
+                    }))
+                };
+
+                // Show success
+                status.className = 'status success';
+                status.textContent = `Success! Loaded ${projectionsData.batters.length} batters and ${projectionsData.pitchers.length} pitchers.`;
+
+                downloadBtn.disabled = false;
+
+                // Show preview
+                const preview = document.getElementById('preview');
+                const previewData = document.getElementById('previewData');
+                preview.style.display = 'block';
+
+                const sample = [
+                    ...projectionsData.batters.slice(0, 3),
+                    ...projectionsData.pitchers.slice(0, 2)
+                ];
+                previewData.textContent = JSON.stringify(sample, null, 2);
+
+            } catch (error) {
+                status.className = 'status error';
+                status.textContent = 'Error: ' + error.message + '. Try refreshing and clicking again.';
+                console.error(error);
+            } finally {
+                fetchBtn.disabled = false;
+            }
+        }
+
+        function downloadJSON() {
+            if (!projectionsData) return;
+
+            const blob = new Blob([JSON.stringify(projectionsData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'projections.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>

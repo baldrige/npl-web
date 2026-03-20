@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:statsapi.mlb.com)",
+      "Bash(curl -s http://localhost:3000/js/api/mlbStats.js)",
+      "Bash(curl -s http://localhost:3000/js/views/players.js)",
+      "Bash(curl -s https://statsapi.mlb.com/api/v1/people/694192?hydrate=rosterEntries)",
+      "Bash(python3 -c \":*)"
+    ]
+  }
+}
