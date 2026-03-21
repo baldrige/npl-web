@@ -269,7 +269,7 @@ export async function renderStats(params = {}) {
 
         <div class="flex justify-between items-center mb-md">
             <span class="result-count text-muted text-sm"></span>
-            <span id="loading-indicator" class="text-muted text-sm hidden">
+            <span id="stats-loading-indicator" class="text-muted text-sm hidden">
                 <span class="spinner" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle;"></span>
                 Loading stats...
             </span>
@@ -610,7 +610,7 @@ export async function renderStats(params = {}) {
     }
 
     function showLoading(show) {
-        const indicator = container.querySelector('#loading-indicator');
+        const indicator = container.querySelector('#stats-loading-indicator');
         if (indicator) {
             indicator.classList.toggle('hidden', !show);
         }
