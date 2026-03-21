@@ -278,7 +278,7 @@ export async function renderRosters(params = {}) {
             }),
         ],
         title: 'Roster',
-        pageSize: 50,
+        pageSize: 200,
         clickable: true,
         onRowClick: (player) => {
             showPlayerModal(player);

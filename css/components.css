@@ -178,7 +178,7 @@
 
 .data-table th,
 .data-table td {
-    padding: var(--spacing-sm) var(--spacing-md);
+    padding: var(--spacing-xs) var(--spacing-sm);
     text-align: left;
     border-bottom: 1px solid var(--border-color);
 }
