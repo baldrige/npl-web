@@ -203,6 +203,7 @@ function parseTeamRoster(rows, teamName, teamId) {
             nplTeamId: teamId,
             nplTeam: teamName,
             ssId: col2, // Strat-O-Matic or internal ID
+            rosterStatus: col0, // "1" = active 30-man roster
             isRostered: true,
             section: currentSection,
         });

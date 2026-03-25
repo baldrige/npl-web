@@ -43,10 +43,10 @@ export function compareScoresheetWithNPL(ssData, nplPlayers) {
         }
     }
 
-    // Build NPL lookup by mlbId (only rostered players on active/IL rosters)
+    // Build NPL lookup by mlbId (only active 30-man roster, matching npl30scrape's roster == "1")
     const nplByMlbId = new Map();
     for (const player of nplPlayers) {
-        if (player.isRostered && player.mlbId) {
+        if (player.isRostered && player.mlbId && player.rosterStatus === '1') {
             nplByMlbId.set(String(player.mlbId), player);
         }
     }
