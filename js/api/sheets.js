@@ -146,6 +146,13 @@ async function fetchTeamRoster(teamName, teamData) {
 function parseTeamRoster(rows, teamName, teamId) {
     const players = [];
     let currentSection = '';
+    let past30Man = false; // true once we hit IL/option/restricted sections
+
+    // Sections that are NOT part of the 30-man active roster
+    const NON_30MAN_SECTIONS = [
+        'INJURED', 'OPTION', 'RESTRICTED', 'ASSIGNED', 'TRIPLE-A',
+        'UNIVERSAL BASEBALL', 'END OF SEASON',
+    ];
 
     for (const row of rows) {
         // Skip empty rows
@@ -158,11 +165,13 @@ function parseTeamRoster(rows, teamName, teamId) {
         const col4 = String(row[4] || '').trim();
         const col5 = String(row[5] || '').trim();
 
-        // Detect section headers
-        if (col1.includes('PITCHERS') || col1.includes('CATCHERS') ||
-            col1.includes('INFIELDERS') || col1.includes('OUTFIELDERS') ||
-            col1.includes('ROSTER') || col1.includes('INJURED')) {
+        // Detect section headers (any row where col1 is all-caps label with no MLB ID)
+        const isSection = col1 && !col3 && /^[A-Z][A-Z\s\-]+$/.test(col1);
+        if (isSection) {
             currentSection = col1;
+            if (NON_30MAN_SECTIONS.some(s => col1.includes(s))) {
+                past30Man = true;
+            }
             continue;
         }
 
@@ -205,6 +214,7 @@ function parseTeamRoster(rows, teamName, teamId) {
             ssId: col2, // Strat-O-Matic or internal ID
             rosterStatus: col0, // "1" = active 30-man roster
             isRostered: true,
+            on30Man: !past30Man && col0 === '1',
             section: currentSection,
         });
     }
