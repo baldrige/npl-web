@@ -166,7 +166,7 @@ function parseTeamRoster(rows, teamName, teamId) {
         const col5 = String(row[5] || '').trim();
 
         // Detect section headers (any row where col1 is all-caps label with no MLB ID)
-        const isSection = col1 && !col3 && /^[A-Z][A-Z\s\-]+$/.test(col1);
+        const isSection = col1 && !col3 && /^[A-Z0-9][A-Z0-9\s\-]+$/.test(col1);
         if (isSection) {
             currentSection = col1;
             if (NON_30MAN_SECTIONS.some(s => col1.includes(s))) {
