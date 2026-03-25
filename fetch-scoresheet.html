@@ -92,6 +92,7 @@
     </div>
 
     <script>
+        const SS_BASE = 'https://www.scoresheet.com/FOR_WWW1/BL_National_Pastime';
         let rostersData = null;
 
         function setStatus(message, type) {
@@ -103,7 +104,6 @@
         function parseScoresheetJS(rawText) {
             const yearMatch = rawText.match(/pn_year_=(\d{4})/);
             const year = yearMatch ? parseInt(yearMatch[1]) : new Date().getFullYear();
-
             const roundMatch = rawText.match(/round1_=(\d+)/);
             const round = roundMatch ? parseInt(roundMatch[1]) : null;
 
@@ -114,27 +114,63 @@
             json = json.replace(/(^|[{,])\s*([a-zA-Z_][a-zA-Z0-9_]*)\s*:/g, '$1"$2":');
             json = json.replace(/:(\s*)'([^']*)'/g, ':$1"$2"');
 
-            const parsed = JSON.parse(json);
+            return { year, round, parsed: JSON.parse(json) };
+        }
 
-            const ownerNames = parsed.owner_names || [];
-            const rosters = [];
-            const teams = [];
-            for (let i = 0; i < parsed.rosters.length; i++) {
-                const ownerName = ownerNames[i] || `Team ${i + 1}`;
-                teams.push(ownerName);
-                for (const pin of (parsed.rosters[i].pins || [])) {
-                    rosters.push({ ssTeam: ownerName, pin: parseInt(pin) });
+        function buildT1ByPin(rosters) {
+            const t1 = {};
+            for (let i = 0; i < rosters.length; i++) {
+                for (const pin of (rosters[i].pins || [])) {
+                    t1[pin] = i + 1;
                 }
             }
+            return t1;
+        }
 
-            return { year, round, teams, rosters };
+        function replayTransactions(tJsText, rosters, t1ByPin) {
+            function addPin(teamIdx0, pin) {
+                if (teamIdx0 < 0 || teamIdx0 >= rosters.length) return;
+                if (!rosters[teamIdx0].pins.includes(pin)) {
+                    rosters[teamIdx0].pins.push(pin);
+                }
+                t1ByPin[pin] = teamIdx0 + 1;
+            }
+            function removePin(teamIdx0, pin) {
+                if (teamIdx0 < 0 || teamIdx0 >= rosters.length) return;
+                const idx = rosters[teamIdx0].pins.indexOf(pin);
+                if (idx >= 0) rosters[teamIdx0].pins.splice(idx, 1);
+            }
+            function r(mon0, day, fromTeam1, toTeam1, givePins, getPins) {
+                const fromIdx0 = fromTeam1 - 1;
+                for (const pin of (givePins || [])) {
+                    removePin(fromIdx0, pin);
+                    if (toTeam1 > 0) addPin(toTeam1 - 1, pin);
+                    else t1ByPin[pin] = 0;
+                }
+                for (const pin of (getPins || [])) {
+                    const cur = t1ByPin[pin];
+                    if (cur > 0) removePin(cur - 1, pin);
+                    addPin(fromIdx0, pin);
+                }
+            }
+            function d(team1, pin) {
+                if (!pin || typeof pin === 'string') return;
+                const cur = t1ByPin[pin];
+                if (cur > 0) removePin(cur - 1, pin);
+                addPin(team1 - 1, pin);
+            }
+
+            let code = tJsText.replace(/^pn_year_=\d+;\s*/m, '');
+            code = code.replace(/^round1_=\d+;\s*/m, '');
+            const sandbox = { r, d, p: d, u(){}, m(){}, pm(){}, set_owners(){} };
+            const fn = new Function(...Object.keys(sandbox), code);
+            fn(...Object.values(sandbox));
         }
 
         function parseTSV(tsvText) {
             const lines = tsvText.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n');
             const headers = lines[0].split('\t').map(h => h.trim().toLowerCase());
             const players = new Map();
-
             for (let i = 1; i < lines.length; i++) {
                 if (!lines[i].trim()) continue;
                 const cols = lines[i].split('\t');
@@ -164,39 +200,50 @@
             fetchBtn.disabled = true;
 
             try {
-                setStatus('Fetching roster data from Scoresheet...', 'info');
-
-                const jsResp = await fetch('https://www.scoresheet.com/FOR_WWW1/BL_National_Pastime.js');
+                setStatus('Fetching base roster data...', 'info');
+                const jsResp = await fetch(SS_BASE + '.js');
                 if (!jsResp.ok) throw new Error(`HTTP ${jsResp.status} fetching roster JS`);
                 const jsText = await jsResp.text();
+                const { year, round, parsed } = parseScoresheetJS(jsText);
+                const ownerNames = parsed.owner_names || [];
 
-                const { year, round, teams, rosters } = parseScoresheetJS(jsText);
-                setStatus(`Year ${year}: Found ${teams.length} teams, ${rosters.length} roster entries. Fetching player details...`, 'info');
+                setStatus(`Year ${year}: ${parsed.rosters.length} teams. Fetching transactions...`, 'info');
+                const tResp = await fetch(SS_BASE + '-T.js');
+                if (!tResp.ok) throw new Error(`HTTP ${tResp.status} fetching transactions`);
+                const tJsText = await tResp.text();
 
+                const t1ByPin = buildT1ByPin(parsed.rosters);
+                replayTransactions(tJsText, parsed.rosters, t1ByPin);
+
+                const teams = [];
+                for (let i = 0; i < parsed.rosters.length; i++) {
+                    teams.push(ownerNames[i] || `Team ${i + 1}`);
+                }
+
+                setStatus('Fetching player details...', 'info');
                 const tsvResp = await fetch(`https://www.scoresheet.com/FOR_WWW/BL_Players_${year}.tsv`);
                 if (!tsvResp.ok) throw new Error(`HTTP ${tsvResp.status} fetching player TSV`);
-                const tsvText = await tsvResp.text();
-                const playerMap = parseTSV(tsvText);
+                const playerMap = parseTSV(await tsvResp.text());
 
-                const enriched = rosters.map(entry => {
-                    const p = playerMap.get(entry.pin);
-                    return p ? { ...entry, ...p } : { ...entry, mlbam: null, firstName: '', lastName: '', pos: '', h: '', age: null };
-                });
+                const rosterEntries = [];
+                for (const [pinStr, teamN] of Object.entries(t1ByPin)) {
+                    if (teamN <= 0) continue;
+                    const pin = parseInt(pinStr);
+                    const p = playerMap.get(pin);
+                    rosterEntries.push({
+                        ssTeam: teams[teamN - 1],
+                        pin,
+                        ...(p || { ssbb: pin, mlbam: null, firstName: '', lastName: '', pos: '', h: '', age: null }),
+                    });
+                }
 
-                rostersData = {
-                    year,
-                    round,
-                    fetchedAt: new Date().toISOString(),
-                    teams,
-                    rosters: enriched,
-                };
+                rostersData = { year, round, fetchedAt: new Date().toISOString(), teams, rosters: rosterEntries };
 
-                setStatus(`Success! ${enriched.length} players across ${teams.length} teams.`, 'success');
+                setStatus(`Success! ${rosterEntries.length} players across ${teams.length} teams.`, 'success');
                 downloadBtn.disabled = false;
 
-                const preview = document.getElementById('preview');
-                preview.style.display = 'block';
-                document.getElementById('previewData').textContent = JSON.stringify(enriched.slice(0, 5), null, 2);
+                document.getElementById('preview').style.display = 'block';
+                document.getElementById('previewData').textContent = JSON.stringify(rosterEntries.slice(0, 5), null, 2);
 
             } catch (error) {
                 setStatus('Error: ' + error.message + '. Try the Node.js script: node scripts/fetch-scoresheet.js', 'error');
