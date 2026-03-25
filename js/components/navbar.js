@@ -42,6 +42,9 @@ export function renderNavbar() {
             <a href="#/stats" class="nav-link" data-route="stats">
                 <span>Stats</span>
             </a>
+            <a href="#/ss-check" class="nav-link" data-route="ss-check">
+                <span>SS Check</span>
+            </a>
         </nav>
 
         <div class="navbar-actions">

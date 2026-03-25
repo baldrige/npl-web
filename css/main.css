@@ -484,6 +484,11 @@ label {
     color: white;
 }
 
+.badge-info {
+    background: #2196f3;
+    color: white;
+}
+
 /* Position Badges */
 .position-badge {
     display: inline-block;

@@ -13,6 +13,7 @@ import { renderPlayers } from './views/players.js';
 import { renderStandings } from './views/standings.js';
 import { renderMap } from './views/map.js';
 import { renderStats } from './views/stats.js';
+import { renderScoresheetCheck } from './views/scoresheetCheck.js';
 
 /**
  * Initialize the application
@@ -30,6 +31,7 @@ async function initApp() {
     router.register('standings', renderStandings);
     router.register('map', renderMap);
     router.register('stats', renderStats);
+    router.register('ss-check', renderScoresheetCheck);
 
     // Initialize router
     router.init('view-container');
