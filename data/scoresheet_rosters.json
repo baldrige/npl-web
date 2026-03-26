@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-03-25T21:52:33.867Z",
+  "fetchedAt": "2026-03-26T08:44:03.291Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1667,6 +1667,17 @@
       "pos": "SR",
       "h": "R",
       "age": 27
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 320,
+      "ssbb": 320,
+      "mlbam": 677161,
+      "firstName": "Zack",
+      "lastName": "Kelly",
+      "pos": "SR",
+      "h": "R",
+      "age": 31
     },
     {
       "ssTeam": "Jeremy Bowers",
