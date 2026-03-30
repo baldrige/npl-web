@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-03-29T08:31:18.833Z",
+  "fetchedAt": "2026-03-30T09:04:01.029Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1334,7 +1334,7 @@
       "mlbam": 672282,
       "firstName": "Reid",
       "lastName": "Detmers",
-      "pos": "SR",
+      "pos": "P",
       "h": "L",
       "age": 26
     },
