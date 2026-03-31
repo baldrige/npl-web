@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-03-30T09:04:01.029Z",
+  "fetchedAt": "2026-03-31T08:47:51.365Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1823,6 +1823,17 @@
       "age": 30
     },
     {
+      "ssTeam": "Chris Fargis",
+      "pin": 383,
+      "ssbb": 383,
+      "mlbam": 689296,
+      "firstName": "Anthony",
+      "lastName": "Nunez",
+      "pos": "SR",
+      "h": "R",
+      "age": 24
+    },
+    {
       "ssTeam": "Anthony Rescan",
       "pin": 397,
       "ssbb": 397,
@@ -2096,17 +2107,6 @@
       "pos": "C",
       "h": "L",
       "age": 30
-    },
-    {
-      "ssTeam": "Chris Fargis",
-      "pin": 429,
-      "ssbb": 429,
-      "mlbam": 668800,
-      "firstName": "Andrew",
-      "lastName": "Knizner",
-      "pos": "C",
-      "h": "R",
-      "age": 31
     },
     {
       "ssTeam": "JJ Jansons",
@@ -2505,6 +2505,17 @@
       "age": 28
     },
     {
+      "ssTeam": "Smith Brickner",
+      "pin": 517,
+      "ssbb": 517,
+      "mlbam": 677870,
+      "firstName": "Leo",
+      "lastName": "Jimenez",
+      "pos": "2B",
+      "h": "R",
+      "age": 24
+    },
+    {
       "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
       "pin": 528,
       "ssbb": 528,
@@ -2789,6 +2800,17 @@
       "pos": "SS",
       "h": "R",
       "age": 28
+    },
+    {
+      "ssTeam": "Jonathan Fass",
+      "pin": 568,
+      "ssbb": 568,
+      "mlbam": 686797,
+      "firstName": "Brooks",
+      "lastName": "Lee",
+      "pos": "SS",
+      "h": "B",
+      "age": 25
     },
     {
       "ssTeam": "Jeremy Bowers",
@@ -4252,6 +4274,17 @@
       "pos": "P",
       "h": "R",
       "age": 26
+    },
+    {
+      "ssTeam": "Michael Wagner / Bennett Karoll",
+      "pin": 1052,
+      "ssbb": 1052,
+      "mlbam": 687473,
+      "firstName": "Ryan",
+      "lastName": "Gusto",
+      "pos": "P",
+      "h": "R",
+      "age": 27
     },
     {
       "ssTeam": "Anthony Rescan",
@@ -5904,17 +5937,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Jonathan Fass",
-      "pin": 1438,
-      "ssbb": 1438,
-      "mlbam": 683734,
-      "firstName": "Andrew",
-      "lastName": "Vaughn",
-      "pos": "1B",
-      "h": "R",
-      "age": 28
-    },
-    {
       "ssTeam": "Pat Andriola / Andy Andres",
       "pin": 1439,
       "ssbb": 1439,
@@ -5935,6 +5957,17 @@
       "pos": "1B",
       "h": "L",
       "age": 30
+    },
+    {
+      "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
+      "pin": 1453,
+      "ssbb": 1453,
+      "mlbam": 691277,
+      "firstName": "Deyvison",
+      "lastName": "DeLosSantos",
+      "pos": "1B",
+      "h": "R",
+      "age": 22
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
@@ -6155,17 +6188,6 @@
       "pos": "2B",
       "h": "R",
       "age": 26
-    },
-    {
-      "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
-      "pin": 1480,
-      "ssbb": 1480,
-      "mlbam": 808975,
-      "firstName": "Hyeseong",
-      "lastName": "Kim",
-      "pos": "2B",
-      "h": "L",
-      "age": 27
     },
     {
       "ssTeam": "Jeremy Bowers",
@@ -6859,17 +6881,6 @@
       "pos": "OF",
       "h": "L",
       "age": 26
-    },
-    {
-      "ssTeam": "Smith Brickner",
-      "pin": 1622,
-      "ssbb": 1622,
-      "mlbam": 694192,
-      "firstName": "Jackson",
-      "lastName": "Chourio",
-      "pos": "OF",
-      "h": "R",
-      "age": 22
     },
     {
       "ssTeam": "Jonathan Fass",
@@ -7653,6 +7664,17 @@
       "age": 35
     },
     {
+      "ssTeam": "Jan Levine",
+      "pin": 4291,
+      "ssbb": 4291,
+      "mlbam": 664192,
+      "firstName": "Joey",
+      "lastName": "Lucchesi",
+      "pos": "SR",
+      "h": "L",
+      "age": 32
+    },
+    {
       "ssTeam": "Tommy Bennett / Jason Horwitz",
       "pin": 5002,
       "ssbb": 5002,
@@ -7838,6 +7860,17 @@
       "pos": "2B",
       "h": "R",
       "age": 31
+    },
+    {
+      "ssTeam": "Jonathan Fass",
+      "pin": 5165,
+      "ssbb": 5165,
+      "mlbam": 691021,
+      "firstName": "A.J.",
+      "lastName": "Vukovich",
+      "pos": "OF",
+      "h": "R",
+      "age": 24
     },
     {
       "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
