@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-02T08:46:01.544Z",
+  "fetchedAt": "2026-04-03T08:43:05.123Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -4243,17 +4243,6 @@
       "age": 30
     },
     {
-      "ssTeam": "Bob Kelly / Donovan Miller",
-      "pin": 1049,
-      "ssbb": 1049,
-      "mlbam": 668881,
-      "firstName": "Hunter",
-      "lastName": "Greene",
-      "pos": "P",
-      "h": "R",
-      "age": 26
-    },
-    {
       "ssTeam": "Jeremy Bowers",
       "pin": 1050,
       "ssbb": 1050,
@@ -5385,6 +5374,17 @@
       "pos": "SR",
       "h": "R",
       "age": 26
+    },
+    {
+      "ssTeam": "Bob Kelly / Donovan Miller",
+      "pin": 1309,
+      "ssbb": 1309,
+      "mlbam": 664141,
+      "firstName": "JT",
+      "lastName": "Brubaker",
+      "pos": "SR",
+      "h": "R",
+      "age": 32
     },
     {
       "ssTeam": "Jarrett Seidler",
