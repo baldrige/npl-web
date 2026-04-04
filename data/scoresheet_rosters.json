@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-03T08:43:05.123Z",
+  "fetchedAt": "2026-04-04T08:31:47.523Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1785,7 +1785,7 @@
       "mlbam": 696270,
       "firstName": "Ryan",
       "lastName": "Johnson",
-      "pos": "SR",
+      "pos": "P",
       "h": "R",
       "age": 23
     },
@@ -5481,7 +5481,7 @@
       "mlbam": 676571,
       "firstName": "PJ",
       "lastName": "Poulin",
-      "pos": "SR",
+      "pos": "P",
       "h": "L",
       "age": 29
     },
