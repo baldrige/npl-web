@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-08T08:52:45.238Z",
+  "fetchedAt": "2026-04-09T08:59:40.813Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -930,17 +930,6 @@
       "pos": "P",
       "h": "L",
       "age": 29
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 160,
-      "ssbb": 160,
-      "mlbam": 676710,
-      "firstName": "Kutter",
-      "lastName": "Crawford",
-      "pos": "P",
-      "h": "R",
-      "age": 30
     },
     {
       "ssTeam": "Renfei Tu",
@@ -2481,6 +2470,17 @@
       "pos": "2B",
       "h": "R",
       "age": 26
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 511,
+      "ssbb": 511,
+      "mlbam": 678391,
+      "firstName": "Jorbit",
+      "lastName": "Vivas",
+      "pos": "2B",
+      "h": "L",
+      "age": 25
     },
     {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
