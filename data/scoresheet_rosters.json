@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-09T08:59:40.813Z",
+  "fetchedAt": "2026-04-10T09:00:16.502Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -525,17 +525,6 @@
       "age": 30
     },
     {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 52,
-      "ssbb": 52,
-      "mlbam": 686563,
-      "firstName": "Jonathan",
-      "lastName": "Cannon",
-      "pos": "P",
-      "h": "R",
-      "age": 25
-    },
-    {
       "ssTeam": "Michael Wagner / Bennett Karoll",
       "pin": 54,
       "ssbb": 54,
@@ -567,17 +556,6 @@
       "pos": "P",
       "h": "L",
       "age": 28
-    },
-    {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 59,
-      "ssbb": 59,
-      "mlbam": 682243,
-      "firstName": "Bryce",
-      "lastName": "Miller",
-      "pos": "P",
-      "h": "R",
-      "age": 27
     },
     {
       "ssTeam": "Tommy Bennett / Jason Horwitz",
@@ -756,6 +734,17 @@
       "age": 37
     },
     {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 96,
+      "ssbb": 96,
+      "mlbam": 668984,
+      "firstName": "Casey",
+      "lastName": "Legumina",
+      "pos": "SR",
+      "h": "R",
+      "age": 28
+    },
+    {
       "ssTeam": "Tim Brooks/Danny Romanello",
       "pin": 104,
       "ssbb": 104,
@@ -877,17 +866,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 135,
-      "ssbb": 135,
-      "mlbam": 669620,
-      "firstName": "Brady",
-      "lastName": "Basso",
-      "pos": "SR",
-      "h": "L",
-      "age": 28
-    },
-    {
       "ssTeam": "Renfei Tu",
       "pin": 154,
       "ssbb": 154,
@@ -897,17 +875,6 @@
       "pos": "P",
       "h": "R",
       "age": 26
-    },
-    {
-      "ssTeam": "Bob Kelly / Donovan Miller",
-      "pin": 156,
-      "ssbb": 156,
-      "mlbam": 543037,
-      "firstName": "Gerrit(hurt)",
-      "lastName": "Cole",
-      "pos": "P",
-      "h": "R",
-      "age": 35
     },
     {
       "ssTeam": "Jonathan Fass",
@@ -4705,6 +4672,17 @@
       "age": 25
     },
     {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 1123,
+      "ssbb": 1123,
+      "mlbam": 660761,
+      "firstName": "Jose",
+      "lastName": "Suarez",
+      "pos": "P",
+      "h": "L",
+      "age": 28
+    },
+    {
       "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
       "pin": 1142,
       "ssbb": 1142,
@@ -4750,6 +4728,17 @@
     },
     {
       "ssTeam": "Jeremy Bowers",
+      "pin": 1171,
+      "ssbb": 1171,
+      "mlbam": 669165,
+      "firstName": "Kyle",
+      "lastName": "Hurt",
+      "pos": "P",
+      "h": "R",
+      "age": 27
+    },
+    {
+      "ssTeam": "Jeremy Bowers",
       "pin": 1172,
       "ssbb": 1172,
       "mlbam": 656492,
@@ -4769,6 +4758,17 @@
       "pos": "P",
       "h": "R",
       "age": 23
+    },
+    {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 1236,
+      "ssbb": 1236,
+      "mlbam": 623474,
+      "firstName": "Jimmy",
+      "lastName": "Herget",
+      "pos": "SR",
+      "h": "R",
+      "age": 32
     },
     {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
@@ -5816,15 +5816,15 @@
       "age": 27
     },
     {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 1425,
-      "ssbb": 1425,
-      "mlbam": 691620,
-      "firstName": "Jeferson",
-      "lastName": "Quero",
+      "ssTeam": "Bob Kelly / Donovan Miller",
+      "pin": 1420,
+      "ssbb": 1420,
+      "mlbam": 664954,
+      "firstName": "Brett",
+      "lastName": "Sullivan",
       "pos": "C",
-      "h": "R",
-      "age": 23
+      "h": "L",
+      "age": 32
     },
     {
       "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
@@ -6144,6 +6144,17 @@
       "pos": "2B",
       "h": "R",
       "age": 26
+    },
+    {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 1482,
+      "ssbb": 1482,
+      "mlbam": 690976,
+      "firstName": "Alex",
+      "lastName": "Freeland",
+      "pos": "2B",
+      "h": "B",
+      "age": 24
     },
     {
       "ssTeam": "Jeremy Bowers",
@@ -7453,17 +7464,6 @@
       "pos": "DH",
       "h": "R",
       "age": 35
-    },
-    {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 1798,
-      "ssbb": 1798,
-      "mlbam": 640470,
-      "firstName": "Adbert",
-      "lastName": "Alzolay",
-      "pos": "SR",
-      "h": "R",
-      "age": 31
     },
     {
       "ssTeam": "Chris Fargis",
