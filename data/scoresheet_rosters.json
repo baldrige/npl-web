@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-11T08:33:36.767Z",
+  "fetchedAt": "2026-04-12T08:38:29.119Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -2241,17 +2241,6 @@
       "age": 29
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 479,
-      "ssbb": 479,
-      "mlbam": 514888,
-      "firstName": "Jose",
-      "lastName": "Altuve",
-      "pos": "2B",
-      "h": "R",
-      "age": 35
-    },
-    {
       "ssTeam": "Smith Brickner",
       "pin": 480,
       "ssbb": 480,
@@ -3262,6 +3251,17 @@
       "pos": "OF",
       "h": "L",
       "age": 28
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 656,
+      "ssbb": 656,
+      "mlbam": 672761,
+      "firstName": "Wenceel",
+      "lastName": "Perez",
+      "pos": "OF",
+      "h": "B",
+      "age": 26
     },
     {
       "ssTeam": "Lukas Vlahos",
