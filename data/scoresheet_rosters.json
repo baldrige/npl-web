@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-12T08:38:29.119Z",
+  "fetchedAt": "2026-04-13T09:28:23.893Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -657,6 +657,17 @@
       "age": 29
     },
     {
+      "ssTeam": "Bret Sayre / Harry Pavlidis",
+      "pin": 81,
+      "ssbb": 81,
+      "mlbam": 642232,
+      "firstName": "Ryan",
+      "lastName": "Yarbrough",
+      "pos": "P",
+      "h": "L",
+      "age": 34
+    },
+    {
       "ssTeam": "Adam Halpin / Ben Neblock",
       "pin": 83,
       "ssbb": 83,
@@ -866,6 +877,17 @@
       "age": 28
     },
     {
+      "ssTeam": "Chris Fargis",
+      "pin": 128,
+      "ssbb": 128,
+      "mlbam": 669330,
+      "firstName": "Tyler",
+      "lastName": "Wells",
+      "pos": "P",
+      "h": "R",
+      "age": 31
+    },
+    {
       "ssTeam": "Renfei Tu",
       "pin": 154,
       "ssbb": 154,
@@ -919,6 +941,17 @@
       "pos": "P",
       "h": "R",
       "age": 26
+    },
+    {
+      "ssTeam": "Pat Andriola / Andy Andres",
+      "pin": 189,
+      "ssbb": 189,
+      "mlbam": 702273,
+      "firstName": "Noah",
+      "lastName": "Schultz",
+      "pos": "P",
+      "h": "L",
+      "age": 22
     },
     {
       "ssTeam": "Eric Marquez",
@@ -1713,17 +1746,6 @@
       "age": 27
     },
     {
-      "ssTeam": "JJ Jansons",
-      "pin": 346,
-      "ssbb": 346,
-      "mlbam": 696270,
-      "firstName": "Ryan",
-      "lastName": "Johnson",
-      "pos": "P",
-      "h": "R",
-      "age": 23
-    },
-    {
       "ssTeam": "Adam Halpin / Ben Neblock",
       "pin": 347,
       "ssbb": 347,
@@ -2241,6 +2263,17 @@
       "age": 29
     },
     {
+      "ssTeam": "Eric Marquez",
+      "pin": 479,
+      "ssbb": 479,
+      "mlbam": 514888,
+      "firstName": "Jose",
+      "lastName": "Altuve",
+      "pos": "2B",
+      "h": "R",
+      "age": 35
+    },
+    {
       "ssTeam": "Smith Brickner",
       "pin": 480,
       "ssbb": 480,
@@ -2382,6 +2415,17 @@
       "pos": "2B",
       "h": "R",
       "age": 27
+    },
+    {
+      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "pin": 500,
+      "ssbb": 500,
+      "mlbam": 666397,
+      "firstName": "Edouard",
+      "lastName": "Julien",
+      "pos": "2B",
+      "h": "L",
+      "age": 26
     },
     {
       "ssTeam": "Pat Andriola / Andy Andres",
@@ -2934,17 +2978,6 @@
       "age": 31
     },
     {
-      "ssTeam": "Chris Fargis",
-      "pin": 624,
-      "ssbb": 624,
-      "mlbam": 667670,
-      "firstName": "Brent",
-      "lastName": "Rooker",
-      "pos": "OF",
-      "h": "R",
-      "age": 31
-    },
-    {
       "ssTeam": "Tim Brooks/Danny Romanello",
       "pin": 625,
       "ssbb": 625,
@@ -3020,17 +3053,6 @@
       "pos": "OF",
       "h": "L",
       "age": 33
-    },
-    {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 632,
-      "ssbb": 632,
-      "mlbam": 671732,
-      "firstName": "Lawrence",
-      "lastName": "Butler",
-      "pos": "OF",
-      "h": "L",
-      "age": 25
     },
     {
       "ssTeam": "JJ Jansons",
@@ -3416,17 +3438,6 @@
       "pos": "OF",
       "h": "R",
       "age": 35
-    },
-    {
-      "ssTeam": "Chris Fargis",
-      "pin": 674,
-      "ssbb": 674,
-      "mlbam": 641933,
-      "firstName": "Tyler",
-      "lastName": "O'Neill",
-      "pos": "OF",
-      "h": "R",
-      "age": 30
     },
     {
       "ssTeam": "Lukas Vlahos",
@@ -4131,17 +4142,6 @@
       "pos": "P",
       "h": "R",
       "age": 27
-    },
-    {
-      "ssTeam": "Bret Sayre / Harry Pavlidis",
-      "pin": 1044,
-      "ssbb": 1044,
-      "mlbam": 690990,
-      "firstName": "Cade",
-      "lastName": "Horton",
-      "pos": "P",
-      "h": "R",
-      "age": 24
     },
     {
       "ssTeam": "Chris Fargis",
@@ -4969,17 +4969,6 @@
       "age": 32
     },
     {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
-      "pin": 1258,
-      "ssbb": 1258,
-      "mlbam": 657649,
-      "firstName": "Jared",
-      "lastName": "Koenig",
-      "pos": "SR",
-      "h": "L",
-      "age": 32
-    },
-    {
       "ssTeam": "Anthony Rescan",
       "pin": 1259,
       "ssbb": 1259,
@@ -4989,6 +4978,17 @@
       "pos": "SR",
       "h": "R",
       "age": 28
+    },
+    {
+      "ssTeam": "Chris Fargis",
+      "pin": 1260,
+      "ssbb": 1260,
+      "mlbam": 592094,
+      "firstName": "Jason",
+      "lastName": "Adam",
+      "pos": "SR",
+      "h": "R",
+      "age": 34
     },
     {
       "ssTeam": "JJ Jansons",
@@ -5299,6 +5299,17 @@
       "age": 29
     },
     {
+      "ssTeam": "JJ Jansons",
+      "pin": 1298,
+      "ssbb": 1298,
+      "mlbam": 689266,
+      "firstName": "Dylan",
+      "lastName": "Dodd",
+      "pos": "SR",
+      "h": "L",
+      "age": 27
+    },
+    {
       "ssTeam": "Renfei Tu",
       "pin": 1300,
       "ssbb": 1300,
@@ -5484,17 +5495,6 @@
       "pos": "SR",
       "h": "R",
       "age": 27
-    },
-    {
-      "ssTeam": "Chris Fargis",
-      "pin": 1343,
-      "ssbb": 1343,
-      "mlbam": 640451,
-      "firstName": "Hunter",
-      "lastName": "Harvey",
-      "pos": "SR",
-      "h": "R",
-      "age": 31
     },
     {
       "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
@@ -6344,17 +6344,6 @@
       "age": 26
     },
     {
-      "ssTeam": "Pat Andriola / Andy Andres",
-      "pin": 1514,
-      "ssbb": 1514,
-      "mlbam": 628451,
-      "firstName": "Andy",
-      "lastName": "Ibanez",
-      "pos": "3B",
-      "h": "R",
-      "age": 32
-    },
-    {
       "ssTeam": "Jan Levine",
       "pin": 1515,
       "ssbb": 1515,
@@ -6595,6 +6584,17 @@
       "pos": "SS",
       "h": "R",
       "age": 23
+    },
+    {
+      "ssTeam": "Chris Fargis",
+      "pin": 1555,
+      "ssbb": 1555,
+      "mlbam": 690022,
+      "firstName": "Ryan",
+      "lastName": "Ritter",
+      "pos": "SS",
+      "h": "R",
+      "age": 25
     },
     {
       "ssTeam": "Lukas Vlahos",
@@ -7037,6 +7037,17 @@
       "age": 28
     },
     {
+      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "pin": 1642,
+      "ssbb": 1642,
+      "mlbam": 671289,
+      "firstName": "Tyler",
+      "lastName": "Freeman",
+      "pos": "OF",
+      "h": "R",
+      "age": 26
+    },
+    {
       "ssTeam": "Michael Wagner / Bennett Karoll",
       "pin": 1643,
       "ssbb": 1643,
@@ -7224,17 +7235,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Chris Fargis",
-      "pin": 1670,
-      "ssbb": 1670,
-      "mlbam": 665052,
-      "firstName": "Griffin",
-      "lastName": "Conine",
-      "pos": "OF",
-      "h": "L",
-      "age": 28
-    },
-    {
       "ssTeam": "Adam Halpin / Ben Neblock",
       "pin": 1671,
       "ssbb": 1671,
@@ -7299,6 +7299,17 @@
       "pos": "OF",
       "h": "L",
       "age": 24
+    },
+    {
+      "ssTeam": "Chris Fargis",
+      "pin": 1682,
+      "ssbb": 1682,
+      "mlbam": 683357,
+      "firstName": "Owen",
+      "lastName": "Caissie",
+      "pos": "OF",
+      "h": "L",
+      "age": 23
     },
     {
       "ssTeam": "Jeremy Bowers",
@@ -7387,6 +7398,17 @@
       "pos": "DH",
       "h": "L",
       "age": 22
+    },
+    {
+      "ssTeam": "Lukas Vlahos",
+      "pin": 1740,
+      "ssbb": 1740,
+      "mlbam": 676724,
+      "firstName": "Jared",
+      "lastName": "Young",
+      "pos": "DH",
+      "h": "L",
+      "age": 30
     },
     {
       "ssTeam": "Jeffrey Bona",
@@ -7706,17 +7728,6 @@
       "pos": "P",
       "h": "R",
       "age": 30
-    },
-    {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
-      "pin": 5045,
-      "ssbb": 5045,
-      "mlbam": 467793,
-      "firstName": "Carlos",
-      "lastName": "Santana",
-      "pos": "1B",
-      "h": "B",
-      "age": 40
     },
     {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
