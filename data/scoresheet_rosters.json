@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-14T09:09:45.958Z",
+  "fetchedAt": "2026-04-15T09:11:06.403Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -2153,7 +2153,7 @@
       "age": 28
     },
     {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "ssTeam": "Lukas Vlahos",
       "pin": 461,
       "ssbb": 461,
       "mlbam": 575929,
@@ -2978,17 +2978,6 @@
       "age": 21
     },
     {
-      "ssTeam": "Trevor Vernola",
-      "pin": 622,
-      "ssbb": 622,
-      "mlbam": 677594,
-      "firstName": "Julio",
-      "lastName": "Rodriguez(Sea)",
-      "pos": "OF",
-      "h": "R",
-      "age": 25
-    },
-    {
       "ssTeam": "Tim Brooks/Danny Romanello",
       "pin": 623,
       "ssbb": 623,
@@ -3022,7 +3011,7 @@
       "age": 28
     },
     {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "ssTeam": "Trevor Vernola",
       "pin": 627,
       "ssbb": 627,
       "mlbam": 592450,
@@ -3814,7 +3803,7 @@
       "age": 37
     },
     {
-      "ssTeam": "Lukas Vlahos",
+      "ssTeam": "Trevor Vernola",
       "pin": 1005,
       "ssbb": 1005,
       "mlbam": 666200,
@@ -4210,7 +4199,7 @@
       "age": 33
     },
     {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "ssTeam": "Lukas Vlahos",
       "pin": 1048,
       "ssbb": 1048,
       "mlbam": 676083,
@@ -4395,17 +4384,6 @@
       "pos": "P",
       "h": "L",
       "age": 27
-    },
-    {
-      "ssTeam": "Trevor Vernola",
-      "pin": 1072,
-      "ssbb": 1072,
-      "mlbam": 680736,
-      "firstName": "Justin",
-      "lastName": "Wrobleski",
-      "pos": "P",
-      "h": "L",
-      "age": 25
     },
     {
       "ssTeam": "Adam Halpin / Ben Neblock",
@@ -5893,17 +5871,6 @@
       "age": 33
     },
     {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 1437,
-      "ssbb": 1437,
-      "mlbam": 668715,
-      "firstName": "Spencer",
-      "lastName": "Steer",
-      "pos": "1B",
-      "h": "R",
-      "age": 28
-    },
-    {
       "ssTeam": "Pat Andriola / Andy Andres",
       "pin": 1439,
       "ssbb": 1439,
@@ -7376,17 +7343,6 @@
       "pos": "DH",
       "h": "L",
       "age": 22
-    },
-    {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 1740,
-      "ssbb": 1740,
-      "mlbam": 676724,
-      "firstName": "Jared",
-      "lastName": "Young",
-      "pos": "DH",
-      "h": "L",
-      "age": 30
     },
     {
       "ssTeam": "Jeffrey Bona",
