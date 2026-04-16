@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-15T09:11:06.403Z",
+  "fetchedAt": "2026-04-16T09:10:17.195Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -3297,17 +3297,6 @@
       "age": 26
     },
     {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 657,
-      "ssbb": 657,
-      "mlbam": 676694,
-      "firstName": "Jake",
-      "lastName": "Meyers",
-      "pos": "OF",
-      "h": "R",
-      "age": 29
-    },
-    {
       "ssTeam": "Eric Marquez",
       "pin": 658,
       "ssbb": 658,
@@ -5869,6 +5858,17 @@
       "pos": "1B",
       "h": "L",
       "age": 33
+    },
+    {
+      "ssTeam": "Lukas Vlahos",
+      "pin": 1437,
+      "ssbb": 1437,
+      "mlbam": 668715,
+      "firstName": "Spencer",
+      "lastName": "Steer",
+      "pos": "1B",
+      "h": "R",
+      "age": 28
     },
     {
       "ssTeam": "Pat Andriola / Andy Andres",
