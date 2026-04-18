@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-17T09:08:42.967Z",
+  "fetchedAt": "2026-04-18T08:39:17.953Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1257,7 +1257,7 @@
       "mlbam": 673929,
       "firstName": "Jordan",
       "lastName": "Leasure",
-      "pos": "SR",
+      "pos": "P",
       "h": "R",
       "age": 27
     },
@@ -1697,7 +1697,7 @@
       "mlbam": 642121,
       "firstName": "Cole",
       "lastName": "Sulser",
-      "pos": "SR",
+      "pos": "P",
       "h": "R",
       "age": 36
     },
@@ -2228,17 +2228,6 @@
       "pos": "1B",
       "h": "R",
       "age": 30
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 468,
-      "ssbb": 468,
-      "mlbam": 663624,
-      "firstName": "Ryan",
-      "lastName": "Mountcastle",
-      "pos": "1B",
-      "h": "R",
-      "age": 29
     },
     {
       "ssTeam": "Eric Marquez",
@@ -3099,7 +3088,7 @@
       "age": 36
     },
     {
-      "ssTeam": "Smith Brickner",
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
       "pin": 636,
       "ssbb": 636,
       "mlbam": 666176,
@@ -3743,7 +3732,7 @@
       "mlbam": 608718,
       "firstName": "Brent",
       "lastName": "Suter",
-      "pos": "SR",
+      "pos": "P",
       "h": "L",
       "age": 36
     },
@@ -4232,7 +4221,7 @@
       "age": 27
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "ssTeam": "Smith Brickner",
       "pin": 1055,
       "ssbb": 1055,
       "mlbam": 801403,
@@ -5261,7 +5250,7 @@
       "mlbam": 682254,
       "firstName": "Mason",
       "lastName": "Montgomery",
-      "pos": "SR",
+      "pos": "P",
       "h": "L",
       "age": 25
     },
