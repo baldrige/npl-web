@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-18T08:39:17.953Z",
+  "fetchedAt": "2026-04-19T08:43:10.494Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -6949,6 +6949,17 @@
       "age": 27
     },
     {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 1638,
+      "ssbb": 1638,
+      "mlbam": 669065,
+      "firstName": "Kyle",
+      "lastName": "Stowers",
+      "pos": "OF",
+      "h": "L",
+      "age": 28
+    },
+    {
       "ssTeam": "Smith Brickner",
       "pin": 1639,
       "ssbb": 1639,
@@ -7219,17 +7230,6 @@
       "mlbam": 691728,
       "firstName": "Zac",
       "lastName": "Veen",
-      "pos": "OF",
-      "h": "L",
-      "age": 24
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 1680,
-      "ssbb": 1680,
-      "mlbam": 683748,
-      "firstName": "VictorJr.",
-      "lastName": "Mesa",
       "pos": "OF",
       "h": "L",
       "age": 24
