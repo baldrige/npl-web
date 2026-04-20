@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-19T08:43:10.494Z",
+  "fetchedAt": "2026-04-20T09:49:45.235Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -30,7 +30,7 @@
   ],
   "rosters": [
     {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "ssTeam": "Smith Brickner",
       "pin": 1,
       "ssbb": 1,
       "mlbam": 676979,
@@ -3088,17 +3088,6 @@
       "age": 36
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 636,
-      "ssbb": 636,
-      "mlbam": 666176,
-      "firstName": "Jo",
-      "lastName": "Adell",
-      "pos": "OF",
-      "h": "R",
-      "age": 27
-    },
-    {
       "ssTeam": "JJ Jansons",
       "pin": 637,
       "ssbb": 637,
@@ -3592,6 +3581,17 @@
       "pos": "OF",
       "h": "R",
       "age": 27
+    },
+    {
+      "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
+      "pin": 711,
+      "ssbb": 711,
+      "mlbam": 671655,
+      "firstName": "George",
+      "lastName": "Valera",
+      "pos": "OF",
+      "h": "L",
+      "age": 25
     },
     {
       "ssTeam": "Smith Brickner",
@@ -4128,17 +4128,6 @@
       "mlbam": 605288,
       "firstName": "Adrian",
       "lastName": "Houser",
-      "pos": "P",
-      "h": "R",
-      "age": 33
-    },
-    {
-      "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
-      "pin": 1042,
-      "ssbb": 1042,
-      "mlbam": 592836,
-      "firstName": "Taijuan",
-      "lastName": "Walker",
       "pos": "P",
       "h": "R",
       "age": 33
@@ -4727,6 +4716,17 @@
       "age": 24
     },
     {
+      "ssTeam": "JJ Jansons",
+      "pin": 1167,
+      "ssbb": 1167,
+      "mlbam": 668873,
+      "firstName": "Caleb",
+      "lastName": "Kilian",
+      "pos": "P",
+      "h": "R",
+      "age": 28
+    },
+    {
       "ssTeam": "Jeremy Bowers",
       "pin": 1171,
       "ssbb": 1171,
@@ -5167,17 +5167,6 @@
       "age": 32
     },
     {
-      "ssTeam": "Smith Brickner",
-      "pin": 1283,
-      "ssbb": 1283,
-      "mlbam": 694037,
-      "firstName": "Daniel",
-      "lastName": "Palencia",
-      "pos": "SR",
-      "h": "R",
-      "age": 26
-    },
-    {
       "ssTeam": "Jan Levine",
       "pin": 1284,
       "ssbb": 1284,
@@ -5275,17 +5264,6 @@
       "pos": "SR",
       "h": "R",
       "age": 29
-    },
-    {
-      "ssTeam": "JJ Jansons",
-      "pin": 1298,
-      "ssbb": 1298,
-      "mlbam": 689266,
-      "firstName": "Dylan",
-      "lastName": "Dodd",
-      "pos": "SR",
-      "h": "L",
-      "age": 27
     },
     {
       "ssTeam": "Renfei Tu",
@@ -5888,17 +5866,6 @@
       "mlbam": 701398,
       "firstName": "Sal",
       "lastName": "Stewart",
-      "pos": "1B",
-      "h": "R",
-      "age": 22
-    },
-    {
-      "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
-      "pin": 1453,
-      "ssbb": 1453,
-      "mlbam": 691277,
-      "firstName": "Deyvison",
-      "lastName": "DeLosSantos",
       "pos": "1B",
       "h": "R",
       "age": 22
@@ -6608,6 +6575,17 @@
       "age": 19
     },
     {
+      "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
+      "pin": 1604,
+      "ssbb": 1604,
+      "mlbam": 665742,
+      "firstName": "Juan",
+      "lastName": "Soto",
+      "pos": "OF",
+      "h": "L",
+      "age": 27
+    },
+    {
       "ssTeam": "Smith Brickner",
       "pin": 1605,
       "ssbb": 1605,
@@ -7222,6 +7200,17 @@
       "pos": "OF",
       "h": "R",
       "age": 28
+    },
+    {
+      "ssTeam": "Smith Brickner",
+      "pin": 1678,
+      "ssbb": 1678,
+      "mlbam": 677956,
+      "firstName": "Rece",
+      "lastName": "Hinds",
+      "pos": "OF",
+      "h": "R",
+      "age": 25
     },
     {
       "ssTeam": "Eric Marquez",
