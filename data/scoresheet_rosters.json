@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-21T09:17:54.391Z",
+  "fetchedAt": "2026-04-22T09:12:28.819Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -151,7 +151,7 @@
       "age": 37
     },
     {
-      "ssTeam": "Michael Wagner / Bennett Karoll",
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
       "pin": 14,
       "ssbb": 14,
       "mlbam": 665152,
@@ -842,6 +842,17 @@
       "pos": "P",
       "h": "R",
       "age": 29
+    },
+    {
+      "ssTeam": "Anthony Rescan",
+      "pin": 112,
+      "ssbb": 112,
+      "mlbam": 690986,
+      "firstName": "Kyle",
+      "lastName": "Harrison",
+      "pos": "P",
+      "h": "L",
+      "age": 24
     },
     {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
@@ -1744,6 +1755,17 @@
       "pos": "SR",
       "h": "R",
       "age": 28
+    },
+    {
+      "ssTeam": "Anthony Rescan",
+      "pin": 353,
+      "ssbb": 353,
+      "mlbam": 681217,
+      "firstName": "Chase",
+      "lastName": "Silseth",
+      "pos": "SR",
+      "h": "R",
+      "age": 25
     },
     {
       "ssTeam": "Anthony Rescan",
@@ -4285,17 +4307,6 @@
       "pos": "P",
       "h": "R",
       "age": 31
-    },
-    {
-      "ssTeam": "Anthony Rescan",
-      "pin": 1064,
-      "ssbb": 1064,
-      "mlbam": 676508,
-      "firstName": "Ben",
-      "lastName": "Casparius",
-      "pos": "P",
-      "h": "R",
-      "age": 27
     },
     {
       "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
@@ -6861,7 +6872,7 @@
       "age": 31
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "ssTeam": "Michael Wagner / Bennett Karoll",
       "pin": 1634,
       "ssbb": 1634,
       "mlbam": 657656,
@@ -7431,17 +7442,6 @@
       "pos": "P",
       "h": "R",
       "age": 35
-    },
-    {
-      "ssTeam": "Anthony Rescan",
-      "pin": 4054,
-      "ssbb": 4054,
-      "mlbam": 434378,
-      "firstName": "Justin",
-      "lastName": "Verlander",
-      "pos": "P",
-      "h": "R",
-      "age": 43
     },
     {
       "ssTeam": "Jarrett Seidler",
