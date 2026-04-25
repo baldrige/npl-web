@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-24T09:23:08.266Z",
+  "fetchedAt": "2026-04-25T08:42:16.959Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -5382,7 +5382,7 @@
       "mlbam": 679775,
       "firstName": "Kyle",
       "lastName": "Backhus",
-      "pos": "SR",
+      "pos": "P",
       "h": "L",
       "age": 28
     },
@@ -6832,7 +6832,7 @@
       "pin": 1631,
       "ssbb": 1631,
       "mlbam": 666971,
-      "firstName": "Lourdes(hurt)",
+      "firstName": "Lourdes",
       "lastName": "Gurriel",
       "pos": "OF",
       "h": "R",
