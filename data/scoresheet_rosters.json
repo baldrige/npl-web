@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-25T08:42:16.959Z",
+  "fetchedAt": "2026-04-26T08:50:34.834Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -787,17 +787,6 @@
       "pos": "P",
       "h": "R",
       "age": 32
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 107,
-      "ssbb": 107,
-      "mlbam": 690953,
-      "firstName": "Mick",
-      "lastName": "Abel",
-      "pos": "P",
-      "h": "R",
-      "age": 24
     },
     {
       "ssTeam": "Smith Brickner",
@@ -2879,17 +2868,6 @@
       "age": 33
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 575,
-      "ssbb": 575,
-      "mlbam": 669397,
-      "firstName": "Nick",
-      "lastName": "Allen",
-      "pos": "SS",
-      "h": "R",
-      "age": 27
-    },
-    {
       "ssTeam": "Tim Brooks/Danny Romanello",
       "pin": 576,
       "ssbb": 576,
@@ -3416,6 +3394,17 @@
       "pos": "OF",
       "h": "L",
       "age": 28
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 676,
+      "ssbb": 676,
+      "mlbam": 664059,
+      "firstName": "Sam",
+      "lastName": "Haggerty",
+      "pos": "OF",
+      "h": "B",
+      "age": 31
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
@@ -5858,6 +5847,17 @@
       "pos": "1B",
       "h": "R",
       "age": 22
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1450,
+      "ssbb": 1450,
+      "mlbam": 672012,
+      "firstName": "Tyler",
+      "lastName": "Black",
+      "pos": "1B",
+      "h": "L",
+      "age": 25
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
