@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-29T09:58:11.340Z",
+  "fetchedAt": "2026-04-30T09:59:08.769Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -201,17 +201,6 @@
       "mlbam": 668909,
       "firstName": "Gavin",
       "lastName": "Williams",
-      "pos": "P",
-      "h": "R",
-      "age": 26
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 21,
-      "ssbb": 21,
-      "mlbam": 678394,
-      "firstName": "Brayan",
-      "lastName": "Bello",
       "pos": "P",
       "h": "R",
       "age": 26
@@ -1009,6 +998,17 @@
       "age": 25
     },
     {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 224,
+      "ssbb": 224,
+      "mlbam": 695684,
+      "firstName": "Elmer",
+      "lastName": "Rodriguez",
+      "pos": "P",
+      "h": "R",
+      "age": 22
+    },
+    {
       "ssTeam": "Jarrett Seidler",
       "pin": 245,
       "ssbb": 245,
@@ -1601,17 +1601,6 @@
       "pos": "SR",
       "h": "R",
       "age": 27
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 320,
-      "ssbb": 320,
-      "mlbam": 677161,
-      "firstName": "Zack",
-      "lastName": "Kelly",
-      "pos": "SR",
-      "h": "R",
-      "age": 31
     },
     {
       "ssTeam": "Jeremy Bowers",
@@ -3858,7 +3847,7 @@
       "age": 30
     },
     {
-      "ssTeam": "Lukas Vlahos",
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
       "pin": 1013,
       "ssbb": 1013,
       "mlbam": 645261,
@@ -7554,6 +7543,17 @@
       "age": 32
     },
     {
+      "ssTeam": "Adam Halpin / Ben Neblock",
+      "pin": 4309,
+      "ssbb": 4309,
+      "mlbam": null,
+      "firstName": "Gavin",
+      "lastName": "Collyer",
+      "pos": "SR",
+      "h": "R",
+      "age": 24
+    },
+    {
       "ssTeam": "Tommy Bennett / Jason Horwitz",
       "pin": 5002,
       "ssbb": 5002,
@@ -7629,6 +7629,17 @@
       "pos": "P",
       "h": "R",
       "age": 30
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 5056,
+      "ssbb": 5056,
+      "mlbam": 669004,
+      "firstName": "MJ",
+      "lastName": "Melendez",
+      "pos": "OF",
+      "h": "L",
+      "age": 27
     },
     {
       "ssTeam": "Jeremy Bowers",
