@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-04-30T09:59:08.769Z",
+  "fetchedAt": "2026-05-01T09:26:18.184Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1548,17 +1548,6 @@
       "age": 27
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 311,
-      "ssbb": 311,
-      "mlbam": 668390,
-      "firstName": "Cole",
-      "lastName": "Winn",
-      "pos": "SR",
-      "h": "R",
-      "age": 26
-    },
-    {
       "ssTeam": "Michael Wagner / Bennett Karoll",
       "pin": 312,
       "ssbb": 312,
@@ -1601,6 +1590,17 @@
       "pos": "SR",
       "h": "R",
       "age": 27
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 320,
+      "ssbb": 320,
+      "mlbam": 677161,
+      "firstName": "Zack",
+      "lastName": "Kelly",
+      "pos": "SR",
+      "h": "R",
+      "age": 31
     },
     {
       "ssTeam": "Jeremy Bowers",
@@ -5541,7 +5541,7 @@
       "age": 31
     },
     {
-      "ssTeam": "Smith Brickner",
+      "ssTeam": "Anthony Rescan",
       "pin": 1393,
       "ssbb": 1393,
       "mlbam": 689414,
