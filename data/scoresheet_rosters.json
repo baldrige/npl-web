@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-02T08:57:29.711Z",
+  "fetchedAt": "2026-05-03T09:14:32.335Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -182,17 +182,6 @@
       "pos": "P",
       "h": "R",
       "age": 30
-    },
-    {
-      "ssTeam": "Eric Marquez",
-      "pin": 19,
-      "ssbb": 19,
-      "mlbam": 686752,
-      "firstName": "Ryan",
-      "lastName": "Pepiot",
-      "pos": "P",
-      "h": "R",
-      "age": 28
     },
     {
       "ssTeam": "Smith Brickner",
@@ -382,6 +371,17 @@
       "age": 26
     },
     {
+      "ssTeam": "Anthony Rescan",
+      "pin": 40,
+      "ssbb": 40,
+      "mlbam": 677944,
+      "firstName": "Slade",
+      "lastName": "Cecconi",
+      "pos": "P",
+      "h": "R",
+      "age": 26
+    },
+    {
       "ssTeam": "Jonathan Fass",
       "pin": 41,
       "ssbb": 41,
@@ -443,6 +443,17 @@
       "mlbam": 680573,
       "firstName": "Simeon",
       "lastName": "WoodsRichardson",
+      "pos": "P",
+      "h": "R",
+      "age": 25
+    },
+    {
+      "ssTeam": "Eric Marquez",
+      "pin": 49,
+      "ssbb": 49,
+      "mlbam": 686799,
+      "firstName": "Jack",
+      "lastName": "Kochanowicz",
       "pos": "P",
       "h": "R",
       "age": 25
@@ -4342,17 +4353,6 @@
       "age": 24
     },
     {
-      "ssTeam": "Anthony Rescan",
-      "pin": 1076,
-      "ssbb": 1076,
-      "mlbam": 605540,
-      "firstName": "Brandon",
-      "lastName": "Woodruff",
-      "pos": "P",
-      "h": "R",
-      "age": 33
-    },
-    {
       "ssTeam": "Trevor Vernola",
       "pin": 1077,
       "ssbb": 1077,
@@ -5044,17 +5044,6 @@
       "pos": "SR",
       "h": "L",
       "age": 31
-    },
-    {
-      "ssTeam": "Anthony Rescan",
-      "pin": 1271,
-      "ssbb": 1271,
-      "mlbam": 664126,
-      "firstName": "Pete",
-      "lastName": "Fairbanks",
-      "pos": "P",
-      "h": "R",
-      "age": 32
     },
     {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
