@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-08T09:06:23.950Z",
+  "fetchedAt": "2026-05-09T09:09:27.151Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1114,7 +1114,7 @@
       "mlbam": 595345,
       "firstName": "Steven",
       "lastName": "Okert",
-      "pos": "SR",
+      "pos": "P",
       "h": "L",
       "age": 34
     },
@@ -1741,7 +1741,7 @@
       "mlbam": 663558,
       "firstName": "Jovani",
       "lastName": "Moran",
-      "pos": "SR",
+      "pos": "P",
       "h": "L",
       "age": 29
     },
@@ -5382,7 +5382,7 @@
       "mlbam": 699134,
       "firstName": "Bradgley",
       "lastName": "Rodriguez",
-      "pos": "SR",
+      "pos": "P",
       "h": "R",
       "age": 22
     },
@@ -6982,7 +6982,7 @@
       "age": 32
     },
     {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "ssTeam": "Anthony Rescan",
       "pin": 1651,
       "ssbb": 1651,
       "mlbam": 667472,
@@ -7136,7 +7136,7 @@
       "age": 25
     },
     {
-      "ssTeam": "Anthony Rescan",
+      "ssTeam": "Renfei Tu",
       "pin": 1676,
       "ssbb": 1676,
       "mlbam": 686894,
