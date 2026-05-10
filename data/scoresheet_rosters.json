@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-09T09:09:27.151Z",
+  "fetchedAt": "2026-05-10T09:22:39.430Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1955,17 +1955,6 @@
       "age": 29
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 416,
-      "ssbb": 416,
-      "mlbam": 518595,
-      "firstName": "Travis",
-      "lastName": "D'Arnaud",
-      "pos": "C",
-      "h": "R",
-      "age": 37
-    },
-    {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
       "pin": 418,
       "ssbb": 418,
@@ -2822,6 +2811,17 @@
       "pos": "SS",
       "h": "R",
       "age": 33
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 575,
+      "ssbb": 575,
+      "mlbam": 669397,
+      "firstName": "Nick",
+      "lastName": "Allen",
+      "pos": "SS",
+      "h": "R",
+      "age": 27
     },
     {
       "ssTeam": "Tim Brooks/Danny Romanello",
@@ -4881,6 +4881,17 @@
       "age": 32
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1263,
+      "ssbb": 1263,
+      "mlbam": 673513,
+      "firstName": "Yuki",
+      "lastName": "Matsui",
+      "pos": "SR",
+      "h": "L",
+      "age": 30
+    },
+    {
       "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
       "pin": 1264,
       "ssbb": 1264,
@@ -6231,17 +6242,6 @@
       "lastName": "Mauricio",
       "pos": "3B",
       "h": "B",
-      "age": 25
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1516,
-      "ssbb": 1516,
-      "mlbam": 688363,
-      "firstName": "Graham",
-      "lastName": "Pauley",
-      "pos": "3B",
-      "h": "L",
       "age": 25
     },
     {
