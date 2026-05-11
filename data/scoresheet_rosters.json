@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-10T09:22:39.430Z",
+  "fetchedAt": "2026-05-11T10:53:32.477Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -404,17 +404,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Renfei Tu",
-      "pin": 44,
-      "ssbb": 44,
-      "mlbam": 663559,
-      "firstName": "Bailey",
-      "lastName": "Falter",
-      "pos": "P",
-      "h": "L",
-      "age": 29
-    },
-    {
       "ssTeam": "Jan Levine",
       "pin": 45,
       "ssbb": 45,
@@ -591,17 +580,6 @@
       "age": 25
     },
     {
-      "ssTeam": "Bob Kelly / Donovan Miller",
-      "pin": 76,
-      "ssbb": 76,
-      "mlbam": 681857,
-      "firstName": "Reese(out/2026)",
-      "lastName": "Olson",
-      "pos": "P",
-      "h": "R",
-      "age": 26
-    },
-    {
       "ssTeam": "Jeffrey Bona",
       "pin": 77,
       "ssbb": 77,
@@ -655,17 +633,6 @@
       "pos": "SR",
       "h": "L",
       "age": 27
-    },
-    {
-      "ssTeam": "Jan Levine",
-      "pin": 85,
-      "ssbb": 85,
-      "mlbam": 666142,
-      "firstName": "Cole",
-      "lastName": "Ragans",
-      "pos": "P",
-      "h": "L",
-      "age": 28
     },
     {
       "ssTeam": "Matthew Yaspan/Skyler Kanfer",
@@ -886,6 +853,28 @@
       "pos": "P",
       "h": "R",
       "age": 22
+    },
+    {
+      "ssTeam": "Renfei Tu",
+      "pin": 140,
+      "ssbb": 140,
+      "mlbam": 669947,
+      "firstName": "Jesse",
+      "lastName": "Scholtens",
+      "pos": "P",
+      "h": "R",
+      "age": 32
+    },
+    {
+      "ssTeam": "Bob Kelly / Donovan Miller",
+      "pin": 156,
+      "ssbb": 156,
+      "mlbam": 543037,
+      "firstName": "Gerrit(hurt)",
+      "lastName": "Cole",
+      "pos": "P",
+      "h": "R",
+      "age": 35
     },
     {
       "ssTeam": "Adam Halpin / Ben Neblock",
@@ -1711,6 +1700,17 @@
       "pos": "SR",
       "h": "R",
       "age": 26
+    },
+    {
+      "ssTeam": "Jan Levine",
+      "pin": 342,
+      "ssbb": 342,
+      "mlbam": 663542,
+      "firstName": "Bryan",
+      "lastName": "Hudson",
+      "pos": "P",
+      "h": "L",
+      "age": 28
     },
     {
       "ssTeam": "Eric Marquez",
@@ -6837,17 +6837,6 @@
       "pos": "OF",
       "h": "L",
       "age": 22
-    },
-    {
-      "ssTeam": "Renfei Tu",
-      "pin": 1636,
-      "ssbb": 1636,
-      "mlbam": 677950,
-      "firstName": "Alek",
-      "lastName": "Thomas",
-      "pos": "OF",
-      "h": "L",
-      "age": 26
     },
     {
       "ssTeam": "Tim Brooks/Danny Romanello",
