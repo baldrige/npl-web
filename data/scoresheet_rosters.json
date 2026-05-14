@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-13T10:14:05.138Z",
+  "fetchedAt": "2026-05-14T10:06:40.963Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -3407,17 +3407,6 @@
       "age": 23
     },
     {
-      "ssTeam": "Eric Marquez",
-      "pin": 682,
-      "ssbb": 682,
-      "mlbam": 672016,
-      "firstName": "Denzel",
-      "lastName": "Clarke",
-      "pos": "OF",
-      "h": "R",
-      "age": 25
-    },
-    {
       "ssTeam": "Tommy Bennett / Jason Horwitz",
       "pin": 683,
       "ssbb": 683,
@@ -6595,6 +6584,17 @@
       "pos": "OF",
       "h": "B",
       "age": 31
+    },
+    {
+      "ssTeam": "Eric Marquez",
+      "pin": 1611,
+      "ssbb": 1611,
+      "mlbam": 592885,
+      "firstName": "Christian",
+      "lastName": "Yelich",
+      "pos": "OF",
+      "h": "L",
+      "age": 34
     },
     {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
