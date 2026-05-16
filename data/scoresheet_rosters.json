@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-15T10:13:23.557Z",
+  "fetchedAt": "2026-05-16T09:22:48.599Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -201,6 +201,17 @@
       "mlbam": 668909,
       "firstName": "Gavin",
       "lastName": "Williams",
+      "pos": "P",
+      "h": "R",
+      "age": 26
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 21,
+      "ssbb": 21,
+      "mlbam": 678394,
+      "firstName": "Brayan",
+      "lastName": "Bello",
       "pos": "P",
       "h": "R",
       "age": 26
@@ -1042,17 +1053,6 @@
       "age": 25
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 224,
-      "ssbb": 224,
-      "mlbam": 695684,
-      "firstName": "Elmer",
-      "lastName": "Rodriguez",
-      "pos": "P",
-      "h": "R",
-      "age": 22
-    },
-    {
       "ssTeam": "Jarrett Seidler",
       "pin": 245,
       "ssbb": 245,
@@ -1224,7 +1224,7 @@
       "mlbam": 596001,
       "firstName": "Jakob",
       "lastName": "Junis",
-      "pos": "SR",
+      "pos": "P",
       "h": "R",
       "age": 33
     },
