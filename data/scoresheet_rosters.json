@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-16T09:22:48.599Z",
+  "fetchedAt": "2026-05-17T09:27:54.617Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -4606,17 +4606,6 @@
       "age": 30
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1194,
-      "ssbb": 1194,
-      "mlbam": 702281,
-      "firstName": "Robby",
-      "lastName": "Snelling",
-      "pos": "P",
-      "h": "L",
-      "age": 22
-    },
-    {
       "ssTeam": "Chris Fargis",
       "pin": 1235,
       "ssbb": 1235,
@@ -5629,6 +5618,17 @@
       "age": 27
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1415,
+      "ssbb": 1415,
+      "mlbam": 682848,
+      "firstName": "Endy",
+      "lastName": "Rodriguez",
+      "pos": "C",
+      "h": "B",
+      "age": 25
+    },
+    {
       "ssTeam": "Bob Kelly / Donovan Miller",
       "pin": 1420,
       "ssbb": 1420,
@@ -5781,17 +5781,6 @@
       "pos": "1B",
       "h": "L",
       "age": 21
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1450,
-      "ssbb": 1450,
-      "mlbam": 672012,
-      "firstName": "Tyler",
-      "lastName": "Black",
-      "pos": "1B",
-      "h": "L",
-      "age": 25
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
@@ -6727,6 +6716,17 @@
       "pos": "OF",
       "h": "L",
       "age": 35
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1625,
+      "ssbb": 1625,
+      "mlbam": 657757,
+      "firstName": "Gavin",
+      "lastName": "Sheets",
+      "pos": "OF",
+      "h": "L",
+      "age": 30
     },
     {
       "ssTeam": "Adam Halpin / Ben Neblock",
