@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-21T10:59:08.934Z",
+  "fetchedAt": "2026-05-22T10:42:21.334Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1073,6 +1073,17 @@
       "pos": "SR",
       "h": "L",
       "age": 26
+    },
+    {
+      "ssTeam": "Anthony Rescan",
+      "pin": 251,
+      "ssbb": 251,
+      "mlbam": 542888,
+      "firstName": "Shawn",
+      "lastName": "Armstrong",
+      "pos": "SR",
+      "h": "R",
+      "age": 35
     },
     {
       "ssTeam": "Lukas Vlahos",
@@ -2252,6 +2263,17 @@
       "age": 24
     },
     {
+      "ssTeam": "Anthony Rescan",
+      "pin": 478,
+      "ssbb": 478,
+      "mlbam": 702616,
+      "firstName": "Jackson",
+      "lastName": "Holliday",
+      "pos": "2B",
+      "h": "L",
+      "age": 22
+    },
+    {
       "ssTeam": "Eric Marquez",
       "pin": 479,
       "ssbb": 479,
@@ -2901,17 +2923,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 583,
-      "ssbb": 583,
-      "mlbam": 687231,
-      "firstName": "Darell",
-      "lastName": "Hernaiz",
-      "pos": "SS",
-      "h": "R",
-      "age": 24
-    },
-    {
       "ssTeam": "Renfei Tu",
       "pin": 587,
       "ssbb": 587,
@@ -3163,17 +3174,6 @@
       "pos": "OF",
       "h": "L",
       "age": 28
-    },
-    {
-      "ssTeam": "Anthony Rescan",
-      "pin": 650,
-      "ssbb": 650,
-      "mlbam": 664770,
-      "firstName": "Nathan",
-      "lastName": "Lukes",
-      "pos": "OF",
-      "h": "L",
-      "age": 31
     },
     {
       "ssTeam": "Jonathan Fass",
@@ -5486,17 +5486,6 @@
       "age": 31
     },
     {
-      "ssTeam": "Anthony Rescan",
-      "pin": 1398,
-      "ssbb": 1398,
-      "mlbam": 663698,
-      "firstName": "Joey",
-      "lastName": "Bart",
-      "pos": "C",
-      "h": "R",
-      "age": 29
-    },
-    {
       "ssTeam": "Jeremy Bowers",
       "pin": 1399,
       "ssbb": 1399,
@@ -6135,7 +6124,7 @@
       "age": 35
     },
     {
-      "ssTeam": "JJ Jansons",
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
       "pin": 1509,
       "ssbb": 1509,
       "mlbam": 681393,
