@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-22T10:42:21.334Z",
+  "fetchedAt": "2026-05-23T09:44:13.399Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -699,17 +699,6 @@
       "pos": "P",
       "h": "L",
       "age": 27
-    },
-    {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 90,
-      "ssbb": 90,
-      "mlbam": 621121,
-      "firstName": "Lance",
-      "lastName": "McCullers",
-      "pos": "P",
-      "h": "R",
-      "age": 32
     },
     {
       "ssTeam": "Lukas Vlahos",
@@ -3484,17 +3473,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 704,
-      "ssbb": 704,
-      "mlbam": 677592,
-      "firstName": "Everson",
-      "lastName": "Pereira",
-      "pos": "OF",
-      "h": "R",
-      "age": 25
-    },
-    {
       "ssTeam": "Jonathan Fass",
       "pin": 706,
       "ssbb": 706,
@@ -4516,6 +4494,17 @@
       "pos": "P",
       "h": "R",
       "age": 32
+    },
+    {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 1163,
+      "ssbb": 1163,
+      "mlbam": 681402,
+      "firstName": "Gus",
+      "lastName": "Varland",
+      "pos": "P",
+      "h": "R",
+      "age": 29
     },
     {
       "ssTeam": "JJ Jansons",
@@ -7365,6 +7354,17 @@
       "pos": "SR",
       "h": "L",
       "age": 36
+    },
+    {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 4174,
+      "ssbb": 4174,
+      "mlbam": 669398,
+      "firstName": "Gage",
+      "lastName": "Workman",
+      "pos": "3B",
+      "h": "L",
+      "age": 26
     },
     {
       "ssTeam": "Michael Wagner / Bennett Karoll",
