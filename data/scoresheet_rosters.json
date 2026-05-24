@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-23T09:44:13.399Z",
+  "fetchedAt": "2026-05-24T09:48:08.310Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1977,6 +1977,17 @@
       "age": 29
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 416,
+      "ssbb": 416,
+      "mlbam": 518595,
+      "firstName": "Travis",
+      "lastName": "D'Arnaud",
+      "pos": "C",
+      "h": "R",
+      "age": 37
+    },
+    {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
       "pin": 418,
       "ssbb": 418,
@@ -2448,17 +2459,6 @@
       "pos": "2B",
       "h": "R",
       "age": 27
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 509,
-      "ssbb": 509,
-      "mlbam": 660844,
-      "firstName": "Leo",
-      "lastName": "Rivas",
-      "pos": "2B",
-      "h": "B",
-      "age": 28
     },
     {
       "ssTeam": "Renfei Tu",
@@ -5189,17 +5189,6 @@
       "age": 24
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1319,
-      "ssbb": 1319,
-      "mlbam": 676571,
-      "firstName": "PJ",
-      "lastName": "Poulin",
-      "pos": "P",
-      "h": "L",
-      "age": 29
-    },
-    {
       "ssTeam": "Smith Brickner",
       "pin": 1320,
       "ssbb": 1320,
@@ -6176,6 +6165,17 @@
       "lastName": "Mauricio",
       "pos": "3B",
       "h": "B",
+      "age": 25
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1516,
+      "ssbb": 1516,
+      "mlbam": 688363,
+      "firstName": "Graham",
+      "lastName": "Pauley",
+      "pos": "3B",
+      "h": "L",
       "age": 25
     },
     {
