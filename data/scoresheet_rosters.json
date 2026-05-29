@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-28T11:30:18.916Z",
+  "fetchedAt": "2026-05-29T11:20:20.839Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1117,17 +1117,6 @@
       "pos": "SR",
       "h": "R",
       "age": 29
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 255,
-      "ssbb": 255,
-      "mlbam": 663485,
-      "firstName": "Cole",
-      "lastName": "Sands",
-      "pos": "SR",
-      "h": "R",
-      "age": 28
     },
     {
       "ssTeam": "Lukas Vlahos",
@@ -4881,7 +4870,7 @@
       "age": 34
     },
     {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
       "pin": 1282,
       "ssbb": 1282,
       "mlbam": 664199,
