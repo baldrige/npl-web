@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-05-29T11:20:20.839Z",
+  "fetchedAt": "2026-05-30T09:51:20.826Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -567,6 +567,17 @@
       "pos": "P",
       "h": "R",
       "age": 25
+    },
+    {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 59,
+      "ssbb": 59,
+      "mlbam": 682243,
+      "firstName": "Bryce",
+      "lastName": "Miller",
+      "pos": "P",
+      "h": "R",
+      "age": 27
     },
     {
       "ssTeam": "Tommy Bennett / Jason Horwitz",
@@ -3418,6 +3429,17 @@
       "age": 28
     },
     {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 704,
+      "ssbb": 704,
+      "mlbam": 677592,
+      "firstName": "Everson",
+      "lastName": "Pereira",
+      "pos": "OF",
+      "h": "R",
+      "age": 25
+    },
+    {
       "ssTeam": "Jonathan Fass",
       "pin": 706,
       "ssbb": 706,
@@ -5728,17 +5750,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 1462,
-      "ssbb": 1462,
-      "mlbam": 606466,
-      "firstName": "Ketel",
-      "lastName": "Marte",
-      "pos": "2B",
-      "h": "B",
-      "age": 32
-    },
-    {
       "ssTeam": "Pat Andriola / Andy Andres",
       "pin": 1463,
       "ssbb": 1463,
@@ -5869,6 +5880,17 @@
       "pos": "2B",
       "h": "L",
       "age": 27
+    },
+    {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 1482,
+      "ssbb": 1482,
+      "mlbam": 690976,
+      "firstName": "Alex",
+      "lastName": "Freeland",
+      "pos": "2B",
+      "h": "B",
+      "age": 24
     },
     {
       "ssTeam": "Jeremy Bowers",
@@ -7563,17 +7585,6 @@
       "pos": "1B",
       "h": "L",
       "age": 30
-    },
-    {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 5066,
-      "ssbb": 5066,
-      "mlbam": 650859,
-      "firstName": "Luis",
-      "lastName": "Rengifo",
-      "pos": "2B",
-      "h": "B",
-      "age": 29
     },
     {
       "ssTeam": "Chris Fargis",
