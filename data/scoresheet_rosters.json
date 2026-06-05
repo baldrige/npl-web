@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-06-04T10:55:30.601Z",
+  "fetchedAt": "2026-06-05T11:18:37.074Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1502,17 +1502,6 @@
       "pos": "P",
       "h": "L",
       "age": 24
-    },
-    {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
-      "pin": 299,
-      "ssbb": 299,
-      "mlbam": 656986,
-      "firstName": "Bennett",
-      "lastName": "Sousa",
-      "pos": "SR",
-      "h": "L",
-      "age": 31
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
@@ -3286,17 +3275,6 @@
       "age": 23
     },
     {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
-      "pin": 669,
-      "ssbb": 669,
-      "mlbam": 641584,
-      "firstName": "Jake",
-      "lastName": "Fraley",
-      "pos": "OF",
-      "h": "L",
-      "age": 30
-    },
-    {
       "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
       "pin": 670,
       "ssbb": 670,
@@ -4384,6 +4362,17 @@
       "pos": "P",
       "h": "L",
       "age": 26
+    },
+    {
+      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "pin": 1121,
+      "ssbb": 1121,
+      "mlbam": 642239,
+      "firstName": "Rob",
+      "lastName": "Zastryzny",
+      "pos": "SR",
+      "h": "L",
+      "age": 34
     },
     {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
@@ -6322,6 +6311,17 @@
       "age": 30
     },
     {
+      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "pin": 1561,
+      "ssbb": 1561,
+      "mlbam": 670032,
+      "firstName": "Nicky",
+      "lastName": "Lopez",
+      "pos": "SS",
+      "h": "L",
+      "age": 31
+    },
+    {
       "ssTeam": "Jonathan Fass",
       "pin": 1564,
       "ssbb": 1564,
@@ -7444,6 +7444,17 @@
       "age": 27
     },
     {
+      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "pin": 4350,
+      "ssbb": 4350,
+      "mlbam": 622268,
+      "firstName": "Donovan",
+      "lastName": "Walton",
+      "pos": "2B",
+      "h": "L",
+      "age": 31
+    },
+    {
       "ssTeam": "Jan Levine",
       "pin": 4354,
       "ssbb": 4354,
@@ -7640,17 +7651,6 @@
       "pos": "OF",
       "h": "L",
       "age": 33
-    },
-    {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
-      "pin": 5161,
-      "ssbb": 5161,
-      "mlbam": 602104,
-      "firstName": "Ramon",
-      "lastName": "Urias",
-      "pos": "2B",
-      "h": "R",
-      "age": 31
     },
     {
       "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
