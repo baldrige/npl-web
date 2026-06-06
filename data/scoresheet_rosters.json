@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-06-05T11:18:37.074Z",
+  "fetchedAt": "2026-06-06T09:54:45.754Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -4601,7 +4601,7 @@
       "mlbam": 669199,
       "firstName": "Lake",
       "lastName": "Bachar",
-      "pos": "SR",
+      "pos": "P",
       "h": "R",
       "age": 30
     },
@@ -5239,7 +5239,7 @@
       "mlbam": 681810,
       "firstName": "Austin",
       "lastName": "Warren",
-      "pos": "SR",
+      "pos": "P",
       "h": "R",
       "age": 30
     },
@@ -7279,17 +7279,6 @@
       "age": 23
     },
     {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 4174,
-      "ssbb": 4174,
-      "mlbam": 669398,
-      "firstName": "Gage",
-      "lastName": "Workman",
-      "pos": "3B",
-      "h": "L",
-      "age": 26
-    },
-    {
       "ssTeam": "Michael Wagner / Bennett Karoll",
       "pin": 4178,
       "ssbb": 4178,
@@ -7387,6 +7376,17 @@
       "pos": "SR",
       "h": "L",
       "age": 32
+    },
+    {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 4229,
+      "ssbb": 4229,
+      "mlbam": 666211,
+      "firstName": "Taylor",
+      "lastName": "Trammell",
+      "pos": "OF",
+      "h": "L",
+      "age": 28
     },
     {
       "ssTeam": "Jan Levine",
