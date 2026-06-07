@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-06-06T09:54:45.754Z",
+  "fetchedAt": "2026-06-07T10:22:16.081Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -325,17 +325,6 @@
       "pos": "P",
       "h": "R",
       "age": 28
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 33,
-      "ssbb": 33,
-      "mlbam": 641927,
-      "firstName": "Bailey",
-      "lastName": "Ober",
-      "pos": "P",
-      "h": "R",
-      "age": 30
     },
     {
       "ssTeam": "Jan Levine",
@@ -1603,17 +1592,6 @@
       "age": 39
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 314,
-      "ssbb": 314,
-      "mlbam": 681892,
-      "firstName": "Kody",
-      "lastName": "Funderburk",
-      "pos": "SR",
-      "h": "L",
-      "age": 29
-    },
-    {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
       "pin": 315,
       "ssbb": 315,
@@ -1865,6 +1843,17 @@
       "pos": "C",
       "h": "R",
       "age": 28
+    },
+    {
+      "ssTeam": "Bob Kelly / Donovan Miller",
+      "pin": 402,
+      "ssbb": 402,
+      "mlbam": 672386,
+      "firstName": "Alejandro",
+      "lastName": "Kirk",
+      "pos": "C",
+      "h": "R",
+      "age": 27
     },
     {
       "ssTeam": "Jonathan Fass",
@@ -3317,17 +3306,6 @@
       "pos": "OF",
       "h": "L",
       "age": 28
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 676,
-      "ssbb": 676,
-      "mlbam": 664059,
-      "firstName": "Sam",
-      "lastName": "Haggerty",
-      "pos": "OF",
-      "h": "B",
-      "age": 31
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
@@ -5168,6 +5146,17 @@
     },
     {
       "ssTeam": "Jeffrey Bona",
+      "pin": 1330,
+      "ssbb": 1330,
+      "mlbam": 656848,
+      "firstName": "Michael",
+      "lastName": "Petersen",
+      "pos": "SR",
+      "h": "R",
+      "age": 31
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
       "pin": 1331,
       "ssbb": 1331,
       "mlbam": 664875,
@@ -6377,17 +6366,6 @@
       "age": 23
     },
     {
-      "ssTeam": "Bob Kelly / Donovan Miller",
-      "pin": 1608,
-      "ssbb": 1608,
-      "mlbam": 670770,
-      "firstName": "TJ",
-      "lastName": "Friedl",
-      "pos": "OF",
-      "h": "L",
-      "age": 30
-    },
-    {
       "ssTeam": "Anthony Rescan",
       "pin": 1609,
       "ssbb": 1609,
@@ -7466,6 +7444,17 @@
       "age": 25
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 4361,
+      "ssbb": 4361,
+      "mlbam": null,
+      "firstName": "Robby",
+      "lastName": "Ahlstrom",
+      "pos": "SR",
+      "h": "L",
+      "age": 26
+    },
+    {
       "ssTeam": "Tommy Bennett / Jason Horwitz",
       "pin": 5002,
       "ssbb": 5002,
@@ -7717,6 +7706,17 @@
       "pos": "C",
       "h": "B",
       "age": 37
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 5327,
+      "ssbb": 5327,
+      "mlbam": null,
+      "firstName": "Jonah",
+      "lastName": "Cox",
+      "pos": "OF",
+      "h": "R",
+      "age": 24
     }
   ]
 }
