@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-06-07T10:22:16.081Z",
+  "fetchedAt": "2026-06-08T12:22:02.084Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -710,6 +710,17 @@
       "pos": "SR",
       "h": "R",
       "age": 28
+    },
+    {
+      "ssTeam": "Renfei Tu",
+      "pin": 101,
+      "ssbb": 101,
+      "mlbam": 675512,
+      "firstName": "Troy",
+      "lastName": "Melton",
+      "pos": "P",
+      "h": "R",
+      "age": 25
     },
     {
       "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
@@ -3933,17 +3944,6 @@
       "pos": "P",
       "h": "R",
       "age": 31
-    },
-    {
-      "ssTeam": "Renfei Tu",
-      "pin": 1038,
-      "ssbb": 1038,
-      "mlbam": 592791,
-      "firstName": "Jameson",
-      "lastName": "Taillon",
-      "pos": "P",
-      "h": "R",
-      "age": 34
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
