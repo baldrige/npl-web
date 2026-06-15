@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-06-14T10:44:25.810Z",
+  "fetchedAt": "2026-06-15T13:47:13.202Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -668,6 +668,17 @@
       "age": 29
     },
     {
+      "ssTeam": "Jonathan Fass",
+      "pin": 80,
+      "ssbb": 80,
+      "mlbam": 677958,
+      "firstName": "Kumar",
+      "lastName": "Rocker",
+      "pos": "P",
+      "h": "R",
+      "age": 26
+    },
+    {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
       "pin": 81,
       "ssbb": 81,
@@ -850,6 +861,17 @@
       "mlbam": 805123,
       "firstName": "AJ",
       "lastName": "Blubaugh",
+      "pos": "P",
+      "h": "R",
+      "age": 25
+    },
+    {
+      "ssTeam": "Renfei Tu",
+      "pin": 127,
+      "ssbb": 127,
+      "mlbam": 686930,
+      "firstName": "Mason",
+      "lastName": "Barnett",
       "pos": "P",
       "h": "R",
       "age": 25
@@ -1070,17 +1092,6 @@
       "mlbam": 687570,
       "firstName": "Connor",
       "lastName": "Prielipp",
-      "pos": "P",
-      "h": "L",
-      "age": 25
-    },
-    {
-      "ssTeam": "Renfei Tu",
-      "pin": 240,
-      "ssbb": 240,
-      "mlbam": 671936,
-      "firstName": "Adam",
-      "lastName": "Macko",
       "pos": "P",
       "h": "L",
       "age": 25
@@ -1504,17 +1515,6 @@
       "age": 33
     },
     {
-      "ssTeam": "Chris Fargis",
-      "pin": 296,
-      "ssbb": 296,
-      "mlbam": 552640,
-      "firstName": "Andrew",
-      "lastName": "Kittredge",
-      "pos": "SR",
-      "h": "R",
-      "age": 36
-    },
-    {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
       "pin": 297,
       "ssbb": 297,
@@ -1557,17 +1557,6 @@
       "pos": "SR",
       "h": "R",
       "age": 36
-    },
-    {
-      "ssTeam": "Jonathan Fass",
-      "pin": 302,
-      "ssbb": 302,
-      "mlbam": 666374,
-      "firstName": "Matt",
-      "lastName": "Brash",
-      "pos": "SR",
-      "h": "R",
-      "age": 27
     },
     {
       "ssTeam": "Matthew Yaspan/Skyler Kanfer",
@@ -2527,6 +2516,17 @@
       "age": 24
     },
     {
+      "ssTeam": "Chris Fargis",
+      "pin": 520,
+      "ssbb": 520,
+      "mlbam": 669392,
+      "firstName": "Samad",
+      "lastName": "Taylor",
+      "pos": "2B",
+      "h": "R",
+      "age": 27
+    },
+    {
       "ssTeam": "Jarrett Seidler",
       "pin": 521,
       "ssbb": 521,
@@ -2866,17 +2866,6 @@
       "pos": "SS",
       "h": "R",
       "age": 33
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 575,
-      "ssbb": 575,
-      "mlbam": 669397,
-      "firstName": "Nick",
-      "lastName": "Allen",
-      "pos": "SS",
-      "h": "R",
-      "age": 27
     },
     {
       "ssTeam": "Tim Brooks/Danny Romanello",
@@ -5145,6 +5134,17 @@
       "age": 28
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1319,
+      "ssbb": 1319,
+      "mlbam": 676571,
+      "firstName": "PJ",
+      "lastName": "Poulin",
+      "pos": "P",
+      "h": "L",
+      "age": 29
+    },
+    {
       "ssTeam": "Smith Brickner",
       "pin": 1320,
       "ssbb": 1320,
@@ -6311,17 +6311,6 @@
       "age": 31
     },
     {
-      "ssTeam": "Jonathan Fass",
-      "pin": 1564,
-      "ssbb": 1564,
-      "mlbam": 699912,
-      "firstName": "Jose",
-      "lastName": "Fernandez",
-      "pos": "SS",
-      "h": "R",
-      "age": 22
-    },
-    {
       "ssTeam": "JJ Jansons",
       "pin": 1594,
       "ssbb": 1594,
@@ -6916,17 +6905,6 @@
       "age": 25
     },
     {
-      "ssTeam": "Renfei Tu",
-      "pin": 1676,
-      "ssbb": 1676,
-      "mlbam": 686894,
-      "firstName": "Joey",
-      "lastName": "Wiemer",
-      "pos": "OF",
-      "h": "R",
-      "age": 27
-    },
-    {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
       "pin": 1677,
       "ssbb": 1677,
@@ -6957,6 +6935,17 @@
       "lastName": "Waldschmidt",
       "pos": "OF",
       "h": "R",
+      "age": 23
+    },
+    {
+      "ssTeam": "Renfei Tu",
+      "pin": 1703,
+      "ssbb": 1703,
+      "mlbam": 694249,
+      "firstName": "Cole",
+      "lastName": "Carrigg",
+      "pos": "OF",
+      "h": "B",
       "age": 23
     },
     {
@@ -7464,6 +7453,17 @@
       "pos": "P",
       "h": "R",
       "age": 29
+    },
+    {
+      "ssTeam": "Jonathan Fass",
+      "pin": 5008,
+      "ssbb": 5008,
+      "mlbam": 691458,
+      "firstName": "Blaze",
+      "lastName": "Jordan",
+      "pos": "3B",
+      "h": "R",
+      "age": 23
     },
     {
       "ssTeam": "Jeffrey Bona",
