@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-06-16T12:45:50.993Z",
+  "fetchedAt": "2026-06-17T12:10:10.924Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1163,7 +1163,7 @@
       "age": 26
     },
     {
-      "ssTeam": "Eric Marquez",
+      "ssTeam": "Anthony Rescan",
       "pin": 253,
       "ssbb": 253,
       "mlbam": 686973,
@@ -2428,7 +2428,7 @@
       "age": 27
     },
     {
-      "ssTeam": "Anthony Rescan",
+      "ssTeam": "Eric Marquez",
       "pin": 501,
       "ssbb": 501,
       "mlbam": 807712,
@@ -3836,7 +3836,7 @@
       "age": 27
     },
     {
-      "ssTeam": "Anthony Rescan",
+      "ssTeam": "Eric Marquez",
       "pin": 1022,
       "ssbb": 1022,
       "mlbam": 607067,
@@ -4749,7 +4749,7 @@
       "age": 32
     },
     {
-      "ssTeam": "Anthony Rescan",
+      "ssTeam": "Eric Marquez",
       "pin": 1260,
       "ssbb": 1260,
       "mlbam": 592094,
@@ -6421,7 +6421,7 @@
       "age": 25
     },
     {
-      "ssTeam": "Eric Marquez",
+      "ssTeam": "Anthony Rescan",
       "pin": 1615,
       "ssbb": 1615,
       "mlbam": 691718,
