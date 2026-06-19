@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-06-18T11:44:47.235Z",
+  "fetchedAt": "2026-06-19T11:59:20.228Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -5926,17 +5926,6 @@
       "age": 26
     },
     {
-      "ssTeam": "Chris Fargis",
-      "pin": 1501,
-      "ssbb": 1501,
-      "mlbam": 664761,
-      "firstName": "Alec",
-      "lastName": "Bohm",
-      "pos": "3B",
-      "h": "R",
-      "age": 29
-    },
-    {
       "ssTeam": "Pat Andriola / Andy Andres",
       "pin": 1502,
       "ssbb": 1502,
@@ -7114,7 +7103,7 @@
       "age": 31
     },
     {
-      "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
+      "ssTeam": "Chris Fargis",
       "pin": 4009,
       "ssbb": 4009,
       "mlbam": 608337,
