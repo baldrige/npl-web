@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-06-20T10:26:30.778Z",
+  "fetchedAt": "2026-06-21T10:59:53.615Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -201,17 +201,6 @@
       "mlbam": 668909,
       "firstName": "Gavin",
       "lastName": "Williams",
-      "pos": "P",
-      "h": "R",
-      "age": 26
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 21,
-      "ssbb": 21,
-      "mlbam": 678394,
-      "firstName": "Brayan",
-      "lastName": "Bello",
       "pos": "P",
       "h": "R",
       "age": 26
@@ -688,6 +677,17 @@
       "pos": "SR",
       "h": "L",
       "age": 27
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 84,
+      "ssbb": 84,
+      "mlbam": 672782,
+      "firstName": "Yoendrys",
+      "lastName": "Gomez",
+      "pos": "P",
+      "h": "R",
+      "age": 26
     },
     {
       "ssTeam": "Matthew Yaspan/Skyler Kanfer",
@@ -2340,17 +2340,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 486,
-      "ssbb": 486,
-      "mlbam": 682657,
-      "firstName": "Angel",
-      "lastName": "Martinez",
-      "pos": "2B",
-      "h": "B",
-      "age": 24
-    },
-    {
       "ssTeam": "Jonathan Fass",
       "pin": 487,
       "ssbb": 487,
@@ -2481,17 +2470,6 @@
       "pos": "2B",
       "h": "R",
       "age": 26
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 511,
-      "ssbb": 511,
-      "mlbam": 678391,
-      "firstName": "Jorbit",
-      "lastName": "Vivas",
-      "pos": "2B",
-      "h": "L",
-      "age": 25
     },
     {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
@@ -3229,17 +3207,6 @@
       "pos": "OF",
       "h": "L",
       "age": 29
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 656,
-      "ssbb": 656,
-      "mlbam": 672761,
-      "firstName": "Wenceel",
-      "lastName": "Perez",
-      "pos": "OF",
-      "h": "B",
-      "age": 26
     },
     {
       "ssTeam": "Lukas Vlahos",
@@ -4452,6 +4419,17 @@
       "age": 32
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1148,
+      "ssbb": 1148,
+      "mlbam": 700270,
+      "firstName": "Yilber",
+      "lastName": "Diaz",
+      "pos": "P",
+      "h": "R",
+      "age": 25
+    },
+    {
       "ssTeam": "Michael Wagner / Bennett Karoll",
       "pin": 1160,
       "ssbb": 1160,
@@ -4837,7 +4815,7 @@
       "age": 31
     },
     {
-      "ssTeam": "Anthony Rescan",
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
       "pin": 1271,
       "ssbb": 1271,
       "mlbam": 664126,
@@ -4978,17 +4956,6 @@
       "pos": "SR",
       "h": "R",
       "age": 32
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 1290,
-      "ssbb": 1290,
-      "mlbam": 682254,
-      "firstName": "Mason",
-      "lastName": "Montgomery",
-      "pos": "P",
-      "h": "L",
-      "age": 25
     },
     {
       "ssTeam": "Renfei Tu",
@@ -5495,6 +5462,17 @@
       "pos": "C",
       "h": "L",
       "age": 25
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 1408,
+      "ssbb": 1408,
+      "mlbam": 543510,
+      "firstName": "James",
+      "lastName": "McCann",
+      "pos": "C",
+      "h": "R",
+      "age": 35
     },
     {
       "ssTeam": "Trevor Vernola",
@@ -7092,7 +7070,7 @@
       "age": 35
     },
     {
-      "ssTeam": "Anthony Rescan",
+      "ssTeam": "Jeffrey Bona",
       "pin": 4004,
       "ssbb": 4004,
       "mlbam": 643396,
