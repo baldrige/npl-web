@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-06-27T09:56:47.179Z",
+  "fetchedAt": "2026-06-28T10:20:58.215Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -292,17 +292,6 @@
       "pos": "P",
       "h": "R",
       "age": 28
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 33,
-      "ssbb": 33,
-      "mlbam": 641927,
-      "firstName": "Bailey",
-      "lastName": "Ober",
-      "pos": "P",
-      "h": "R",
-      "age": 30
     },
     {
       "ssTeam": "Jan Levine",
@@ -754,17 +743,6 @@
       "pos": "P",
       "h": "R",
       "age": 32
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 107,
-      "ssbb": 107,
-      "mlbam": 690953,
-      "firstName": "Mick",
-      "lastName": "Abel",
-      "pos": "P",
-      "h": "R",
-      "age": 24
     },
     {
       "ssTeam": "Smith Brickner",
@@ -1634,6 +1612,17 @@
       "pos": "SR",
       "h": "R",
       "age": 39
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 314,
+      "ssbb": 314,
+      "mlbam": 681892,
+      "firstName": "Kody",
+      "lastName": "Funderburk",
+      "pos": "SR",
+      "h": "L",
+      "age": 29
     },
     {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
@@ -3374,17 +3363,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 688,
-      "ssbb": 688,
-      "mlbam": 657041,
-      "firstName": "Lane",
-      "lastName": "Thomas",
-      "pos": "OF",
-      "h": "R",
-      "age": 30
-    },
-    {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
       "pin": 695,
       "ssbb": 695,
@@ -3493,6 +3471,17 @@
       "pos": "OF",
       "h": "R",
       "age": 27
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 709,
+      "ssbb": 709,
+      "mlbam": 686475,
+      "firstName": "Tyler",
+      "lastName": "Tolbert",
+      "pos": "OF",
+      "h": "R",
+      "age": 28
     },
     {
       "ssTeam": "Smith Brickner",
@@ -5695,17 +5684,6 @@
       "age": 31
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1464,
-      "ssbb": 1464,
-      "mlbam": 543760,
-      "firstName": "Marcus",
-      "lastName": "Semien",
-      "pos": "2B",
-      "h": "R",
-      "age": 35
-    },
-    {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
       "pin": 1465,
       "ssbb": 1465,
@@ -6025,6 +6003,17 @@
       "age": 25
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1516,
+      "ssbb": 1516,
+      "mlbam": 688363,
+      "firstName": "Graham",
+      "lastName": "Pauley",
+      "pos": "3B",
+      "h": "L",
+      "age": 25
+    },
+    {
       "ssTeam": "Tim Brooks/Danny Romanello",
       "pin": 1518,
       "ssbb": 1518,
@@ -6234,7 +6223,7 @@
       "age": 25
     },
     {
-      "ssTeam": "Lukas Vlahos",
+      "ssTeam": "Jeffrey Bona",
       "pin": 1556,
       "ssbb": 1556,
       "mlbam": 655316,
@@ -7638,6 +7627,17 @@
       "firstName": "Jonah",
       "lastName": "Cox",
       "pos": "OF",
+      "h": "R",
+      "age": 24
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 5345,
+      "ssbb": 5345,
+      "mlbam": null,
+      "firstName": "Max",
+      "lastName": "Rajcic",
+      "pos": "SR",
       "h": "R",
       "age": 24
     }
