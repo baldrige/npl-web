@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-07-04T10:00:37.228Z",
+  "fetchedAt": "2026-07-05T10:03:40.972Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1029,17 +1029,6 @@
       "pos": "P",
       "h": "L",
       "age": 22
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 194,
-      "ssbb": 194,
-      "mlbam": 682982,
-      "firstName": "Daniel",
-      "lastName": "Espino",
-      "pos": "P",
-      "h": "R",
-      "age": 25
     },
     {
       "ssTeam": "Eric Marquez",
@@ -4507,6 +4496,17 @@
       "age": 30
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1189,
+      "ssbb": 1189,
+      "mlbam": 687312,
+      "firstName": "Gabriel",
+      "lastName": "Hughes",
+      "pos": "P",
+      "h": "R",
+      "age": 24
+    },
+    {
       "ssTeam": "Matthew Yaspan/Skyler Kanfer",
       "pin": 1198,
       "ssbb": 1198,
@@ -5959,17 +5959,6 @@
       "age": 25
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1516,
-      "ssbb": 1516,
-      "mlbam": 688363,
-      "firstName": "Graham",
-      "lastName": "Pauley",
-      "pos": "3B",
-      "h": "L",
-      "age": 25
-    },
-    {
       "ssTeam": "Tim Brooks/Danny Romanello",
       "pin": 1518,
       "ssbb": 1518,
@@ -7046,6 +7035,17 @@
       "pos": "DH",
       "h": "R",
       "age": 35
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 4004,
+      "ssbb": 4004,
+      "mlbam": 643396,
+      "firstName": "Isiah",
+      "lastName": "Kiner-Falefa",
+      "pos": "SS",
+      "h": "R",
+      "age": 31
     },
     {
       "ssTeam": "Pat Andriola / Andy Andres",
