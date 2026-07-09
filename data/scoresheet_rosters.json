@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-07-08T10:08:15.495Z",
+  "fetchedAt": "2026-07-09T10:56:25.986Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -2835,6 +2835,17 @@
       "age": 25
     },
     {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 569,
+      "ssbb": 569,
+      "mlbam": 805779,
+      "firstName": "Jacob",
+      "lastName": "Wilson",
+      "pos": "SS",
+      "h": "R",
+      "age": 23
+    },
+    {
       "ssTeam": "Eric Marquez",
       "pin": 570,
       "ssbb": 570,
@@ -2954,17 +2965,6 @@
       "pos": "SS",
       "h": "R",
       "age": 26
-    },
-    {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 583,
-      "ssbb": 583,
-      "mlbam": 687231,
-      "firstName": "Darell",
-      "lastName": "Hernaiz",
-      "pos": "SS",
-      "h": "R",
-      "age": 24
     },
     {
       "ssTeam": "Renfei Tu",
