@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-07-11T09:18:00.121Z",
+  "fetchedAt": "2026-07-12T09:43:26.812Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1680,17 +1680,6 @@
       "age": 27
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 320,
-      "ssbb": 320,
-      "mlbam": 677161,
-      "firstName": "Zack",
-      "lastName": "Kelly",
-      "pos": "SR",
-      "h": "R",
-      "age": 31
-    },
-    {
       "ssTeam": "Jeremy Bowers",
       "pin": 321,
       "ssbb": 321,
@@ -2976,6 +2965,17 @@
       "pos": "SS",
       "h": "L",
       "age": 30
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 591,
+      "ssbb": 591,
+      "mlbam": 811965,
+      "firstName": "Joshua",
+      "lastName": "Kuroda-Grauer",
+      "pos": "SS",
+      "h": "R",
+      "age": 23
     },
     {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
@@ -4870,6 +4870,17 @@
       "age": 34
     },
     {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 1277,
+      "ssbb": 1277,
+      "mlbam": 683409,
+      "firstName": "Angel",
+      "lastName": "Chivilli",
+      "pos": "SR",
+      "h": "R",
+      "age": 23
+    },
+    {
       "ssTeam": "Lukas Vlahos",
       "pin": 1278,
       "ssbb": 1278,
@@ -5220,17 +5231,6 @@
       "pos": "SR",
       "h": "L",
       "age": 29
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 1372,
-      "ssbb": 1372,
-      "mlbam": 677053,
-      "firstName": "Andrew",
-      "lastName": "Nardi",
-      "pos": "SR",
-      "h": "L",
-      "age": 27
     },
     {
       "ssTeam": "Smith Brickner",
