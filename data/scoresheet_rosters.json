@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-07-13T10:50:38.840Z",
+  "fetchedAt": "2026-07-14T09:47:52.335Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -2555,6 +2555,17 @@
       "mlbam": 694728,
       "firstName": "Brice",
       "lastName": "Matthews",
+      "pos": "2B",
+      "h": "R",
+      "age": 24
+    },
+    {
+      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "pin": 517,
+      "ssbb": 517,
+      "mlbam": 677870,
+      "firstName": "Leo",
+      "lastName": "Jimenez",
       "pos": "2B",
       "h": "R",
       "age": 24
@@ -5728,6 +5739,17 @@
       "age": 25
     },
     {
+      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
+      "pin": 1466,
+      "ssbb": 1466,
+      "mlbam": 593871,
+      "firstName": "Jorge",
+      "lastName": "Polanco",
+      "pos": "2B",
+      "h": "B",
+      "age": 32
+    },
+    {
       "ssTeam": "Adam Halpin / Ben Neblock",
       "pin": 1468,
       "ssbb": 1468,
@@ -7365,17 +7387,6 @@
       "pos": "SR",
       "h": "L",
       "age": 26
-    },
-    {
-      "ssTeam": "Matthew Yaspan/Skyler Kanfer",
-      "pin": 4374,
-      "ssbb": 4374,
-      "mlbam": null,
-      "firstName": "Trey",
-      "lastName": "Mancini",
-      "pos": "1B",
-      "h": "R",
-      "age": 34
     },
     {
       "ssTeam": "Smith Brickner",
