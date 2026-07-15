@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-07-14T09:47:52.335Z",
+  "fetchedAt": "2026-07-15T09:51:42.139Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -2065,6 +2065,17 @@
       "age": 29
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 416,
+      "ssbb": 416,
+      "mlbam": 518595,
+      "firstName": "Travis",
+      "lastName": "D'Arnaud",
+      "pos": "C",
+      "h": "R",
+      "age": 37
+    },
+    {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
       "pin": 418,
       "ssbb": 418,
@@ -2371,6 +2382,17 @@
       "pos": "2B",
       "h": "L",
       "age": 28
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 486,
+      "ssbb": 486,
+      "mlbam": 682657,
+      "firstName": "Angel",
+      "lastName": "Martinez",
+      "pos": "2B",
+      "h": "B",
+      "age": 24
     },
     {
       "ssTeam": "Jonathan Fass",
@@ -5728,6 +5750,17 @@
       "age": 31
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1464,
+      "ssbb": 1464,
+      "mlbam": 543760,
+      "firstName": "Marcus",
+      "lastName": "Semien",
+      "pos": "2B",
+      "h": "R",
+      "age": 35
+    },
+    {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
       "pin": 1465,
       "ssbb": 1465,
@@ -6795,17 +6828,6 @@
       "age": 27
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1664,
-      "ssbb": 1664,
-      "mlbam": 663368,
-      "firstName": "Blake",
-      "lastName": "Perkins",
-      "pos": "OF",
-      "h": "B",
-      "age": 29
-    },
-    {
       "ssTeam": "Eric Marquez",
       "pin": 1666,
       "ssbb": 1666,
@@ -7200,17 +7222,6 @@
       "pos": "P",
       "h": "R",
       "age": 22
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 4149,
-      "ssbb": 4149,
-      "mlbam": null,
-      "firstName": "Kade",
-      "lastName": "Morris",
-      "pos": "P",
-      "h": "R",
-      "age": 23
     },
     {
       "ssTeam": "Michael Wagner / Bennett Karoll",
@@ -7682,17 +7693,6 @@
       "firstName": "Jonah",
       "lastName": "Cox",
       "pos": "OF",
-      "h": "R",
-      "age": 24
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 5345,
-      "ssbb": 5345,
-      "mlbam": null,
-      "firstName": "Max",
-      "lastName": "Rajcic",
-      "pos": "SR",
       "h": "R",
       "age": 24
     }
