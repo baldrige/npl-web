@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-07-17T09:48:06.614Z",
+  "fetchedAt": "2026-07-18T09:15:45.085Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -212,6 +212,17 @@
       "mlbam": 668909,
       "firstName": "Gavin",
       "lastName": "Williams",
+      "pos": "P",
+      "h": "R",
+      "age": 26
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 21,
+      "ssbb": 21,
+      "mlbam": 678394,
+      "firstName": "Brayan",
+      "lastName": "Bello",
       "pos": "P",
       "h": "R",
       "age": 26
@@ -4001,17 +4012,6 @@
       "age": 34
     },
     {
-      "ssTeam": "Jonathan Fass",
-      "pin": 1034,
-      "ssbb": 1034,
-      "mlbam": 681190,
-      "firstName": "Randy",
-      "lastName": "Vasquez",
-      "pos": "P",
-      "h": "R",
-      "age": 27
-    },
-    {
       "ssTeam": "Eric Marquez",
       "pin": 1035,
       "ssbb": 1035,
@@ -4870,17 +4870,6 @@
       "age": 33
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 1269,
-      "ssbb": 1269,
-      "mlbam": 668941,
-      "firstName": "JoJo",
-      "lastName": "Romero",
-      "pos": "SR",
-      "h": "L",
-      "age": 29
-    },
-    {
       "ssTeam": "Lukas Vlahos",
       "pin": 1270,
       "ssbb": 1270,
@@ -5022,6 +5011,17 @@
       "pos": "SR",
       "h": "R",
       "age": 32
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 1290,
+      "ssbb": 1290,
+      "mlbam": 682254,
+      "firstName": "Mason",
+      "lastName": "Montgomery",
+      "pos": "P",
+      "h": "L",
+      "age": 25
     },
     {
       "ssTeam": "Renfei Tu",
@@ -7070,17 +7070,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 1793,
-      "ssbb": 1793,
-      "mlbam": 668678,
-      "firstName": "Zac",
-      "lastName": "Gallen",
-      "pos": "P",
-      "h": "R",
-      "age": 30
-    },
-    {
       "ssTeam": "Pat Andriola / Andy Andres",
       "pin": 1795,
       "ssbb": 1795,
@@ -7431,6 +7420,17 @@
       "pos": "P",
       "h": "R",
       "age": 30
+    },
+    {
+      "ssTeam": "Jonathan Fass",
+      "pin": 5013,
+      "ssbb": 5013,
+      "mlbam": 623465,
+      "firstName": "Evan",
+      "lastName": "Phillips",
+      "pos": "SR",
+      "h": "R",
+      "age": 31
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
