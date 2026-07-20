@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-07-19T09:44:44.267Z",
+  "fetchedAt": "2026-07-20T10:41:56.796Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -845,17 +845,6 @@
     },
     {
       "ssTeam": "Renfei Tu",
-      "pin": 127,
-      "ssbb": 127,
-      "mlbam": 686930,
-      "firstName": "Mason",
-      "lastName": "Barnett",
-      "pos": "P",
-      "h": "R",
-      "age": 25
-    },
-    {
-      "ssTeam": "Renfei Tu",
       "pin": 128,
       "ssbb": 128,
       "mlbam": 669330,
@@ -1081,17 +1070,6 @@
       "mlbam": 687570,
       "firstName": "Connor",
       "lastName": "Prielipp",
-      "pos": "P",
-      "h": "L",
-      "age": 25
-    },
-    {
-      "ssTeam": "Renfei Tu",
-      "pin": 240,
-      "ssbb": 240,
-      "mlbam": 671936,
-      "firstName": "Adam",
-      "lastName": "Macko",
       "pos": "P",
       "h": "L",
       "age": 25
@@ -2803,17 +2781,6 @@
     },
     {
       "ssTeam": "Jonathan Fass",
-      "pin": 565,
-      "ssbb": 565,
-      "mlbam": 669701,
-      "firstName": "JoshH.",
-      "lastName": "Smith(Tex)",
-      "pos": "SS",
-      "h": "L",
-      "age": 28
-    },
-    {
-      "ssTeam": "Jonathan Fass",
       "pin": 566,
       "ssbb": 566,
       "mlbam": 687263,
@@ -3550,17 +3517,6 @@
       "age": 29
     },
     {
-      "ssTeam": "Renfei Tu",
-      "pin": 699,
-      "ssbb": 699,
-      "mlbam": 694388,
-      "firstName": "Joey",
-      "lastName": "Loperfido",
-      "pos": "OF",
-      "h": "L",
-      "age": 26
-    },
-    {
       "ssTeam": "Eric Marquez",
       "pin": 700,
       "ssbb": 700,
@@ -4012,6 +3968,17 @@
       "age": 34
     },
     {
+      "ssTeam": "Jonathan Fass",
+      "pin": 1034,
+      "ssbb": 1034,
+      "mlbam": 681190,
+      "firstName": "Randy",
+      "lastName": "Vasquez",
+      "pos": "P",
+      "h": "R",
+      "age": 27
+    },
+    {
       "ssTeam": "Eric Marquez",
       "pin": 1035,
       "ssbb": 1035,
@@ -4032,6 +3999,17 @@
       "pos": "P",
       "h": "R",
       "age": 31
+    },
+    {
+      "ssTeam": "Renfei Tu",
+      "pin": 1038,
+      "ssbb": 1038,
+      "mlbam": 592791,
+      "firstName": "Jameson",
+      "lastName": "Taillon",
+      "pos": "P",
+      "h": "R",
+      "age": 34
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
@@ -5178,17 +5156,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1319,
-      "ssbb": 1319,
-      "mlbam": 676571,
-      "firstName": "PJ",
-      "lastName": "Poulin",
-      "pos": "P",
-      "h": "L",
-      "age": 29
-    },
-    {
       "ssTeam": "Smith Brickner",
       "pin": 1320,
       "ssbb": 1320,
@@ -6058,6 +6025,17 @@
       "age": 25
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1516,
+      "ssbb": 1516,
+      "mlbam": 688363,
+      "firstName": "Graham",
+      "lastName": "Pauley",
+      "pos": "3B",
+      "h": "L",
+      "age": 25
+    },
+    {
       "ssTeam": "Tim Brooks/Danny Romanello",
       "pin": 1518,
       "ssbb": 1518,
@@ -6795,6 +6773,17 @@
       "age": 27
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1664,
+      "ssbb": 1664,
+      "mlbam": 663368,
+      "firstName": "Blake",
+      "lastName": "Perkins",
+      "pos": "OF",
+      "h": "B",
+      "age": 29
+    },
+    {
       "ssTeam": "Eric Marquez",
       "pin": 1666,
       "ssbb": 1666,
@@ -7079,17 +7068,6 @@
       "pos": "DH",
       "h": "R",
       "age": 35
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 4004,
-      "ssbb": 4004,
-      "mlbam": 643396,
-      "firstName": "Isiah",
-      "lastName": "Kiner-Falefa",
-      "pos": "SS",
-      "h": "R",
-      "age": 31
     },
     {
       "ssTeam": "Pat Andriola / Andy Andres",
@@ -7444,6 +7422,17 @@
       "age": 30
     },
     {
+      "ssTeam": "Renfei Tu",
+      "pin": 5044,
+      "ssbb": 5044,
+      "mlbam": 608372,
+      "firstName": "Tomoyuki",
+      "lastName": "Sugano",
+      "pos": "P",
+      "h": "R",
+      "age": 36
+    },
+    {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
       "pin": 5046,
       "ssbb": 5046,
@@ -7552,6 +7541,17 @@
       "pos": "OF",
       "h": "R",
       "age": 25
+    },
+    {
+      "ssTeam": "Renfei Tu",
+      "pin": 5123,
+      "ssbb": 5123,
+      "mlbam": null,
+      "firstName": "Zach",
+      "lastName": "Thornton",
+      "pos": "P",
+      "h": "L",
+      "age": 24
     },
     {
       "ssTeam": "Jeffrey Bona",
