@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-07-22T10:16:09.338Z",
+  "fetchedAt": "2026-07-23T10:12:01.461Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -4573,6 +4573,17 @@
       "age": 24
     },
     {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 1195,
+      "ssbb": 1195,
+      "mlbam": 690978,
+      "firstName": "Daxton",
+      "lastName": "Fulton",
+      "pos": "P",
+      "h": "L",
+      "age": 24
+    },
+    {
       "ssTeam": "Matthew Yaspan/Skyler Kanfer",
       "pin": 1198,
       "ssbb": 1198,
@@ -6223,17 +6234,6 @@
       "age": 37
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 1554,
-      "ssbb": 1554,
-      "mlbam": 695336,
-      "firstName": "Thomas",
-      "lastName": "Saggese",
-      "pos": "SS",
-      "h": "R",
-      "age": 23
-    },
-    {
       "ssTeam": "Chris Fargis",
       "pin": 1555,
       "ssbb": 1555,
@@ -7189,6 +7189,17 @@
       "pos": "OF",
       "h": "R",
       "age": 37
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 4197,
+      "ssbb": 4197,
+      "mlbam": null,
+      "firstName": "Cameron",
+      "lastName": "Cauley",
+      "pos": "SS",
+      "h": "R",
+      "age": 23
     },
     {
       "ssTeam": "Jan Levine",
