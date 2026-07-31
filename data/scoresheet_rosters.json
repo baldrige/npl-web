@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-07-30T10:13:47.862Z",
+  "fetchedAt": "2026-07-31T10:28:51.731Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -811,6 +811,17 @@
       "age": 26
     },
     {
+      "ssTeam": "Bret Sayre / Harry Pavlidis",
+      "pin": 114,
+      "ssbb": 114,
+      "mlbam": 669684,
+      "firstName": "Chris",
+      "lastName": "Murphy",
+      "pos": "P",
+      "h": "L",
+      "age": 27
+    },
+    {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
       "pin": 115,
       "ssbb": 115,
@@ -930,17 +941,6 @@
       "pos": "P",
       "h": "L",
       "age": 29
-    },
-    {
-      "ssTeam": "Bret Sayre / Harry Pavlidis",
-      "pin": 161,
-      "ssbb": 161,
-      "mlbam": 680570,
-      "firstName": "Grayson",
-      "lastName": "Rodriguez",
-      "pos": "P",
-      "h": "R",
-      "age": 26
     },
     {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
@@ -2428,6 +2428,17 @@
       "age": 28
     },
     {
+      "ssTeam": "Bret Sayre / Harry Pavlidis",
+      "pin": 496,
+      "ssbb": 496,
+      "mlbam": 702284,
+      "firstName": "Cole",
+      "lastName": "Young",
+      "pos": "2B",
+      "h": "L",
+      "age": 22
+    },
+    {
       "ssTeam": "Eric Marquez",
       "pin": 497,
       "ssbb": 497,
@@ -2624,17 +2635,6 @@
       "pos": "3B",
       "h": "R",
       "age": 26
-    },
-    {
-      "ssTeam": "Bret Sayre / Harry Pavlidis",
-      "pin": 533,
-      "ssbb": 533,
-      "mlbam": 673962,
-      "firstName": "Josh",
-      "lastName": "Jung",
-      "pos": "3B",
-      "h": "R",
-      "age": 28
     },
     {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
@@ -4683,17 +4683,6 @@
       "age": 27
     },
     {
-      "ssTeam": "Bret Sayre / Harry Pavlidis",
-      "pin": 1246,
-      "ssbb": 1246,
-      "mlbam": 642701,
-      "firstName": "Dennis",
-      "lastName": "Santana",
-      "pos": "SR",
-      "h": "R",
-      "age": 30
-    },
-    {
       "ssTeam": "Tim Brooks/Danny Romanello",
       "pin": 1247,
       "ssbb": 1247,
@@ -5011,6 +5000,17 @@
       "pos": "SR",
       "h": "R",
       "age": 26
+    },
+    {
+      "ssTeam": "Bret Sayre / Harry Pavlidis",
+      "pin": 1296,
+      "ssbb": 1296,
+      "mlbam": 592779,
+      "firstName": "Brock",
+      "lastName": "Stewart",
+      "pos": "SR",
+      "h": "R",
+      "age": 34
     },
     {
       "ssTeam": "JJ Jansons",
@@ -6520,17 +6520,6 @@
       "age": 33
     },
     {
-      "ssTeam": "Bret Sayre / Harry Pavlidis",
-      "pin": 1627,
-      "ssbb": 1627,
-      "mlbam": 666969,
-      "firstName": "Adolis",
-      "lastName": "Garcia",
-      "pos": "OF",
-      "h": "R",
-      "age": 33
-    },
-    {
       "ssTeam": "Jarrett Seidler",
       "pin": 1628,
       "ssbb": 1628,
@@ -7068,6 +7057,17 @@
       "pos": "DH",
       "h": "R",
       "age": 35
+    },
+    {
+      "ssTeam": "Bret Sayre / Harry Pavlidis",
+      "pin": 4008,
+      "ssbb": 4008,
+      "mlbam": 650644,
+      "firstName": "Aaron",
+      "lastName": "Civale",
+      "pos": "P",
+      "h": "R",
+      "age": 30
     },
     {
       "ssTeam": "Pat Andriola / Andy Andres",
