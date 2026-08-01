@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-07-31T10:28:51.731Z",
+  "fetchedAt": "2026-08-01T09:50:02.978Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -844,7 +844,7 @@
       "age": 29
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "ssTeam": "Chris Fargis",
       "pin": 121,
       "ssbb": 121,
       "mlbam": 805123,
@@ -1504,17 +1504,6 @@
       "age": 32
     },
     {
-      "ssTeam": "Anthony Rescan",
-      "pin": 298,
-      "ssbb": 298,
-      "mlbam": 689254,
-      "firstName": "Mason",
-      "lastName": "Fluharty",
-      "pos": "P",
-      "h": "L",
-      "age": 24
-    },
-    {
       "ssTeam": "Bob Kelly / Donovan Miller",
       "pin": 300,
       "ssbb": 300,
@@ -1900,17 +1889,6 @@
       "age": 27
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 401,
-      "ssbb": 401,
-      "mlbam": 669127,
-      "firstName": "Shea",
-      "lastName": "Langeliers",
-      "pos": "C",
-      "h": "R",
-      "age": 28
-    },
-    {
       "ssTeam": "Bob Kelly / Donovan Miller",
       "pin": 402,
       "ssbb": 402,
@@ -1977,7 +1955,7 @@
       "age": 26
     },
     {
-      "ssTeam": "Chris Fargis",
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
       "pin": 410,
       "ssbb": 410,
       "mlbam": 605170,
@@ -4199,7 +4177,7 @@
       "age": 26
     },
     {
-      "ssTeam": "Jonathan Fass",
+      "ssTeam": "Anthony Rescan",
       "pin": 1071,
       "ssbb": 1071,
       "mlbam": 676879,
@@ -4573,17 +4551,6 @@
       "age": 24
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 1195,
-      "ssbb": 1195,
-      "mlbam": 690978,
-      "firstName": "Daxton",
-      "lastName": "Fulton",
-      "pos": "P",
-      "h": "L",
-      "age": 24
-    },
-    {
       "ssTeam": "Matthew Yaspan/Skyler Kanfer",
       "pin": 1198,
       "ssbb": 1198,
@@ -4593,6 +4560,17 @@
       "pos": "P",
       "h": "R",
       "age": 24
+    },
+    {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 1216,
+      "ssbb": 1216,
+      "mlbam": 687273,
+      "firstName": "Quinn",
+      "lastName": "Mathews",
+      "pos": "P",
+      "h": "L",
+      "age": 25
     },
     {
       "ssTeam": "Anthony Rescan",
@@ -6333,7 +6311,7 @@
       "age": 23
     },
     {
-      "ssTeam": "Anthony Rescan",
+      "ssTeam": "Jonathan Fass",
       "pin": 1609,
       "ssbb": 1609,
       "mlbam": 664023,
