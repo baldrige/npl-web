@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-08-01T09:50:02.978Z",
+  "fetchedAt": "2026-08-02T09:48:43.755Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -338,7 +338,7 @@
       "age": 36
     },
     {
-      "ssTeam": "Trevor Vernola",
+      "ssTeam": "Jeffrey Bona",
       "pin": 36,
       "ssbb": 36,
       "mlbam": 671737,
@@ -602,17 +602,6 @@
       "age": 25
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 77,
-      "ssbb": 77,
-      "mlbam": 663738,
-      "firstName": "Daniel",
-      "lastName": "Lynch",
-      "pos": "P",
-      "h": "L",
-      "age": 29
-    },
-    {
       "ssTeam": "Anthony Rescan",
       "pin": 78,
       "ssbb": 78,
@@ -842,6 +831,17 @@
       "pos": "P",
       "h": "R",
       "age": 29
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 120,
+      "ssbb": 120,
+      "mlbam": 669713,
+      "firstName": "Hayden(injured)",
+      "lastName": "Wesneski",
+      "pos": "P",
+      "h": "R",
+      "age": 28
     },
     {
       "ssTeam": "Chris Fargis",
@@ -2481,6 +2481,17 @@
       "pos": "2B",
       "h": "R",
       "age": 27
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 509,
+      "ssbb": 509,
+      "mlbam": 660844,
+      "firstName": "Leo",
+      "lastName": "Rivas",
+      "pos": "2B",
+      "h": "B",
+      "age": 28
     },
     {
       "ssTeam": "Renfei Tu",
@@ -5442,17 +5453,6 @@
       "age": 27
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1415,
-      "ssbb": 1415,
-      "mlbam": 682848,
-      "firstName": "Endy",
-      "lastName": "Rodriguez",
-      "pos": "C",
-      "h": "B",
-      "age": 25
-    },
-    {
       "ssTeam": "Michael Wagner / Bennett Karoll",
       "pin": 1416,
       "ssbb": 1416,
@@ -6223,17 +6223,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1553,
-      "ssbb": 1553,
-      "mlbam": 500743,
-      "firstName": "Miguel",
-      "lastName": "Rojas",
-      "pos": "SS",
-      "h": "R",
-      "age": 37
-    },
-    {
       "ssTeam": "Chris Fargis",
       "pin": 1555,
       "ssbb": 1555,
@@ -6740,17 +6729,6 @@
       "age": 30
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1664,
-      "ssbb": 1664,
-      "mlbam": 663368,
-      "firstName": "Blake",
-      "lastName": "Perkins",
-      "pos": "OF",
-      "h": "B",
-      "age": 29
-    },
-    {
       "ssTeam": "Eric Marquez",
       "pin": 1666,
       "ssbb": 1666,
@@ -6938,7 +6916,7 @@
       "age": 31
     },
     {
-      "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
+      "ssTeam": "Jeffrey Bona",
       "pin": 1738,
       "ssbb": 1738,
       "mlbam": 680728,
