@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-08-02T09:48:43.755Z",
+  "fetchedAt": "2026-08-03T11:13:05.379Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -789,17 +789,6 @@
       "age": 29
     },
     {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 113,
-      "ssbb": 113,
-      "mlbam": 681293,
-      "firstName": "Spencer",
-      "lastName": "Arrighetti",
-      "pos": "P",
-      "h": "R",
-      "age": 26
-    },
-    {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
       "pin": 114,
       "ssbb": 114,
@@ -875,6 +864,17 @@
       "pos": "P",
       "h": "R",
       "age": 24
+    },
+    {
+      "ssTeam": "Lukas Vlahos",
+      "pin": 132,
+      "ssbb": 132,
+      "mlbam": 801139,
+      "firstName": "Payton",
+      "lastName": "Tolle",
+      "pos": "P",
+      "h": "L",
+      "age": 23
     },
     {
       "ssTeam": "Tommy Bennett / Jason Horwitz",
@@ -1702,17 +1702,6 @@
       "age": 36
     },
     {
-      "ssTeam": "Chris Fargis",
-      "pin": 333,
-      "ssbb": 333,
-      "mlbam": 554340,
-      "firstName": "Yimi",
-      "lastName": "Garcia",
-      "pos": "SR",
-      "h": "R",
-      "age": 35
-    },
-    {
       "ssTeam": "Jarrett Seidler",
       "pin": 334,
       "ssbb": 334,
@@ -1953,17 +1942,6 @@
       "pos": "C",
       "h": "L",
       "age": 26
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 410,
-      "ssbb": 410,
-      "mlbam": 605170,
-      "firstName": "Victor",
-      "lastName": "Caratini",
-      "pos": "C",
-      "h": "B",
-      "age": 32
     },
     {
       "ssTeam": "Jan Levine",
@@ -2648,6 +2626,17 @@
       "age": 26
     },
     {
+      "ssTeam": "Lukas Vlahos",
+      "pin": 538,
+      "ssbb": 538,
+      "mlbam": 810938,
+      "firstName": "Ben",
+      "lastName": "Williamson",
+      "pos": "3B",
+      "h": "R",
+      "age": 25
+    },
+    {
       "ssTeam": "JJ Jansons",
       "pin": 539,
       "ssbb": 539,
@@ -3000,6 +2989,17 @@
       "age": 29
     },
     {
+      "ssTeam": "Chris Fargis",
+      "pin": 626,
+      "ssbb": 626,
+      "mlbam": 680757,
+      "firstName": "Steven",
+      "lastName": "Kwan",
+      "pos": "OF",
+      "h": "L",
+      "age": 28
+    },
+    {
       "ssTeam": "Anthony Rescan",
       "pin": 628,
       "ssbb": 628,
@@ -3042,17 +3042,6 @@
       "pos": "OF",
       "h": "L",
       "age": 33
-    },
-    {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 632,
-      "ssbb": 632,
-      "mlbam": 671732,
-      "firstName": "Lawrence",
-      "lastName": "Butler",
-      "pos": "OF",
-      "h": "L",
-      "age": 25
     },
     {
       "ssTeam": "JJ Jansons",
@@ -4408,6 +4397,17 @@
       "age": 29
     },
     {
+      "ssTeam": "Lukas Vlahos",
+      "pin": 1115,
+      "ssbb": 1115,
+      "mlbam": 701656,
+      "firstName": "Logan",
+      "lastName": "Henderson",
+      "pos": "P",
+      "h": "R",
+      "age": 24
+    },
+    {
       "ssTeam": "Trevor Vernola",
       "pin": 1119,
       "ssbb": 1119,
@@ -4483,17 +4483,6 @@
       "pos": "P",
       "h": "L",
       "age": 26
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 1142,
-      "ssbb": 1142,
-      "mlbam": 625643,
-      "firstName": "Reynaldo",
-      "lastName": "Lopez",
-      "pos": "P",
-      "h": "R",
-      "age": 32
     },
     {
       "ssTeam": "Michael Wagner / Bennett Karoll",
@@ -5002,7 +4991,7 @@
       "age": 34
     },
     {
-      "ssTeam": "JJ Jansons",
+      "ssTeam": "Lukas Vlahos",
       "pin": 1298,
       "ssbb": 1298,
       "mlbam": 689266,
@@ -5154,17 +5143,6 @@
       "pos": "SR",
       "h": "L",
       "age": 34
-    },
-    {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 1332,
-      "ssbb": 1332,
-      "mlbam": 681895,
-      "firstName": "Evan",
-      "lastName": "Sisk",
-      "pos": "SR",
-      "h": "L",
-      "age": 28
     },
     {
       "ssTeam": "Renfei Tu",
@@ -5563,17 +5541,6 @@
       "age": 33
     },
     {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 1437,
-      "ssbb": 1437,
-      "mlbam": 668715,
-      "firstName": "Spencer",
-      "lastName": "Steer",
-      "pos": "1B",
-      "h": "R",
-      "age": 28
-    },
-    {
       "ssTeam": "Jonathan Fass",
       "pin": 1438,
       "ssbb": 1438,
@@ -5748,6 +5715,17 @@
       "pos": "2B",
       "h": "B",
       "age": 32
+    },
+    {
+      "ssTeam": "Lukas Vlahos",
+      "pin": 1467,
+      "ssbb": 1467,
+      "mlbam": 680977,
+      "firstName": "Brendan",
+      "lastName": "Donovan",
+      "pos": "2B",
+      "h": "L",
+      "age": 29
     },
     {
       "ssTeam": "Adam Halpin / Ben Neblock",
@@ -6221,17 +6199,6 @@
       "pos": "SS",
       "h": "R",
       "age": 28
-    },
-    {
-      "ssTeam": "Chris Fargis",
-      "pin": 1555,
-      "ssbb": 1555,
-      "mlbam": 690022,
-      "firstName": "Ryan",
-      "lastName": "Ritter",
-      "pos": "SS",
-      "h": "R",
-      "age": 25
     },
     {
       "ssTeam": "Jonathan Fass",
@@ -6773,6 +6740,17 @@
       "age": 27
     },
     {
+      "ssTeam": "Chris Fargis",
+      "pin": 1674,
+      "ssbb": 1674,
+      "mlbam": 678489,
+      "firstName": "Jorge",
+      "lastName": "Barrosa",
+      "pos": "OF",
+      "h": "B",
+      "age": 25
+    },
+    {
       "ssTeam": "Adam Halpin / Ben Neblock",
       "pin": 1675,
       "ssbb": 1675,
@@ -6793,6 +6771,17 @@
       "pos": "OF",
       "h": "R",
       "age": 28
+    },
+    {
+      "ssTeam": "Chris Fargis",
+      "pin": 1680,
+      "ssbb": 1680,
+      "mlbam": 683748,
+      "firstName": "VictorJr.",
+      "lastName": "Mesa",
+      "pos": "OF",
+      "h": "L",
+      "age": 24
     },
     {
       "ssTeam": "Matthew Yaspan/Skyler Kanfer",
@@ -7640,17 +7629,6 @@
       "pos": "2B",
       "h": "B",
       "age": 34
-    },
-    {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 5290,
-      "ssbb": 5290,
-      "mlbam": 622088,
-      "firstName": "Tejay",
-      "lastName": "Antone",
-      "pos": "SR",
-      "h": "R",
-      "age": 32
     },
     {
       "ssTeam": "Chris Fargis",
