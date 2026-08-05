@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-08-04T10:27:36.835Z",
+  "fetchedAt": "2026-08-05T10:26:28.078Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -39,17 +39,6 @@
       "pos": "P",
       "h": "L",
       "age": 33
-    },
-    {
-      "ssTeam": "Smith Brickner",
-      "pin": 3,
-      "ssbb": 3,
-      "mlbam": 608331,
-      "firstName": "Max",
-      "lastName": "Fried",
-      "pos": "P",
-      "h": "L",
-      "age": 32
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
@@ -314,6 +303,17 @@
       "pos": "P",
       "h": "R",
       "age": 30
+    },
+    {
+      "ssTeam": "Pat Andriola / Andy Andres",
+      "pin": 34,
+      "ssbb": 34,
+      "mlbam": 681343,
+      "firstName": "Shane",
+      "lastName": "Smith",
+      "pos": "P",
+      "h": "R",
+      "age": 25
     },
     {
       "ssTeam": "Jan Levine",
@@ -899,6 +899,17 @@
       "age": 22
     },
     {
+      "ssTeam": "Pat Andriola / Andy Andres",
+      "pin": 141,
+      "ssbb": 141,
+      "mlbam": 697812,
+      "firstName": "Joe",
+      "lastName": "Rock",
+      "pos": "P",
+      "h": "L",
+      "age": 25
+    },
+    {
       "ssTeam": "Michael Wagner / Bennett Karoll",
       "pin": 143,
       "ssbb": 143,
@@ -952,6 +963,17 @@
       "pos": "P",
       "h": "R",
       "age": 26
+    },
+    {
+      "ssTeam": "Michael Wagner / Bennett Karoll",
+      "pin": 164,
+      "ssbb": 164,
+      "mlbam": 674003,
+      "firstName": "Cody(hurt)",
+      "lastName": "Bradford",
+      "pos": "P",
+      "h": "L",
+      "age": 28
     },
     {
       "ssTeam": "Renfei Tu",
@@ -3066,17 +3088,6 @@
       "age": 29
     },
     {
-      "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
-      "pin": 639,
-      "ssbb": 639,
-      "mlbam": 545361,
-      "firstName": "Mike",
-      "lastName": "Trout",
-      "pos": "OF",
-      "h": "R",
-      "age": 34
-    },
-    {
       "ssTeam": "Jonathan Fass",
       "pin": 640,
       "ssbb": 640,
@@ -3715,6 +3726,17 @@
       "age": 29
     },
     {
+      "ssTeam": "Pat Andriola / Andy Andres",
+      "pin": 1009,
+      "ssbb": 1009,
+      "mlbam": 571510,
+      "firstName": "Matthew",
+      "lastName": "Boyd",
+      "pos": "P",
+      "h": "L",
+      "age": 35
+    },
+    {
       "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
       "pin": 1010,
       "ssbb": 1010,
@@ -3988,6 +4010,17 @@
       "pos": "P",
       "h": "R",
       "age": 27
+    },
+    {
+      "ssTeam": "Pat Andriola / Andy Andres",
+      "pin": 1046,
+      "ssbb": 1046,
+      "mlbam": 673540,
+      "firstName": "Kodai",
+      "lastName": "Senga",
+      "pos": "P",
+      "h": "R",
+      "age": 33
     },
     {
       "ssTeam": "Lukas Vlahos",
@@ -4452,6 +4485,17 @@
       "age": 26
     },
     {
+      "ssTeam": "Jarrett Seidler",
+      "pin": 1160,
+      "ssbb": 1160,
+      "mlbam": 683003,
+      "firstName": "JaredK.",
+      "lastName": "Jones",
+      "pos": "P",
+      "h": "R",
+      "age": 24
+    },
+    {
       "ssTeam": "Tommy Bennett / Jason Horwitz",
       "pin": 1166,
       "ssbb": 1166,
@@ -4837,17 +4881,6 @@
       "age": 26
     },
     {
-      "ssTeam": "Pat Andriola / Andy Andres",
-      "pin": 1286,
-      "ssbb": 1286,
-      "mlbam": 669622,
-      "firstName": "Anthony",
-      "lastName": "Bender",
-      "pos": "SR",
-      "h": "R",
-      "age": 31
-    },
-    {
       "ssTeam": "Smith Brickner",
       "pin": 1287,
       "ssbb": 1287,
@@ -4956,6 +4989,17 @@
       "pos": "SR",
       "h": "R",
       "age": 27
+    },
+    {
+      "ssTeam": "Michael Wagner / Bennett Karoll",
+      "pin": 1307,
+      "ssbb": 1307,
+      "mlbam": 677955,
+      "firstName": "Jaden",
+      "lastName": "Hill",
+      "pos": "SR",
+      "h": "R",
+      "age": 26
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
@@ -5143,6 +5187,17 @@
       "pos": "C",
       "h": "R",
       "age": 28
+    },
+    {
+      "ssTeam": "Michael Wagner / Bennett Karoll",
+      "pin": 1385,
+      "ssbb": 1385,
+      "mlbam": 682663,
+      "firstName": "Agustin",
+      "lastName": "Ramirez",
+      "pos": "C",
+      "h": "R",
+      "age": 24
     },
     {
       "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
@@ -6859,17 +6914,6 @@
       "pos": "P",
       "h": "R",
       "age": 30
-    },
-    {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 4022,
-      "ssbb": 4022,
-      "mlbam": 545341,
-      "firstName": "Randal",
-      "lastName": "Grichuk",
-      "pos": "OF",
-      "h": "R",
-      "age": 34
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
