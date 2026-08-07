@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-08-06T10:29:13.945Z",
+  "fetchedAt": "2026-08-07T08:46:43.568Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -7464,6 +7464,17 @@
       "pos": "OF",
       "h": "R",
       "age": 24
+    },
+    {
+      "ssTeam": "Adam Halpin / Ben Neblock",
+      "pin": 5168,
+      "ssbb": 5168,
+      "mlbam": 675916,
+      "firstName": "James",
+      "lastName": "Karinchak",
+      "pos": "SR",
+      "h": "R",
+      "age": 30
     },
     {
       "ssTeam": "Tommy Bennett / Jason Horwitz",
