@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-08-08T08:28:34.357Z",
+  "fetchedAt": "2026-08-09T08:31:01.441Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1040,6 +1040,17 @@
       "pos": "P",
       "h": "L",
       "age": 22
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 190,
+      "ssbb": 190,
+      "mlbam": 696146,
+      "firstName": "Hagen",
+      "lastName": "Smith",
+      "pos": "P",
+      "h": "L",
+      "age": 23
     },
     {
       "ssTeam": "Eric Marquez",
@@ -4485,6 +4496,17 @@
       "age": 26
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1148,
+      "ssbb": 1148,
+      "mlbam": 700270,
+      "firstName": "Yilber",
+      "lastName": "Diaz",
+      "pos": "P",
+      "h": "R",
+      "age": 25
+    },
+    {
       "ssTeam": "Jarrett Seidler",
       "pin": 1160,
       "ssbb": 1160,
@@ -7563,17 +7585,6 @@
       "pos": "C",
       "h": "B",
       "age": 37
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 5327,
-      "ssbb": 5327,
-      "mlbam": null,
-      "firstName": "Jonah",
-      "lastName": "Cox",
-      "pos": "OF",
-      "h": "R",
-      "age": 24
     },
     {
       "ssTeam": "Chris Fargis",
