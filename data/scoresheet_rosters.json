@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-08-15T08:16:20.000Z",
+  "fetchedAt": "2026-08-16T08:17:27.575Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -4441,17 +4441,6 @@
       "age": 26
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1148,
-      "ssbb": 1148,
-      "mlbam": 700270,
-      "firstName": "Yilber",
-      "lastName": "Diaz",
-      "pos": "P",
-      "h": "R",
-      "age": 25
-    },
-    {
       "ssTeam": "Jarrett Seidler",
       "pin": 1160,
       "ssbb": 1160,
@@ -5420,17 +5409,6 @@
       "age": 23
     },
     {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 1431,
-      "ssbb": 1431,
-      "mlbam": 691740,
-      "firstName": "Daniel",
-      "lastName": "Susac",
-      "pos": "C",
-      "h": "R",
-      "age": 24
-    },
-    {
       "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
       "pin": 1432,
       "ssbb": 1432,
@@ -5882,6 +5860,17 @@
       "age": 35
     },
     {
+      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
+      "pin": 1509,
+      "ssbb": 1509,
+      "mlbam": 681393,
+      "firstName": "Connor",
+      "lastName": "Norby",
+      "pos": "3B",
+      "h": "R",
+      "age": 25
+    },
+    {
       "ssTeam": "Pat Andriola / Andy Andres",
       "pin": 1514,
       "ssbb": 1514,
@@ -5901,6 +5890,17 @@
       "lastName": "Mauricio",
       "pos": "3B",
       "h": "B",
+      "age": 25
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1516,
+      "ssbb": 1516,
+      "mlbam": 688363,
+      "firstName": "Graham",
+      "lastName": "Pauley",
+      "pos": "3B",
+      "h": "L",
       "age": 25
     },
     {
@@ -7356,17 +7356,6 @@
       "age": 37
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 5056,
-      "ssbb": 5056,
-      "mlbam": 669004,
-      "firstName": "MJ",
-      "lastName": "Melendez",
-      "pos": "OF",
-      "h": "L",
-      "age": 27
-    },
-    {
       "ssTeam": "Jeremy Bowers",
       "pin": 5057,
       "ssbb": 5057,
@@ -7607,6 +7596,17 @@
       "pos": "C",
       "h": "B",
       "age": 37
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 5327,
+      "ssbb": 5327,
+      "mlbam": null,
+      "firstName": "Jonah",
+      "lastName": "Cox",
+      "pos": "OF",
+      "h": "R",
+      "age": 24
     },
     {
       "ssTeam": "Chris Fargis",
