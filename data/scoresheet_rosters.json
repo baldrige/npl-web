@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-08-16T08:17:27.575Z",
+  "fetchedAt": "2026-08-17T08:32:24.507Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -379,17 +379,6 @@
       "lastName": "Kirby",
       "pos": "P",
       "h": "R",
-      "age": 28
-    },
-    {
-      "ssTeam": "Jan Levine",
-      "pin": 45,
-      "ssbb": 45,
-      "mlbam": 663460,
-      "firstName": "Kris",
-      "lastName": "Bubic",
-      "pos": "P",
-      "h": "L",
       "age": 28
     },
     {
@@ -897,6 +886,17 @@
       "pos": "P",
       "h": "R",
       "age": 22
+    },
+    {
+      "ssTeam": "Renfei Tu",
+      "pin": 140,
+      "ssbb": 140,
+      "mlbam": 669947,
+      "firstName": "Jesse",
+      "lastName": "Scholtens",
+      "pos": "P",
+      "h": "R",
+      "age": 32
     },
     {
       "ssTeam": "Pat Andriola / Andy Andres",
@@ -1757,6 +1757,17 @@
       "age": 25
     },
     {
+      "ssTeam": "Tim Brooks/Danny Romanello",
+      "pin": 365,
+      "ssbb": 365,
+      "mlbam": 690829,
+      "firstName": "Ben",
+      "lastName": "Joyce",
+      "pos": "SR",
+      "h": "R",
+      "age": 25
+    },
+    {
       "ssTeam": "Anthony Rescan",
       "pin": 366,
       "ssbb": 366,
@@ -1909,17 +1920,6 @@
       "pos": "C",
       "h": "R",
       "age": 26
-    },
-    {
-      "ssTeam": "Tim Brooks/Danny Romanello",
-      "pin": 406,
-      "ssbb": 406,
-      "mlbam": 665966,
-      "firstName": "Carlos",
-      "lastName": "Narvaez",
-      "pos": "C",
-      "h": "R",
-      "age": 27
     },
     {
       "ssTeam": "Bret Sayre / Harry Pavlidis",
@@ -2615,6 +2615,17 @@
       "age": 26
     },
     {
+      "ssTeam": "Renfei Tu",
+      "pin": 543,
+      "ssbb": 543,
+      "mlbam": 691785,
+      "firstName": "Marcelo",
+      "lastName": "Mayer",
+      "pos": "3B",
+      "h": "L",
+      "age": 23
+    },
+    {
       "ssTeam": "Jan Levine",
       "pin": 557,
       "ssbb": 557,
@@ -2899,17 +2910,6 @@
       "pos": "SS",
       "h": "R",
       "age": 23
-    },
-    {
-      "ssTeam": "Renfei Tu",
-      "pin": 614,
-      "ssbb": 614,
-      "mlbam": 806068,
-      "firstName": "Colt",
-      "lastName": "Emerson",
-      "pos": "SS",
-      "h": "L",
-      "age": 20
     },
     {
       "ssTeam": "Tim Brooks/Danny Romanello",
@@ -6091,6 +6091,17 @@
       "age": 37
     },
     {
+      "ssTeam": "Chris Fargis",
+      "pin": 1555,
+      "ssbb": 1555,
+      "mlbam": 690022,
+      "firstName": "Ryan",
+      "lastName": "Ritter",
+      "pos": "SS",
+      "h": "R",
+      "age": 25
+    },
+    {
       "ssTeam": "Jonathan Fass",
       "pin": 1558,
       "ssbb": 1558,
@@ -6144,17 +6155,6 @@
       "pos": "OF",
       "h": "R",
       "age": 27
-    },
-    {
-      "ssTeam": "Renfei Tu",
-      "pin": 1607,
-      "ssbb": 1607,
-      "mlbam": 695578,
-      "firstName": "James",
-      "lastName": "Wood",
-      "pos": "OF",
-      "h": "L",
-      "age": 23
     },
     {
       "ssTeam": "Bob Kelly / Donovan Miller",
@@ -6636,17 +6636,6 @@
       "mlbam": 687859,
       "firstName": "Troy",
       "lastName": "Johnston",
-      "pos": "OF",
-      "h": "L",
-      "age": 28
-    },
-    {
-      "ssTeam": "Chris Fargis",
-      "pin": 1670,
-      "ssbb": 1670,
-      "mlbam": 665052,
-      "firstName": "Griffin",
-      "lastName": "Conine",
       "pos": "OF",
       "h": "L",
       "age": 28
@@ -7607,6 +7596,17 @@
       "pos": "OF",
       "h": "R",
       "age": 24
+    },
+    {
+      "ssTeam": "Jan Levine",
+      "pin": 5450,
+      "ssbb": 5450,
+      "mlbam": null,
+      "firstName": "Jefry",
+      "lastName": "Yan",
+      "pos": "SR",
+      "h": "L",
+      "age": 29
     },
     {
       "ssTeam": "Chris Fargis",
