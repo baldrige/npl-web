@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-08-21T08:28:03.693Z",
+  "fetchedAt": "2026-08-22T08:18:08.360Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -647,17 +647,6 @@
     },
     {
       "ssTeam": "Jeremy Bowers",
-      "pin": 90,
-      "ssbb": 90,
-      "mlbam": 621121,
-      "firstName": "Lance",
-      "lastName": "McCullers",
-      "pos": "P",
-      "h": "R",
-      "age": 32
-    },
-    {
-      "ssTeam": "Jeremy Bowers",
       "pin": 96,
       "ssbb": 96,
       "mlbam": 668984,
@@ -875,6 +864,17 @@
       "pos": "P",
       "h": "R",
       "age": 22
+    },
+    {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 135,
+      "ssbb": 135,
+      "mlbam": 669620,
+      "firstName": "Brady",
+      "lastName": "Basso",
+      "pos": "P",
+      "h": "L",
+      "age": 28
     },
     {
       "ssTeam": "Renfei Tu",
@@ -2714,17 +2714,6 @@
       "age": 25
     },
     {
-      "ssTeam": "Jeremy Bowers",
-      "pin": 569,
-      "ssbb": 569,
-      "mlbam": 805779,
-      "firstName": "Jacob",
-      "lastName": "Wilson",
-      "pos": "SS",
-      "h": "R",
-      "age": 23
-    },
-    {
       "ssTeam": "Eric Marquez",
       "pin": 570,
       "ssbb": 570,
@@ -2833,6 +2822,17 @@
       "pos": "SS",
       "h": "R",
       "age": 26
+    },
+    {
+      "ssTeam": "Jeremy Bowers",
+      "pin": 583,
+      "ssbb": 583,
+      "mlbam": 687231,
+      "firstName": "Darell",
+      "lastName": "Hernaiz",
+      "pos": "SS",
+      "h": "R",
+      "age": 24
     },
     {
       "ssTeam": "Renfei Tu",
