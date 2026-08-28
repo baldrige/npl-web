@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-08-27T18:38:52.389Z",
+  "fetchedAt": "2026-08-28T19:47:22.681Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1618,7 +1618,7 @@
       "pin": 324,
       "ssbb": 324,
       "mlbam": 655889,
-      "firstName": "Manuel(hurt)",
+      "firstName": "Manuel",
       "lastName": "Rodriguez(TB)",
       "pos": "SR",
       "h": "R",
