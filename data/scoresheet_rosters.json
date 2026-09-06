@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-09-05T11:29:31.088Z",
+  "fetchedAt": "2026-09-06T11:50:18.737Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1020,6 +1020,17 @@
       "age": 22
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 194,
+      "ssbb": 194,
+      "mlbam": 682982,
+      "firstName": "Daniel",
+      "lastName": "Espino",
+      "pos": "P",
+      "h": "R",
+      "age": 25
+    },
+    {
       "ssTeam": "Eric Marquez",
       "pin": 196,
       "ssbb": 196,
@@ -1326,17 +1337,6 @@
       "pos": "SR",
       "h": "L",
       "age": 29
-    },
-    {
-      "ssTeam": "Jeffrey Bona",
-      "pin": 272,
-      "ssbb": 272,
-      "mlbam": 673929,
-      "firstName": "Jordan",
-      "lastName": "Leasure",
-      "pos": "P",
-      "h": "R",
-      "age": 27
     },
     {
       "ssTeam": "Tim Brooks/Danny Romanello",
@@ -5981,6 +5981,17 @@
       "age": 26
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1479,
+      "ssbb": 1479,
+      "mlbam": 683766,
+      "firstName": "Christian",
+      "lastName": "Koss",
+      "pos": "2B",
+      "h": "R",
+      "age": 28
+    },
+    {
       "ssTeam": "Jeremy Bowers",
       "pin": 1482,
       "ssbb": 1482,
@@ -6165,6 +6176,17 @@
       "lastName": "Mauricio",
       "pos": "3B",
       "h": "B",
+      "age": 25
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1516,
+      "ssbb": 1516,
+      "mlbam": 688363,
+      "firstName": "Graham",
+      "lastName": "Pauley",
+      "pos": "3B",
+      "h": "L",
       "age": 25
     },
     {
@@ -7583,6 +7605,17 @@
       "firstName": "Will",
       "lastName": "Dion",
       "pos": "P",
+      "h": "L",
+      "age": 26
+    },
+    {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 4361,
+      "ssbb": 4361,
+      "mlbam": null,
+      "firstName": "Robby",
+      "lastName": "Ahlstrom",
+      "pos": "SR",
       "h": "L",
       "age": 26
     },
