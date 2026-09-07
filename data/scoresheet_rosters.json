@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-09-06T11:50:18.737Z",
+  "fetchedAt": "2026-09-07T13:48:49.259Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -7147,6 +7147,17 @@
       "age": 31
     },
     {
+      "ssTeam": "Jeffrey Bona",
+      "pin": 1738,
+      "ssbb": 1738,
+      "mlbam": 680728,
+      "firstName": "Adrian",
+      "lastName": "DelCastillo",
+      "pos": "DH",
+      "h": "L",
+      "age": 26
+    },
+    {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
       "pin": 1739,
       "ssbb": 1739,
@@ -7189,6 +7200,17 @@
       "pos": "P",
       "h": "R",
       "age": 23
+    },
+    {
+      "ssTeam": "Jarrett Seidler",
+      "pin": 1750,
+      "ssbb": 1750,
+      "mlbam": 673380,
+      "firstName": "Dedniel",
+      "lastName": "Nunez",
+      "pos": "SR",
+      "h": "R",
+      "age": 29
     },
     {
       "ssTeam": "Jeffrey Bona",
@@ -7431,17 +7453,6 @@
       "pos": "1B",
       "h": "R",
       "age": 33
-    },
-    {
-      "ssTeam": "Jarrett Seidler",
-      "pin": 4180,
-      "ssbb": 4180,
-      "mlbam": 624428,
-      "firstName": "Adam",
-      "lastName": "Frazier",
-      "pos": "2B",
-      "h": "L",
-      "age": 34
     },
     {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
