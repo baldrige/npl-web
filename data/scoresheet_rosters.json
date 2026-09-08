@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-09-07T13:48:49.259Z",
+  "fetchedAt": "2026-09-08T12:25:02.313Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -426,6 +426,17 @@
       "age": 28
     },
     {
+      "ssTeam": "Chris Fargis",
+      "pin": 48,
+      "ssbb": 48,
+      "mlbam": 680573,
+      "firstName": "Simeon",
+      "lastName": "WoodsRichardson",
+      "pos": "P",
+      "h": "R",
+      "age": 25
+    },
+    {
       "ssTeam": "Eric Marquez",
       "pin": 50,
       "ssbb": 50,
@@ -688,6 +699,17 @@
       "pos": "P",
       "h": "R",
       "age": 23
+    },
+    {
+      "ssTeam": "Tommy Bennett / Jason Horwitz",
+      "pin": 99,
+      "ssbb": 99,
+      "mlbam": 669854,
+      "firstName": "Ronel",
+      "lastName": "Blanco",
+      "pos": "P",
+      "h": "R",
+      "age": 32
     },
     {
       "ssTeam": "Renfei Tu",
@@ -1183,17 +1205,6 @@
       "pos": "SR",
       "h": "R",
       "age": 29
-    },
-    {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 256,
-      "ssbb": 256,
-      "mlbam": 595345,
-      "firstName": "Steven",
-      "lastName": "Okert",
-      "pos": "P",
-      "h": "L",
-      "age": 34
     },
     {
       "ssTeam": "Tommy Bennett / Jason Horwitz",
@@ -5783,6 +5794,17 @@
       "age": 25
     },
     {
+      "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
+      "pin": 1453,
+      "ssbb": 1453,
+      "mlbam": 691277,
+      "firstName": "Deyvison",
+      "lastName": "DeLosSantos",
+      "pos": "1B",
+      "h": "R",
+      "age": 22
+    },
+    {
       "ssTeam": "Bob Kelly / Donovan Miller",
       "pin": 1457,
       "ssbb": 1457,
@@ -5891,17 +5913,6 @@
       "pos": "2B",
       "h": "B",
       "age": 32
-    },
-    {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 1467,
-      "ssbb": 1467,
-      "mlbam": 680977,
-      "firstName": "Brendan",
-      "lastName": "Donovan",
-      "pos": "2B",
-      "h": "L",
-      "age": 29
     },
     {
       "ssTeam": "Adam Halpin / Ben Neblock",
@@ -7761,17 +7772,6 @@
       "pos": "P",
       "h": "R",
       "age": 30
-    },
-    {
-      "ssTeam": "Chris Fargis",
-      "pin": 5050,
-      "ssbb": 5050,
-      "mlbam": 571945,
-      "firstName": "Miles",
-      "lastName": "Mikolas",
-      "pos": "P",
-      "h": "R",
-      "age": 37
     },
     {
       "ssTeam": "Jeremy Bowers",
