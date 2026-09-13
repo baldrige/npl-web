@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-09-12T11:48:47.530Z",
+  "fetchedAt": "2026-09-13T12:57:49.868Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1359,6 +1359,17 @@
       "pos": "SR",
       "h": "R",
       "age": 32
+    },
+    {
+      "ssTeam": "Renfei Tu",
+      "pin": 274,
+      "ssbb": 274,
+      "mlbam": 676395,
+      "firstName": "Robert",
+      "lastName": "Garcia",
+      "pos": "SR",
+      "h": "L",
+      "age": 29
     },
     {
       "ssTeam": "Smith Brickner",
@@ -3966,6 +3977,17 @@
       "pos": "P",
       "h": "L",
       "age": 33
+    },
+    {
+      "ssTeam": "Renfei Tu",
+      "pin": 1027,
+      "ssbb": 1027,
+      "mlbam": 669194,
+      "firstName": "Ryne",
+      "lastName": "Nelson",
+      "pos": "P",
+      "h": "R",
+      "age": 28
     },
     {
       "ssTeam": "Tim Brooks/Danny Romanello",
