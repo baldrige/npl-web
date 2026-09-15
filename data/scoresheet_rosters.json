@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-09-14T14:34:41.132Z",
+  "fetchedAt": "2026-09-15T13:00:01.237Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -798,6 +798,17 @@
       "pos": "P",
       "h": "L",
       "age": 24
+    },
+    {
+      "ssTeam": "Bret Sayre / Harry Pavlidis",
+      "pin": 114,
+      "ssbb": 114,
+      "mlbam": 669684,
+      "firstName": "Chris",
+      "lastName": "Murphy",
+      "pos": "P",
+      "h": "L",
+      "age": 27
     },
     {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
@@ -1790,17 +1801,6 @@
       "age": 28
     },
     {
-      "ssTeam": "Jarrett Seidler",
-      "pin": 334,
-      "ssbb": 334,
-      "mlbam": 696147,
-      "firstName": "Sam",
-      "lastName": "Bachman",
-      "pos": "SR",
-      "h": "R",
-      "age": 26
-    },
-    {
       "ssTeam": "Jan Levine",
       "pin": 342,
       "ssbb": 342,
@@ -2362,17 +2362,6 @@
       "age": 26
     },
     {
-      "ssTeam": "Anthony Rescan",
-      "pin": 484,
-      "ssbb": 484,
-      "mlbam": 665862,
-      "firstName": "Jazz",
-      "lastName": "Chisholm",
-      "pos": "2B",
-      "h": "L",
-      "age": 28
-    },
-    {
       "ssTeam": "Jeffrey Bona",
       "pin": 486,
       "ssbb": 486,
@@ -2755,6 +2744,17 @@
       "lastName": "Henderson",
       "pos": "SS",
       "h": "L",
+      "age": 24
+    },
+    {
+      "ssTeam": "Tommy Bennett / Jason Horwitz",
+      "pin": 562,
+      "ssbb": 562,
+      "mlbam": 683011,
+      "firstName": "Anthony",
+      "lastName": "Volpe",
+      "pos": "SS",
+      "h": "R",
       "age": 24
     },
     {
@@ -3438,6 +3438,17 @@
       "pos": "OF",
       "h": "B",
       "age": 27
+    },
+    {
+      "ssTeam": "Tommy Bennett / Jason Horwitz",
+      "pin": 679,
+      "ssbb": 679,
+      "mlbam": 696030,
+      "firstName": "Alejandro",
+      "lastName": "Osuna",
+      "pos": "OF",
+      "h": "L",
+      "age": 23
     },
     {
       "ssTeam": "Jeremy Bowers",
@@ -4199,6 +4210,17 @@
       "age": 27
     },
     {
+      "ssTeam": "Anthony Rescan",
+      "pin": 1053,
+      "ssbb": 1053,
+      "mlbam": 669387,
+      "firstName": "Carmen",
+      "lastName": "Mlodzinski",
+      "pos": "P",
+      "h": "R",
+      "age": 27
+    },
+    {
       "ssTeam": "Liam Murphy / Kazuto Yamazaki / Grant Schiller",
       "pin": 1056,
       "ssbb": 1056,
@@ -4282,17 +4304,6 @@
       "mlbam": 686218,
       "firstName": "Emmet",
       "lastName": "Sheehan",
-      "pos": "P",
-      "h": "R",
-      "age": 26
-    },
-    {
-      "ssTeam": "Bret Sayre / Harry Pavlidis",
-      "pin": 1070,
-      "ssbb": 1070,
-      "mlbam": 677952,
-      "firstName": "Braxton",
-      "lastName": "Ashcraft",
       "pos": "P",
       "h": "R",
       "age": 26
@@ -4848,6 +4859,17 @@
       "age": 30
     },
     {
+      "ssTeam": "Bret Sayre / Harry Pavlidis",
+      "pin": 1246,
+      "ssbb": 1246,
+      "mlbam": 642701,
+      "firstName": "Dennis",
+      "lastName": "Santana",
+      "pos": "SR",
+      "h": "R",
+      "age": 30
+    },
+    {
       "ssTeam": "Tim Brooks/Danny Romanello",
       "pin": 1247,
       "ssbb": 1247,
@@ -4934,6 +4956,17 @@
       "pos": "SR",
       "h": "R",
       "age": 32
+    },
+    {
+      "ssTeam": "Anthony Rescan",
+      "pin": 1259,
+      "ssbb": 1259,
+      "mlbam": 668933,
+      "firstName": "Graham",
+      "lastName": "Ashcraft",
+      "pos": "SR",
+      "h": "R",
+      "age": 28
     },
     {
       "ssTeam": "Anthony Rescan",
@@ -7114,6 +7147,17 @@
       "age": 23
     },
     {
+      "ssTeam": "Jarrett Seidler",
+      "pin": 1708,
+      "ssbb": 1708,
+      "mlbam": 800543,
+      "firstName": "Josue",
+      "lastName": "DePaula",
+      "pos": "OF",
+      "h": "L",
+      "age": 20
+    },
+    {
       "ssTeam": "Tim Brooks/Danny Romanello",
       "pin": 1721,
       "ssbb": 1721,
@@ -7618,17 +7662,6 @@
       "pos": "SR",
       "h": "R",
       "age": 27
-    },
-    {
-      "ssTeam": "Anthony Rescan",
-      "pin": 4349,
-      "ssbb": 4349,
-      "mlbam": null,
-      "firstName": "Tyron",
-      "lastName": "Guerrero",
-      "pos": "SR",
-      "h": "R",
-      "age": 35
     },
     {
       "ssTeam": "Matthew Yaspan/Skyler Kanfer",
