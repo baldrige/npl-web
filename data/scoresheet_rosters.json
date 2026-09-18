@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-09-17T12:53:44.362Z",
+  "fetchedAt": "2026-09-18T12:30:52.925Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -2239,6 +2239,17 @@
       "pos": "1B",
       "h": "L",
       "age": 28
+    },
+    {
+      "ssTeam": "Lukas Vlahos",
+      "pin": 461,
+      "ssbb": 461,
+      "mlbam": 575929,
+      "firstName": "Willson",
+      "lastName": "Contreras",
+      "pos": "1B",
+      "h": "R",
+      "age": 33
     },
     {
       "ssTeam": "Jeremy Bowers",
@@ -7607,17 +7618,6 @@
       "pos": "SR",
       "h": "L",
       "age": 35
-    },
-    {
-      "ssTeam": "Lukas Vlahos",
-      "pin": 4302,
-      "ssbb": 4302,
-      "mlbam": null,
-      "firstName": "Patrick",
-      "lastName": "Wisdom",
-      "pos": "3B",
-      "h": "R",
-      "age": 34
     },
     {
       "ssTeam": "Adam Halpin / Ben Neblock",
