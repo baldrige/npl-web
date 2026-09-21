@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-09-20T12:45:44.542Z",
+  "fetchedAt": "2026-09-21T14:42:02.177Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -393,6 +393,17 @@
       "age": 26
     },
     {
+      "ssTeam": "Anthony Rescan",
+      "pin": 40,
+      "ssbb": 40,
+      "mlbam": 677944,
+      "firstName": "Slade",
+      "lastName": "Cecconi",
+      "pos": "P",
+      "h": "R",
+      "age": 26
+    },
+    {
       "ssTeam": "Jonathan Fass",
       "pin": 41,
       "ssbb": 41,
@@ -402,6 +413,17 @@
       "pos": "P",
       "h": "R",
       "age": 28
+    },
+    {
+      "ssTeam": "Anthony Rescan",
+      "pin": 42,
+      "ssbb": 42,
+      "mlbam": 543135,
+      "firstName": "Nathan",
+      "lastName": "Eovaldi",
+      "pos": "P",
+      "h": "R",
+      "age": 36
     },
     {
       "ssTeam": "Jonathan Fass",
@@ -2371,6 +2393,17 @@
       "pos": "2B",
       "h": "R",
       "age": 26
+    },
+    {
+      "ssTeam": "Anthony Rescan",
+      "pin": 484,
+      "ssbb": 484,
+      "mlbam": 665862,
+      "firstName": "Jazz",
+      "lastName": "Chisholm",
+      "pos": "2B",
+      "h": "L",
+      "age": 28
     },
     {
       "ssTeam": "Jeffrey Bona",
@@ -7662,6 +7695,17 @@
       "pos": "SR",
       "h": "R",
       "age": 27
+    },
+    {
+      "ssTeam": "Anthony Rescan",
+      "pin": 4349,
+      "ssbb": 4349,
+      "mlbam": null,
+      "firstName": "Tyron",
+      "lastName": "Guerrero",
+      "pos": "SR",
+      "h": "R",
+      "age": 35
     },
     {
       "ssTeam": "Matthew Yaspan/Skyler Kanfer",
