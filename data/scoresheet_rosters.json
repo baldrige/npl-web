@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "round": 1,
-  "fetchedAt": "2026-09-21T14:42:02.177Z",
+  "fetchedAt": "2026-09-22T12:57:13.167Z",
   "teams": [
     "Bret Sayre / Harry Pavlidis",
     "Lukas Vlahos",
@@ -1614,17 +1614,6 @@
       "age": 36
     },
     {
-      "ssTeam": "Jonathan Fass",
-      "pin": 302,
-      "ssbb": 302,
-      "mlbam": 666374,
-      "firstName": "Matt",
-      "lastName": "Brash",
-      "pos": "SR",
-      "h": "R",
-      "age": 27
-    },
-    {
       "ssTeam": "Wes French/Kiri Oler/Dave Wolfmeyer",
       "pin": 305,
       "ssbb": 305,
@@ -1667,17 +1656,6 @@
       "pos": "SR",
       "h": "R",
       "age": 27
-    },
-    {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 311,
-      "ssbb": 311,
-      "mlbam": 668390,
-      "firstName": "Cole",
-      "lastName": "Winn",
-      "pos": "P",
-      "h": "R",
-      "age": 26
     },
     {
       "ssTeam": "Jarrett Seidler",
@@ -3000,17 +2978,6 @@
       "age": 30
     },
     {
-      "ssTeam": "Justin Bank / Marcus Jelks / John Bichaijan",
-      "pin": 591,
-      "ssbb": 591,
-      "mlbam": 811965,
-      "firstName": "Joshua",
-      "lastName": "Kuroda-Grauer",
-      "pos": "SS",
-      "h": "R",
-      "age": 23
-    },
-    {
       "ssTeam": "Jonathan Fass",
       "pin": 599,
       "ssbb": 599,
@@ -3730,7 +3697,7 @@
       "pin": 756,
       "ssbb": 756,
       "mlbam": 642585,
-      "firstName": "Felix(out/2026)",
+      "firstName": "Felix",
       "lastName": "Bautista",
       "pos": "SR",
       "h": "R",
@@ -3812,17 +3779,6 @@
       "pos": "P",
       "h": "L",
       "age": 36
-    },
-    {
-      "ssTeam": "Tommy Bennett / Jason Horwitz",
-      "pin": 1001,
-      "ssbb": 1001,
-      "mlbam": 657277,
-      "firstName": "Logan",
-      "lastName": "Webb",
-      "pos": "P",
-      "h": "R",
-      "age": 29
     },
     {
       "ssTeam": "Lukas Vlahos",
@@ -7530,6 +7486,16 @@
       "pos": "P",
       "h": "R",
       "age": 41
+    },
+    {
+      "ssTeam": "Jonathan Fass",
+      "pin": 4137,
+      "mlbam": null,
+      "firstName": "",
+      "lastName": "",
+      "pos": "",
+      "h": "",
+      "age": null
     },
     {
       "ssTeam": "Jan Levine",
